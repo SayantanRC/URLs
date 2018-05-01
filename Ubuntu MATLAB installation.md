@@ -1,6 +1,6 @@
 Navigate to downloaded location  
 ```
-cd /path/to/iso/images
+cd <b>/path/to/iso/images</b>
 ```
 
 Mount first image  
