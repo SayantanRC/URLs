@@ -35,7 +35,7 @@ sudo mount R2018a_glnxa64_dvd2.iso /media/cdrom/ -o loop
 ```
 Open the installation window, click "OK" and continue  
 
-<b>After installation is finished</b> Unmount iso
+<b>After installation is finished,</b> unmount iso
 ```
 sudo umount /media/cdrom
 ```
