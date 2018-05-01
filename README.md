@@ -12,3 +12,6 @@ https://drive.google.com/file/d/1TmrKG-0MAksixMEzy08mAaLUyz5qNlOk/view
 
 ##### Install Oracle Java on Ubuntu:  
 https://thishosting.rocks/install-java-ubuntu/
+
+##### Drag To Scroll (for Firefox on touch screen):
+https://addons.mozilla.org/en-US/firefox/addon/drag_scroll/
