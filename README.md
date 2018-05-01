@@ -5,7 +5,7 @@ A few important urls...
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
 [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
-[Text (tested) instruction](https://github.com/SayantanRC/URLs/blob/master/Ubuntu%20MATLAB%20installation)  
+[Text (tested) instruction](https://github.com/SayantanRC/URLs/blob/master/Ubuntu%20MATLAB%20installation.md)  
 
  - [MATLAB 2018a (Windows) torrent](https://drive.google.com/file/d/1TmrKG-0MAksixMEzy08mAaLUyz5qNlOk/view)  
 [Instruction](https://www.youtube.com/watch?v=BnoFstVeIi8)  
