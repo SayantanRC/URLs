@@ -35,6 +35,11 @@ sudo mount R2018a_glnxa64_dvd2.iso /media/cdrom/ -o loop
 ```
 Open the installation window, click "OK" and continue  
 
+Unmount iso
+```
+sudo umount /media/cdrom
+```
+
 Unzip crack zip to a folder named "Crack"  
 ```
 unzip MATLAB\ R2018a\ Linux64\ Crack.zip -d Crack
