@@ -18,7 +18,7 @@ Select "Use a File Installation key"
 Accept agreement  
 
 Select "I have the file installation key for my license"  
-Enter code: 09806-07443-53955-64350-21751-41297  
+Enter code: <b><i>09806-07443-53955-64350-21751-41297</b></i>  
 [code may vary, get the code from: MATLAB R2018a Linux64 Crack.zip -> readme.txt]  
 
 Installation folder (by default): /usr/local/MATLAB/R2018a  
