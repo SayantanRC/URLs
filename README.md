@@ -1,7 +1,7 @@
 # URLs
 A few important urls...
 
-##### Chromium OS dual boot  
+##### Chromium OS dual boot on hard drive  
 https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/
 
 ##### MATLAB 2018a (Ubuntu) torrent:  
