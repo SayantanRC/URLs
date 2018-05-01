@@ -7,7 +7,7 @@ A few important urls...
 [Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
 
 [MATLAB 2018a (Windows) torrent](https://drive.google.com/file/d/1TmrKG-0MAksixMEzy08mAaLUyz5qNlOk/view)  
-[Instruction:](https://www.youtube.com/watch?v=BnoFstVeIi8)  
+[Instruction](https://www.youtube.com/watch?v=BnoFstVeIi8)  
 
 [Install Oracle Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/)  
 
