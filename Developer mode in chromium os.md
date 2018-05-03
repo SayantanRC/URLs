@@ -26,7 +26,7 @@ sudo nano /etc/shadow
   > chronos:$1$JustRand$Jxi2GaUx7/t2knVdSaAU11:::::::  
 #### The password is now <b><i>password</b></i> for both <i>chronos</i> and <i>root</i>
 Boot into chromium os, press Alt+Ctrl+F2 to open tty  
-Login as ___chronos___ with password: <u>password</u>  
+Login as ---chronos--- with password: <u>password</u>  
 OR, login as <u>root</u> with password: <u>password</u>  
 Enter <i>logout</i> to close a chronos/root session.  
 Press Ctrl+Alt+F1 to get out of tty.  
