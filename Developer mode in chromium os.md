@@ -24,7 +24,7 @@ sudo nano /etc/shadow
   The contents should be:
   > root:$1$JustRand$Jxi2GaUx7/t2knVdSaAU11:::::::  
   > chronos:$1$JustRand$Jxi2GaUx7/t2knVdSaAU11:::::::  
-#### The password is now `<i>password</i>` for both `<i>chronos</i>` and `<i>root</i>`
+#### The password is now `password` for both `chronos` and `root`
 Boot into chromium os, press Alt+Ctrl+F2 to open tty  
 Login as `chronos` with password: `password`  
 OR, login as `root` with password: `password`  
