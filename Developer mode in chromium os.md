@@ -15,11 +15,11 @@
   (mount point can be checked from GParted)
 6. Copy /etc/shadow file
 ```
-sudo cp /etc/shadow /etc/shadow.bak
+sudo cp etc/shadow /etc/shadow.bak
 ```
 7. Edit and save the original shadow file:
 ```
-sudo nano /etc/shadow
+sudo nano etc/shadow
 ```
   The contents should be:
   > root:$1$JustRand$Jxi2GaUx7/t2knVdSaAU11:::::::  
