@@ -15,7 +15,7 @@
   (mount point can be checked from GParted)
 6. Copy /etc/shadow file
 ```
-sudo cp etc/shadow /etc/shadow.bak
+sudo cp etc/shadow etc/shadow.bak
 ```
 7. Edit and save the original shadow file:
 ```
