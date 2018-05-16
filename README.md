@@ -17,5 +17,7 @@ A few important urls...
  - [Customize grub defaults(/etc/default/grub)](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)  
  
  - [Fix grub timeout issues](https://gist.github.com/LeahCim/9332432)  
+ 
+ ###Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)
