@@ -2,6 +2,8 @@
 A few important urls...
 
  - [Chromium OS dual boot on hard drive](https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/)
+ 
+ - [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
 [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
@@ -18,6 +20,6 @@ A few important urls...
  
  - [Fix grub timeout issues](https://gist.github.com/LeahCim/9332432)  
  
- ###Study
+ ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)
