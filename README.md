@@ -24,3 +24,5 @@ A few important urls...
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
  [How to check linearity](https://myclassbook.org/linear-non-linear-systems-linearity-property/)
+ 
+ - [Generator poly. for triple error correcting BCH code](https://www.youtube.com/watch?v=vKoo0HLLE50)
