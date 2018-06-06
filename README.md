@@ -23,6 +23,8 @@ A few important urls...
  - [Network speed monitor 32 bit](http://www.mediafire.com/file/127c25zz9866kzf/netspeedmonitor_2_5_4_0_x86_setup.msi)  
    [Network speed monitor 64 bit](http://www.mediafire.com/file/28e2wtf2df3ibs6/netspeedmonitor_2_5_4_0_x64_setup.msi)
  
+ - [Random number sequence](https://www.randomizer.org/)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
