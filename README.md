@@ -25,6 +25,8 @@ A few important urls...
  
  - [Random number sequence](https://www.randomizer.org/)
  
+ - [Convert folder to iso](http://www.trustfm.net/software/utilities/Folder2Iso.php?page=Download)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
