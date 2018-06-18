@@ -27,6 +27,8 @@ A few important urls...
  
  - [Convert folder to iso](http://www.trustfm.net/software/utilities/Folder2Iso.php?page=Download)
  
+ - [Fix tap to click on i3wm](https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
