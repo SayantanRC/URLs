@@ -20,8 +20,9 @@ A few important urls...
  
  - [Fix grub timeout issues](https://gist.github.com/LeahCim/9332432)  
  
- - [Network speed monitor 32 bit](http://www.mediafire.com/file/127c25zz9866kzf/netspeedmonitor_2_5_4_0_x86_setup.msi)  
-   [Network speed monitor 64 bit](http://www.mediafire.com/file/28e2wtf2df3ibs6/netspeedmonitor_2_5_4_0_x64_setup.msi)
+ - [Network speed monitor 32 bit Windows](http://www.mediafire.com/file/127c25zz9866kzf/netspeedmonitor_2_5_4_0_x86_setup.msi)  
+   [Network speed monitor 64 bit Windows](http://www.mediafire.com/file/28e2wtf2df3ibs6/netspeedmonitor_2_5_4_0_x64_setup.msi)
+   [Network speed monitor Ubuntu](http://tipsonubuntu.com/2015/08/19/network-speed-on-panel/)
  
  - [Random number sequence](https://www.randomizer.org/)
  
