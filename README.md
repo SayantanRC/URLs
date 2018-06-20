@@ -31,7 +31,7 @@ A few important urls...
  - [Fix tap to click on i3wm](https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/)
  
  - [Node js installation](https://github.com/nodejs/help/wiki/Installation)  
-   [Enable in webstorm](https://blog.jetbrains.com/webstorm/2015/11/node-js-coding-assistance-in-webstorm-11/)
+   [Enable in webstorm](https://blog.jetbrains.com/webstorm/2015/11/node-js-coding-assistance-in-webstorm-11/)  
  
  ### Study
 
