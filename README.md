@@ -33,7 +33,7 @@ A few important urls...
  - [Node js installation](https://github.com/nodejs/help/wiki/Installation)  
    [Enable in webstorm](https://blog.jetbrains.com/webstorm/2015/11/node-js-coding-assistance-in-webstorm-11/)  
    
- - [Clean journal and speed up boot](https://github.com/SayantanRC/URLs/blob/master/cleaning%20journal.md)  
+ - [Speed up boot in Ubuntu](https://github.com/SayantanRC/URLs/blob/master/decrease%20boot%20time.md)  
  
  ### Study
 
