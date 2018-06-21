@@ -35,7 +35,7 @@ A few important urls...
    
  - [Speed up boot in Ubuntu](https://github.com/SayantanRC/URLs/blob/master/decrease%20boot%20time.md)  
  
- - [Add/Remove/Change password from terminal](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
+ - [Add/Remove/Change user password from terminal](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
  
  ### Study
 
