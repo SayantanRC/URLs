@@ -37,6 +37,8 @@ A few important urls...
  
  - [Add/Remove/Change user password from terminal](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
  
+ - [i3 config. (Aman)](https://github.com/FireLord1/dotfiles_i3wm)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
