@@ -7,7 +7,7 @@ Set this line and value:
 ### Clean journal files:
 ```
 cd /var/log/journal/
-sudo rm -rf *
+sudo rm -r *
 ```
 
 [Information](https://wiki.archlinux.org/index.php/systemd#Journal_size_limit)
