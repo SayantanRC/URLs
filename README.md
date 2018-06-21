@@ -39,6 +39,8 @@ A few important urls...
  
  - [i3 config. (Aman)](https://github.com/FireLord1/dotfiles_i3wm)
  
+ - [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
