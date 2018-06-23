@@ -50,5 +50,11 @@ sudo systemctl unmask accounts-daemon.service
 sudo systemctl enable accounts-daemon.service
 ```
 
+Some services which can be masked/disabled are:
+- accounts-daemon.service
+- ModemManager.service
+- keyboard-setup.service
+- systemd-journal-flush.service
+
 [Information](https://www.linux.com/learn/cleaning-your-linux-startup-process)
 [Much more information](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
