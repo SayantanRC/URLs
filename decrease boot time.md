@@ -17,8 +17,9 @@ sudo rm -r *
 ```
 
 ### Or disable it altogether
-See "Mask unnecessary services" below.
+See in "Mask unnecessary services" at bottom of this page.
 
+[Information on masking](https://unix.stackexchange.com/questions/414793/can-i-mask-the-systemd-journal-flush-service-and-run-journalctl-flush-later-ma)
 [Information](https://wiki.archlinux.org/index.php/systemd#Journal_size_limit)
 
 ## Check keyboard service
