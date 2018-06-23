@@ -59,6 +59,8 @@ Some services which can be masked/disabled are:
 - ModemManager.service
 - keyboard-setup.service
 - systemd-journal-flush.service
+- polkit.service
+- avahi-daemon.service
 
 [Things to disable/mask](https://www.linux.com/learn/cleaning-your-linux-startup-process)  
 [How to disable/enable](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)  
