@@ -16,6 +16,9 @@ cd /var/log/journal/
 sudo rm -r *
 ```
 
+### Or disable it altogether
+See "Mask unnecessary services" below.
+
 [Information](https://wiki.archlinux.org/index.php/systemd#Journal_size_limit)
 
 ## Check keyboard service
