@@ -44,9 +44,11 @@ To mask the above mentioned `accounts-daemon.service` service:
 ```
 sudo systemctl mask accounts-daemon.service
 ```
-To unmask:
+To unmask and enable:
 ```
 sudo systemctl unmask accounts-daemon.service
+sudo systemctl enable accounts-daemon.service
 ```
 
 [Information](https://www.linux.com/learn/cleaning-your-linux-startup-process)
+[Much more information](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
