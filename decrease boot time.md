@@ -59,7 +59,6 @@ Some services which can be masked/disabled are:
 - ModemManager.service
 - keyboard-setup.service
 - systemd-journal-flush.service
-- polkit.service
 - avahi-daemon.service
 - pppd-dns.service
 
