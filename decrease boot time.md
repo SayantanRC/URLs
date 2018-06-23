@@ -60,6 +60,6 @@ Some services which can be masked/disabled are:
 - keyboard-setup.service
 - systemd-journal-flush.service
 
-[Information](https://www.linux.com/learn/cleaning-your-linux-startup-process)
+[Information](https://www.linux.com/learn/cleaning-your-linux-startup-process)  
 [Much more information](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)  
 [Information on masking systemd-journal-flush](https://unix.stackexchange.com/questions/414793/can-i-mask-the-systemd-journal-flush-service-and-run-journalctl-flush-later-ma)  
