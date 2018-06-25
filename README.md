@@ -41,6 +41,11 @@ A few important urls...
  
  - [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
  
+ ### Learn
+ 
+ - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+ - [Node JS with express](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+ 
  ### Study
 
  - [How to check Time variance of a signal](https://myclassbook.org/time-variant-time-invariant-systems/)  
