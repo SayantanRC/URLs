@@ -41,6 +41,8 @@ A few important urls...
  
  - [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
  
+ - [Get postman](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
