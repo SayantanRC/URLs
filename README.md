@@ -43,6 +43,8 @@ A few important urls...
  
  - [Get postman](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
  
+ - [WireGuard setup tutorial](https://forum.xda-developers.com/android/general/guide-how-to-wireguard-android-ubuntu-t3723544)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
