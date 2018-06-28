@@ -45,6 +45,8 @@ A few important urls...
  
  - [WireGuard setup tutorial](https://forum.xda-developers.com/android/general/guide-how-to-wireguard-android-ubuntu-t3723544)
  
+ - [Start script at boot](https://askubuntu.com/questions/290099/how-to-run-a-script-during-boot-as-root)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
