@@ -51,6 +51,7 @@ A few important urls...
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
  - [Node JS with express](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+ - [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)
  
  ### Study
 
