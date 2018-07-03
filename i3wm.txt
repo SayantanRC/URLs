@@ -1,0 +1,270 @@
+#install lubuntu
+
+#install i3
+sudo apt install i3
+
+#restart and login with i3
+
+#configure i3
+
+#start nm-applet at beginning
+nano /home/<username>/.config/i3/config
+
+#add this at the end
+exec --no-startup-id nm-applet
+exec --no-startup-id xfce4-power-manager
+
+#add optional additions
+sudo apt install nautilus gedit rhythmbox
+
+#optional program shorcuts to added at the end of i3 config file
+bindsym mod4+f exec firefox				#open firefox
+bindsym mod4+d exec lxtask				#open task manager
+bindsym mod4+e exec nautilus				#open file manager
+bindsym mod4+g exec gedit				#open gedit
+
+bindsym $mod+shift+b exec --no-startup-id blueman-applet
+
+#comment this line
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+#add power shortcuts
+bindsym $mod+mod4+e exec i3-msg exit
+bindsym $mod+mod4+r exec systemctl reboot
+bindsym $mod+mod4+p exec systemctl poweroff
+
+#save and restart the PC
+
+#remove all lx related stuff and only reinstall lxterminal and lxtask
+sudo apt remove lx*
+sudo apt autoremove
+sudo apt install lxterminal
+sudo apt install lxtask
+sudo apt install lxappearance
+
+#if you close the terminal after uninstalling lxterminal:
+#connect to a network from nm-applet
+#press Ctrl+Alt+F1.
+#login using tty
+#install lxterminal and reboot
+
+#CUSTOMISATION:
+
+# 1. Get polybar (https://github.com/jaagr/polybar)
+
+#get dependencies
+sudo apt install cmake g++ 
+sudo apt install alsa pulseaudio mpd git unifont libcairo2-dev libxcb-randr0-dev libasound2-dev libcurl4-openssl-dev libmpdclient-dev libiw-dev libpulse-dev libxcb-cursor-dev libnl-3-dev
+sudo apt install xcb-proto libxcb-xkb-dev libxcb-icccm4-dev libxcb-ewmh-dev libxcb-util-dev libxcb-image0-dev python-xcbgen libxcb-xrm-dev libjsoncpp-dev
+
+#rename this file
+sudo mv /etc/fonts/conf.d/70-no-bitmaps.conf /etc/fonts/conf.d/70-no-bitmaps.conf.old
+
+#logout and login or reboot
+
+#clone and build polybar
+cd ~
+git clone --branch 3.1.0 --recursive https://github.com/jaagr/polybar
+mkdir polybar/build
+cd polybar/lib/xpp
+git checkout master
+sudo rm include/xpp/proto/*
+cd ../../build
+cmake -DCMAKE_CXX_COMPILER=/usr/bin/g++ ..
+sudo make install
+
+#make userconfig
+make userconfig
+
+#comment these lines in i3 config with '#'
+bar {
+        status_command i3status
+}
+
+#put this in its place
+exec_always --no-startup-id "pkill polybar; polybar -r example"
+
+#logout and login to see changes
+
+# 2. Get music player controls
+cd ~
+cd Downloads
+wget https://github.com/acrisci/playerctl/releases/download/v0.6.0/playerctl-0.6.0_amd64.deb
+sudo dpkg -i playerctl-0.6.0_amd64.deb
+
+#add these to i3 config
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# 3. Add volume and brightness controls
+
+#add these to i3 config
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master 1+ toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
+
+#get light
+cd
+git clone https://github.com/haikarainen/light.git
+
+#compile and install
+cd light
+make
+sudo make install
+
+#add these to i3 config
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
+
+#reboot
+
+# 4. Change wallpaper
+
+#get feh
+sudo apt install feh
+
+#get wallpaper from https://raw.githubusercontent.com/FireLord1/dotfiles_i3wm/master/wallpapers/wallpaper.jpg
+
+#add this to i3 config
+exec_always --no-startup-id feh --bg-scale /home/sayantan/Downloads/wallpaper.jpg
+
+# 5. Get rofi
+sudo apt install rofi
+
+#get any theme from internet (https://github.com/DaveDavenport/rofi-themes). Using material.rasi. Copy the contents of the theme.
+cd ~
+mkdir -p .config/rofi/themes/
+gedit .config/rofi/themes/material.rasi
+
+#paste the contents.
+
+#comment these lines in i3 config
+bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+#add this line
+bindsym $mod+d exec "rofi -theme .config/rofi/themes/material.rasi -modi drun,run -show drun -sidebar-mode -lines 10"
+
+# 6. Lightweight dunst notification
+
+#install
+sudo apt install dunst
+
+#remove xfce notifications
+sudo apt remove xfce4-notifyd
+
+#download dunst themes (https://github.com/khamer/base16-dunst/tree/master/themes) or use from https://raw.githubusercontent.com/FireLord1/dotfiles_i3wm/master/.config/dunst/dunstrc
+
+#Copy the contents
+cd ~
+mkdir .config/dunst/
+gedit .config/dunst/dunstrc
+
+#paste in the file
+
+#add this to i3 config
+exec --no-startup-id dunst -config .config/dunst/dunstrc
+
+# 7. Get oh my zsh
+
+#install
+sudo apt install zsh
+chsh -s $(which zsh)
+
+#reboot
+
+#open terminal and press 0 to set init zshrc with a comment
+
+#install oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+#change to the best theme - agnoster
+
+#open lxterminal -> Edit -> Preferences -> Palette -> Solarized dark
+
+#open zshrc
+gedit ~/.zshrc
+
+#change ZSH_THEME="agnoster"
+
+#add this to end of .zshrc
+source /home/$USER/.profile
+
+#install powerline fonts
+cd ~
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+#reboot
+
+# 8. Get betterlockscreen
+
+#install i3lock-color
+sudo apt install libev-dev libxcb-composite0 libxcb-composite0-dev libxcb-xinerama0 libxcb-randr0 libxcb-xinerama0-dev libxcb-xkb-dev libxcb-image0-dev libxcb-util-dev libxkbcommon-x11-dev libjpeg-turbo8-dev libpam0g-dev libxkbcommon-dev autoconf -y
+
+#clone and compile
+cd
+git clone https://github.com/PandorasFox/i3lock-color.git
+cd i3lock-color
+autoreconf -i && ./configure && make
+sudo make install
+
+#clone and compile betterlockscreen
+cd
+git clone https://github.com/pavanjadhaw/betterlockscreen -b master betterlockscreen
+sudo cp betterlockscreen/betterlockscreen /usr/local/bin/betterlockscreen
+
+#set the lockscreen
+betterlockscreen -u ~/Downloads/wallpaper.jpg -b 0.5
+
+#add this to i3 config
+bindsym $mod+shift+x exec betterlockscreen --lock
+
+# 9. set adapta-nokto theme
+
+sudo apt-add-repository ppa:tista/adapta -y
+sudo apt update
+sudo apt install adapta-gtk-theme
+
+#open lxappearance and change the theme
+
+# 10. Remove lightdm
+
+#make this file:
+gedit ~/.xinitrc
+
+#paste this:
+
+#!/bin/sh
+#
+# ~/.xinitrc
+#
+
+exec i3
+
+#install xorg
+sudo apt install xorg
+
+#add this to ~/.bashrc (~/.zshrc of zsh is used)
+[[ ! $DISPLAY && $XDG_VTNR -eq 1 && $(id --group) -ne 0 ]] && exec startx || :
+
+#make tty1 conf file (autocomplete won't work)
+sudo systemctl edit getty@tty1
+
+#paste this and save
+
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin sayantan --noclear %I $TERM
+
+#remove lightdm
+sudo apt remove lightdm
+
+#optionally set betterlockscreen to start at boot in i3 config
+exec_always betterlockscreen --lock
+
+#reboot
