@@ -49,9 +49,9 @@ A few important urls...
  
  ### Learn
  
- - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)
-   [Node JS with express](https://www.youtube.com/watch?v=pKd0Rpw7O48)
-   [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)
+ - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
+   [Node JS with express](https://www.youtube.com/watch?v=pKd0Rpw7O48)  
+   [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)  
  
  - [HTTP codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
  
