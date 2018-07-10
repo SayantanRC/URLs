@@ -70,3 +70,5 @@ A few important urls...
  [How to check linearity](https://myclassbook.org/linear-non-linear-systems-linearity-property/)
  
  - [Generator poly. for triple error correcting BCH code](https://www.youtube.com/watch?v=vKoo0HLLE50)
+ 
+ - [Aptitude](https://www.youtube.com/playlist?list=PLY3DFj1jjj0URoyHOnxuau6l0EgzOtoHI)
