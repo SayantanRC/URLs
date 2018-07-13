@@ -51,6 +51,8 @@ A few important urls...
  
  - [HTTP codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
  
+ -[Flatpak tricks](https://github.com/SayantanRC/URLs/blob/master/flatpak.md)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
