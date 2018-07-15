@@ -268,3 +268,7 @@ sudo apt remove lightdm
 exec_always betterlockscreen --lock
 
 #reboot
+
+# 11. Add shortcut to turn off screen in i3 config
+
+bindsym $mod+mod4+s exec "sleep 0.25; xset dpms force off"
