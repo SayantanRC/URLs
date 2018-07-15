@@ -12,3 +12,8 @@ flatpak list
 ```
 flatpak --version
 ```
+### Search in flatpak repository
+Say we are searching for vlc
+```
+flatpak remote-ls | grep -i vlc
+```
