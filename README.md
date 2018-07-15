@@ -3,16 +3,15 @@
 # URLs
 A few important urls...
 
- - [Chromium OS dual boot on hard drive](https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/)
- 
- - [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)
+ - [Chromium OS dual boot on hard drive](https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/)  
+   [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)  
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
-[Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
-[Text (tested) instruction](https://github.com/SayantanRC/URLs/blob/master/Ubuntu%20MATLAB%20installation.md)  
+   [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
+   [Text (tested) instruction](https://github.com/SayantanRC/URLs/blob/master/Ubuntu%20MATLAB%20installation.md)  
 
  - [MATLAB 2018a (Windows) torrent](https://drive.google.com/file/d/1TmrKG-0MAksixMEzy08mAaLUyz5qNlOk/view)  
-[Video instruction](https://www.youtube.com/watch?v=BnoFstVeIi8)  
+   [Video instruction](https://www.youtube.com/watch?v=BnoFstVeIi8)  
 
  - [Install Oracle Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/)  
 
@@ -42,8 +41,7 @@ A few important urls...
  - [Add/Remove/Change user password from terminal](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
  
  - [i3 config. (Aman)](https://github.com/FireLord1/dotfiles_i3wm)
- 
- - [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
+   [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
  
  - [Get postman](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
  
@@ -53,7 +51,7 @@ A few important urls...
  
  - [HTTP codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
  
- -[Flatpak tricks](https://github.com/SayantanRC/URLs/blob/master/flatpak.md)
+ - [Flatpak tricks](https://github.com/SayantanRC/URLs/blob/master/flatpak.md)
  
  ### Learn
  
