@@ -17,3 +17,7 @@ Say we are searching for vlc
 ```
 flatpak remote-ls | grep -i vlc
 ```
+OR use the `search` option - which takes a lot of time
+```
+flatpak search vlc
+```
