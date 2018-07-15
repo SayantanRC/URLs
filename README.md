@@ -17,8 +17,8 @@ A few important urls...
  - [Install Oracle Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/)  
 
  - [Firefox Addon - Drag To Scroll](https://addons.mozilla.org/en-US/firefox/addon/drag_scroll/)  
- - [Firefox Addon - Speed Dial 2](https://addons.mozilla.org/en-GB/firefox/addon/new-tab-speed-dial/)  
- - [Firefox Addon - Dark mode](https://addons.mozilla.org/en-GB/firefox/addon/dark-mode-webextension/)
+   [Firefox Addon - Speed Dial 2](https://addons.mozilla.org/en-GB/firefox/addon/new-tab-speed-dial/)  
+   [Firefox Addon - Dark mode](https://addons.mozilla.org/en-GB/firefox/addon/dark-mode-webextension/)
  
  - [Customize grub defaults(/etc/default/grub)](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)  
  
