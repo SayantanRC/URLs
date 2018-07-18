@@ -74,3 +74,5 @@ A few important urls...
  - [Generator poly. for triple error correcting BCH code](https://www.youtube.com/watch?v=vKoo0HLLE50)
  
  - [Aptitude](https://www.youtube.com/playlist?list=PLY3DFj1jjj0URoyHOnxuau6l0EgzOtoHI)
+ 
+ - [Sorting algorithm](https://www.youtube.com/playlist?list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U)
