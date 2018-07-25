@@ -25,6 +25,16 @@ n = [int(i) for i in input().split(',')]
 arr = [int(i) for i in list(str(24869453))]
 ```
 
+### Use global variable
+```
+def fun1():
+  global s
+  s = "Hello"
+  
+def fun2():
+  print(s)
+```
+
 ### Convert decimal number to any other base
 ```
 def findToBase(num, base):
