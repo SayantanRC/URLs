@@ -9,6 +9,12 @@
 ### Split a string to characters
 `list("Hello")`
 
+### Add to list
+```
+n = []
+n.append(3)
+```
+
 ### Accept list of comma separated integers
 ```
 n = [int(i) for i in input().split(',')]
