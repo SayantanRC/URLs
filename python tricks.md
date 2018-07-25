@@ -25,6 +25,9 @@ n = [int(i) for i in input().split(',')]
 arr = [int(i) for i in list(str(24869453))]
 ```
 
+### Remove duplicates from list
+`l = list(set(l))`
+
 ### Use global variable
 ```
 def fun1():
