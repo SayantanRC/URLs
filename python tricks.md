@@ -9,10 +9,13 @@
 ### Split a string to characters
 `list("Hello")`
 
-### Add to list
+### Add to, remove from list
 ```
 n = []
 n.append(3)
+n.append(4)
+n.pop(0) ## index position
+n.remove(4) ## actual value
 ```
 
 ### Accept list of comma separated integers
@@ -27,6 +30,11 @@ arr = [int(i) for i in list(str(24869453))]
 
 ### Remove duplicates from list
 `l = list(set(l))`
+
+### Find max of a list below a maximum limit
+```
+max([i for i in m if i <= 2])    ## finds max number of list m below 2
+```
 
 ### Use global variable
 ```
