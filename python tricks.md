@@ -18,3 +18,18 @@ n = [int(i) for i in input().split(',')]
 ```
 arr = [int(i) for i in list(str(24869453))]
 ```
+
+### Convert decimal number to any other base
+```
+def findToBase(num, base):
+
+	if num == 0:
+		return 0
+
+	if num < base:
+		r = num
+	else:
+		r = num % base
+
+	return int(str(findToBase(int(num/base), base)) + str(r))
+  ```
