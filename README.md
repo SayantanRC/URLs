@@ -53,14 +53,15 @@ A few important urls...
  
  - [Flatpak tricks](https://github.com/SayantanRC/URLs/blob/master/flatpak.md)
  
+ - [Start running the android emulator](https://stackoverflow.com/questions/37300811/android-studio-dev-kvm-device-permission-denied)  
+ - [SuperSU](https://www.teamandroid.com/2017/05/31/download-supersu-282/)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
    [Node JS with express](https://www.youtube.com/watch?v=pKd0Rpw7O48)  
    [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)  
    [Routing by express](https://www.youtube.com/watch?v=xEDpRbJtlKA)  
-   
- - [Start running the android emulator](https://stackoverflow.com/questions/37300811/android-studio-dev-kvm-device-permission-denied)
    
  ### Online utilities
  
