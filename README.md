@@ -60,6 +60,8 @@ A few important urls...
    [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)  
    [Routing by express](https://www.youtube.com/watch?v=xEDpRbJtlKA)  
    
+ - [Start running the android emulator](https://stackoverflow.com/questions/37300811/android-studio-dev-kvm-device-permission-denied)
+   
  ### Online utilities
  
  - [Markdown editor](https://stackedit.io/app#)
