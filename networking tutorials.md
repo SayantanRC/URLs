@@ -1,1 +1,1 @@
-[Peer to peer](https://www.youtube.com/watch?v=JvXro0dzJY8)  
+[Peer to peer vs client/server](https://www.youtube.com/watch?v=JvXro0dzJY8)  
