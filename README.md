@@ -63,6 +63,8 @@ A few important urls...
    [JWT tutorial](https://www.youtube.com/watch?v=7nafaH9SddU)  
    [Routing by express](https://www.youtube.com/watch?v=xEDpRbJtlKA)  
    
+ - [Network tutorial playlist](https://github.com/SayantanRC/URLs/blob/master/networking%20tutorials.md)
+   
  ### Online utilities
  
  - [Markdown editor](https://stackedit.io/app#)
