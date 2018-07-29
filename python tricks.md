@@ -34,6 +34,9 @@ arr = [int(i) for i in list(str(24869453))]
 ### Reverse a list
 `L = L[::-1]`
 
+### Copy a list
+`arrcpy = arr[:]`
+
 ### Print upto 6 decimal places
 `print('{0:.6f}')`
 
