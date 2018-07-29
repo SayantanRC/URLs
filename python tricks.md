@@ -31,6 +31,12 @@ arr = [int(i) for i in list(str(24869453))]
 ### Remove duplicates from list
 `l = list(set(l))`
 
+### Reverse a list
+`L = L[::-1]`
+
+### Print upto 6 decimal places
+`print('{0:.6f}')`
+
 ### Find max of a list below a maximum limit
 ```
 max([i for i in m if i <= 2])    ## finds max number of list m below 2
