@@ -69,3 +69,24 @@ def findToBase(num, base):
 
 	return int(str(findToBase(int(num/base), base)) + str(r))
   ```
+
+### nCr in list
+```
+def get_nCr(r, arr):
+	nCr = []
+	if r == 1:
+		for i in arr:
+			nCr.append([i])
+	elif r > 1:
+		n = len(arr)
+		for i in range(n-r+1):
+			a = arr[i]
+			last = get_nCr(r-1, arr[i+1:])
+			element = []
+			for l in last:
+				l = [a] + l
+				if l not in nCr and l not in element: element.append(l)
+			nCr += element
+
+	return nCr
+```
