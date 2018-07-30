@@ -90,3 +90,16 @@ def get_nCr(r, arr):
 
 	return nCr
 ```
+
+### find lcm of a list
+```
+from math import gcd
+
+def getLCM(arr):
+
+    LCM = arr[0]
+    for i in arr[1:]:
+        LCM = LCM*i/gcd(int(LCM),i)
+	
+    return LCM
+```
