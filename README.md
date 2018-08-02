@@ -56,7 +56,7 @@ A few important urls...
  - [Start running the android emulator](https://stackoverflow.com/questions/37300811/android-studio-dev-kvm-device-permission-denied)  
  - [SuperSU](https://www.teamandroid.com/2017/05/31/download-supersu-282/)  
  
- - Check Windows product key (Not the product id): wmic path SoftwareLicensingService get OA3xOriginalProductKey
+ - Check Windows product key (Not the product id): <b>wmic path SoftwareLicensingService get OA3xOriginalProductKey</b>
  
  ### Learn
  
