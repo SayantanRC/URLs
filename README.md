@@ -40,7 +40,7 @@ A few important urls...
  
  - [Add/Remove/Change user password from terminal](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
  
- - [i3 config. (Aman)](https://github.com/FireLord1/dotfiles_i3wm)
+ - [i3 config. (Aman)](https://github.com/FireLord1/dotfiles_i3wm)  
    [i3 set default applications](https://wiki.archlinux.org/index.php/Xdg-utils#The)
  
  - [Get postman](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
