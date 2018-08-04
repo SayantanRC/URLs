@@ -58,6 +58,8 @@ A few important urls...
  
  - Check Windows product key (Not the product id): <b>wmic path SoftwareLicensingService get OA3xOriginalProductKey</b>
  
+ - [Fix mount points in Ununtu](https://github.com/SayantanRC/URLs/blob/master/fix%20mounts.md)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
