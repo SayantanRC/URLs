@@ -28,12 +28,13 @@ To resolve, open a terminal (live media or recovery option)
   ```
   Remove the UUID and put the mount point. Example:  
   <i>Before</i>
-  > UUID=0bf61cd4-2121-4850-a140-13aee96fa632 /               ext4    errors=remount-ro 0       1
-  > UUID=DE47-AF92  /boot/efi       vfat    umask=0077      0       1
+  > UUID=0bf61cd4-2121-4850-a140-13aee96fa632 /               ext4    errors=remount-ro 0       1  
+  > UUID=DE47-AF92  /boot/efi       vfat    umask=0077      0       1  
+  
   <i>After</i>
-  > #Comment out the UUIDs
-  > #UUID=0bf61cd4-2121-4850-a140-13aee96fa632 /               ext4    errors=remount-ro 0       1
-  > /dev/sda5 /               ext4    errors=remount-ro 0       1
-  > #UUID=DE47-AF92  /boot/efi       vfat    umask=0077      0       1
-  > /dev/sda1  /boot/efi       vfat    umask=0077      0       1
+  > #Comment out the UUIDs  
+  > #UUID=0bf61cd4-2121-4850-a140-13aee96fa632 /               ext4    errors=remount-ro 0       1  
+  > /dev/sda5 /               ext4    errors=remount-ro 0       1  
+  > #UUID=DE47-AF92  /boot/efi       vfat    umask=0077      0       1  
+  > /dev/sda1  /boot/efi       vfat    umask=0077      0       1  
   
