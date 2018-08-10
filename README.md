@@ -60,6 +60,8 @@ A few important urls...
  
  - [Fix mount points in Ununtu](https://github.com/SayantanRC/URLs/blob/master/fix%20mounts.md)  
  
+ - [Decrease screen brightness below lowest (Windows)](http://www.nelsonpires.com/software/dimmer/)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
