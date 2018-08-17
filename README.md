@@ -62,6 +62,8 @@ A few important urls...
  
  - [Decrease screen brightness below lowest (Windows)](http://www.nelsonpires.com/software/dimmer/)
  
+ - [f.lux on Ubuntu](https://itsfoss.com/night-shift-flux-ubuntu-linux/)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
