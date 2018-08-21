@@ -105,4 +105,5 @@ return LCM
 [[4, 3, 8], [9, 5, 1], [2, 7, 6]],  
 [[6, 7, 2], [1, 5, 9], [8, 3, 4]],  
 [[2, 7, 6], [9, 5, 1], [4, 3, 8]],]  
+
 (https://www.hackerrank.com/challenges/magic-square-forming/problem)[https://www.hackerrank.com/challenges/magic-square-forming/problem]  
