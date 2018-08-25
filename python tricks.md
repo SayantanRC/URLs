@@ -40,11 +40,11 @@ n.remove(4) ## actual value
 #### Use global variable
 ```
 def fun1():  
-global s  
-s = "Hello"  
+  global s  
+  s = "Hello"  
 
 def fun2():  
-print(s)  
+  print(s)  
 ```
 
 #### Convert decimal number to any other base
