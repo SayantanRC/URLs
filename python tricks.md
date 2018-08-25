@@ -51,36 +51,36 @@ print(s)
 ```
 def findToBase(num, base):  
 
-if num == 0:  
-return 0  
+  if num == 0:  
+    return 0  
 
-if num < base:  
-r = num  
-else:  
-r = num % base  
+  if num < base:  
+    r = num  
+  else:  
+    r = num % base  
 
-return int(str(findToBase(int(num/base), base)) + str(r))  
+  return int(str(findToBase(int(num/base), base)) + str(r))  
 ```
 
 #### nCr in list
 ```
 def get_nCr(r, arr):  
-nCr = []  
-if r == 1:  
-for i in arr:  
-nCr.append([i])  
-elif r > 1:  
-n = len(arr)  
-for i in range(n-r+1):  
-a = arr[i]  
-last = get_nCr(r-1, arr[i+1:])  
-element = []  
-for l in last:  
-l = [a] + l  
-if l not in nCr and l not in element: element.append(l)  
-nCr += element  
+    nCr = []  
+    if r == 1:  
+        for i in arr:  
+            nCr.append([i])  
+    elif r > 1:  
+        n = len(arr)  
+        for i in range(n-r+1):  
+            a = arr[i]  
+            last = get_nCr(r-1, arr[i+1:])  
+            element = []  
+            for l in last:  
+                l = [a] + l  
+                if l not in nCr and l not in element: element.append(l)  
+            nCr += element  
 
-return nCr  
+    return nCr  
 ```
 
 #### find lcm of a list
@@ -88,11 +88,11 @@ return nCr
 from math import gcd  
 def getLCM(arr):  
 
-LCM = arr[0]  
-for i in arr[1:]:  
-LCM = LCM*i/gcd(int(LCM),i)  
+  LCM = arr[0]  
+  for i in arr[1:]:  
+    LCM = LCM*i/gcd(int(LCM),i)  
 
-return LCM  
+  return LCM  
 ```
 
 #### Magic 3*3 matrix possible cases
