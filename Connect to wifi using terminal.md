@@ -23,3 +23,4 @@ Example: `nmcli dev wifi connect TP-LINK_6770 password abcdwxyz`
 
 See the status of radios: `nmcli radio`  
 See the status of devices: `nmcli device`  
+Turn off wifi: `nmcli radio wifi off`  
