@@ -68,6 +68,8 @@ A few important urls...
  
  - [Slow start of GNOME applications](https://bbs.archlinux.org/viewtopic.php?pid=1737005#p1737005)
  
+ - [Connect to wifi via terminal (nmcli)](https://github.com/SayantanRC/URLs/blob/master/Connect%20to%20wifi%20using%20terminal.md)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
