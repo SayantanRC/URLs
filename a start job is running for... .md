@@ -12,7 +12,7 @@ sudo systemctl disable <Y>.service
 
 #### Example:  
 `a start job is running for sys-subsystem-net-devices-multi-user.device`  
-- Find the service
+- Find the offending service
   `systemctl show -p WantedBy,RequiredBy sys-subsystem-net-devices-multi-user.device`
 - Result:  
   ```
