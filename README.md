@@ -70,6 +70,8 @@ A few important urls...
  
  - [Install network manager and applet (if removed)](https://github.com/SayantanRC/URLs/blob/master/Install%20network%20manager.md)  
   [Connect to wifi via terminal (nmcli)](https://github.com/SayantanRC/URLs/blob/master/Connect%20to%20wifi%20using%20terminal.md)
+  
+ - [a start job is running for...](https://github.com/SayantanRC/URLs/blob/master/a%20start%20job%20is%20running%20for...%20.md)
  
  ### Learn
  
