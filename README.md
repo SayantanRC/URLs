@@ -69,7 +69,7 @@ A few important urls...
  - [Slow start of GNOME applications](https://bbs.archlinux.org/viewtopic.php?pid=1737005#p1737005)
  
  - [Install network manager and applet (if removed)](https://github.com/SayantanRC/URLs/blob/master/Install%20network%20manager.md)  
- - [Connect to wifi via terminal (nmcli)](https://github.com/SayantanRC/URLs/blob/master/Connect%20to%20wifi%20using%20terminal.md)
+  [Connect to wifi via terminal (nmcli)](https://github.com/SayantanRC/URLs/blob/master/Connect%20to%20wifi%20using%20terminal.md)
  
  ### Learn
  
