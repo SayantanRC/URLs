@@ -66,6 +66,8 @@ A few important urls...
  
  - [Create hotspot on linux (nmcli)](https://askubuntu.com/questions/762846/how-to-create-wifi-hotspot-in-ubuntu-16-04-since-ap-hotspot-is-no-longer-working)
  
+ - [Slow start of GNOME applications](https://bbs.archlinux.org/viewtopic.php?pid=1737005#p1737005)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
