@@ -73,6 +73,8 @@ A few important urls...
   
  - [a start job is running for...](https://github.com/SayantanRC/URLs/blob/master/a%20start%20job%20is%20running%20for...%20.md)
  
+ - [Enable 1.1.1.1 on Android Pie+](https://blog.cloudflare.com/enable-private-dns-with-1-1-1-1-on-android-9-pie/)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
