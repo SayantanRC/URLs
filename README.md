@@ -75,6 +75,8 @@ A few important urls...
  
  - [Enable 1.1.1.1 on Android Pie+](https://blog.cloudflare.com/enable-private-dns-with-1-1-1-1-on-android-9-pie/)
  
+ - [Better battery notification for ubuntu](https://www.omgubuntu.co.uk/2016/07/ubuntu-battery-monitor-notifications)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
