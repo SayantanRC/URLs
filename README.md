@@ -77,6 +77,8 @@ A few important urls...
  
  - [Better battery notification for ubuntu](https://www.omgubuntu.co.uk/2016/07/ubuntu-battery-monitor-notifications)
  
+ - [Private mode on Ubuntu (macchanger, wireguard)](https://github.com/SayantanRC/URLs/blob/master/private%20on%20ubuntu%20(macchanger,%20wireguard).md)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
