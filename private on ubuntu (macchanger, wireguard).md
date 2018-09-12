@@ -11,7 +11,7 @@ Inside paste the contents:
 >     sudo "$0" "$@"  
 >     exit $?  
 > fi  
-
+>
 > nmcli radio wifi off  
 > macchanger -r wlo1>/dev/null  
 > nmcli radio wifi on  
