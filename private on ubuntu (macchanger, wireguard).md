@@ -1,7 +1,7 @@
 ## Make a script file  
 
 ```
-sudo gedit /usr/local/bin/private-mode.sh  
+sudo gedit /usr/local/bin/private-mode.sh
 ```
 
 Inside paste the contents:  
@@ -19,7 +19,7 @@ Inside paste the contents:
 #### Make it executable  
 
 ```
-sudo chmod +x /usr/local/bin/private-mode.sh  
+sudo chmod +x /usr/local/bin/private-mode.sh
 ```
 
 ## Add to `crontab`  
@@ -29,11 +29,11 @@ sudo crontab -e
 ```
 
 Add this to the end:  
-> @reboot /usr/local/bin/private-mode.sh  
+> @reboot /usr/local/bin/private-mode.sh
 
 ## Enable `wireguard` via `systemctl`  
 
 Say we use `azirevpn-us1`:  
 ```
-sudo systemctl enable wg-quick@azirevpn-us1  
+sudo systemctl enable wg-quick@azirevpn-us1
 ```
