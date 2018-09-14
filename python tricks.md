@@ -107,3 +107,24 @@ def getLCM(arr):
 [[2, 7, 6], [9, 5, 1], [4, 3, 8]],]  
 
 (https://www.hackerrank.com/challenges/magic-square-forming/problem)[https://www.hackerrank.com/challenges/magic-square-forming/problem]  
+
+## Recursive way to get list of all subsets which sum up to a specific number  
+```
+def main():  
+    global all  
+    all = []  
+    subsetSum(6, [1,2,3,4,5,3])  
+    print(all)  
+
+def subsetSum(m, l):  
+    if (len(l) == 0):  
+        return  
+    if (sum(l) == m and l not in all):  
+        all.append(l)  
+    for i in range(len(l)):  
+        subsetSum(m, l[:i] + l[i+1:])  
+        
+if __name__ == '__main__':  
+    main()  
+```
+Gives output: `[[3, 3], [2, 4], [1, 5], [1, 2, 3]]`  
