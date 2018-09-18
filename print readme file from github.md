@@ -1,4 +1,4 @@
-## Open the required README file in the browser  
+## Open the required README file (or any other markdown file) in the browser  
 Example: https://github.com/SayantanRC/DEREQ/blob/master/README.md  
 ## Paste the following code  
 1. Open developer console (Firefox -> F12)  
