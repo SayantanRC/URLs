@@ -79,6 +79,8 @@ A few important urls...
  
  - [Private mode on Ubuntu (macchanger, wireguard)](https://github.com/SayantanRC/URLs/blob/master/private%20on%20ubuntu%20(macchanger,%20wireguard).md)  
  
+ - [Print markdown file from github](https://github.com/SayantanRC/URLs/blob/master/print%20readme%20file%20from%20github.md)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
