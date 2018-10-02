@@ -81,6 +81,8 @@ A few important urls...
  
  - [Print markdown file from github](https://github.com/SayantanRC/URLs/blob/master/print%20readme%20file%20from%20github.md)  
  
+ - [Set date and time on ubuntu via command line](https://askubuntu.com/questions/679988/how-to-change-ubuntus-server-date-and-time-via-command-line)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
