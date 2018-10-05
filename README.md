@@ -83,6 +83,8 @@ A few important urls...
  
  - [Set date and time on ubuntu via command line](https://askubuntu.com/questions/679988/how-to-change-ubuntus-server-date-and-time-via-command-line)
  
+ - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
