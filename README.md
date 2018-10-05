@@ -83,7 +83,8 @@ A few important urls...
  
  - [Set date and time on ubuntu via command line](https://askubuntu.com/questions/679988/how-to-change-ubuntus-server-date-and-time-via-command-line)
  
- - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)
+ - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)  
+   use `ntldr /bootmgr` after `chainloader +1` in case of errors while booting a Windows installation USB.  
  
  ### Learn
  
