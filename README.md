@@ -96,6 +96,8 @@ A few important urls...
  - [Flutter resources](https://medium.freecodecamp.org/learn-flutter-best-resources-18f88346ed0f)  
    
  - [Network tutorial playlist](https://github.com/SayantanRC/URLs/blob/master/networking%20tutorials.md)
+ 
+ - [updater-script all commands](https://forum.xda-developers.com/showthread.php?t=1931585)  
    
  ### Online utilities
  
