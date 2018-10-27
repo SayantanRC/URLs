@@ -98,6 +98,8 @@ A few important urls...
  - [Network tutorial playlist](https://github.com/SayantanRC/URLs/blob/master/networking%20tutorials.md)
  
  - [updater-script all commands](https://forum.xda-developers.com/showthread.php?t=1931585)  
+ 
+ - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
    
  ### Online utilities
  
