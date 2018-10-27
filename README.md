@@ -62,7 +62,7 @@ A few important urls...
  
  - [Decrease screen brightness below lowest (Windows)](http://www.nelsonpires.com/software/dimmer/)
  
- - [f.lux on Ubuntu](https://itsfoss.com/night-shift-flux-ubuntu-linux/)
+ - [f.lux (night light) on Ubuntu](https://itsfoss.com/night-shift-flux-ubuntu-linux/)
  
  - [Create hotspot on linux (nmcli and GUI)](https://askubuntu.com/questions/762846/how-to-create-wifi-hotspot-in-ubuntu-16-04-since-ap-hotspot-is-no-longer-working)
  
