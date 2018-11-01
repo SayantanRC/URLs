@@ -100,6 +100,7 @@ A few important urls...
  - [updater-script all commands](https://forum.xda-developers.com/showthread.php?t=1931585)  
  
  - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
+ - [List of normal and dangerous permissions Android](https://stackoverflow.com/questions/36936914/list-of-android-permissions-normal-permissions-and-dangerous-permissions-in-api)  
    
  ### Online utilities
  
