@@ -116,4 +116,7 @@ A few important urls...
  
  - [Aptitude](https://www.youtube.com/playlist?list=PLY3DFj1jjj0URoyHOnxuau6l0EgzOtoHI)
  
- - [Sorting algorithm](https://www.youtube.com/playlist?list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U)
+ - [Sorting algorithm](https://www.youtube.com/playlist?list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U)  
+ 
+ - [OSI model video](https://www.youtube.com/watch?v=HEEnLZV2wGI)  
+
