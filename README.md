@@ -120,6 +120,6 @@ A few important urls...
  - [Sorting algorithm](https://www.youtube.com/playlist?list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U)  
  
  - [OSI model video](https://www.youtube.com/watch?v=HEEnLZV2wGI)  
- - [Hub vs Switch vs Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)  
- - [Movem vs Router](https://www.youtube.com/watch?v=Mad4kQ5835Y)  
+   [Hub vs Switch vs Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)  
+   [Movem vs Router](https://www.youtube.com/watch?v=Mad4kQ5835Y)  
 
