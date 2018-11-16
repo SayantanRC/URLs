@@ -123,4 +123,7 @@ A few important urls...
    [Hub vs Switch vs Router](https://www.youtube.com/watch?v=1z0ULvg_pW8)  
    [Movem vs Router](https://www.youtube.com/watch?v=Mad4kQ5835Y)  
    [Protocols](https://www.youtube.com/watch?v=QrNnRJqTMO8)  
-
+   [Circuit switching vs packet switching](https://www.youtube.com/watch?v=1-8RZ8pPWF8)  
+   [GSM architecture](https://www.youtube.com/watch?v=GjuBOVH2wfg)  
+   [VLSI fabrication process](https://www.youtube.com/watch?v=fwNkg1fsqBY)  
+   [GSM location area update](https://www.youtube.com/watch?v=0F_OW0HZAdw)  
