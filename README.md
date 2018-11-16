@@ -127,3 +127,6 @@ A few important urls...
    [GSM architecture](https://www.youtube.com/watch?v=GjuBOVH2wfg)  
    [VLSI fabrication process](https://www.youtube.com/watch?v=fwNkg1fsqBY)  
    [GSM location area update](https://www.youtube.com/watch?v=0F_OW0HZAdw)  
+   [Friis transmission formula](https://www.youtube.com/watch?v=e2bqGmVgk0I)  
+   [2G, 2.5G, 3G, 4G](https://www.youtube.com/watch?v=CI9No9Ci9Ro)  
+   [Grade of service](https://www.youtube.com/watch?v=lQ1_rIT7Blc)  
