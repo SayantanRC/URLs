@@ -130,3 +130,5 @@ A few important urls...
    [Friis transmission formula](https://www.youtube.com/watch?v=e2bqGmVgk0I)  
    [2G, 2.5G, 3G, 4G](https://www.youtube.com/watch?v=CI9No9Ci9Ro)  
    [Grade of service](https://www.youtube.com/watch?v=lQ1_rIT7Blc)  
+   
+ - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
