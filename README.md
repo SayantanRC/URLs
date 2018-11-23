@@ -107,6 +107,7 @@ A few important urls...
  - [Markdown editor](https://stackedit.io/app#)
  - [JSON parser](http://json.parser.online.fr/)
  - [VLSI online IDE](https://www.edaplayground.com/)
+ - [Free eBooks](https://goalkicker.com)  
  
  ### Study
 
