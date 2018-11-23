@@ -132,3 +132,4 @@ A few important urls...
    [Grade of service](https://www.youtube.com/watch?v=lQ1_rIT7Blc)  
    
  - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
+ - [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
