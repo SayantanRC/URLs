@@ -85,6 +85,8 @@ A few important urls...
  
  - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)  
    use `ntldr ($root)/bootmgr` (not tested) or `ntldr /bootmgr` (gives an error) after `chainloader +1` in case of errors while booting a Windows installation USB.  
+   
+ - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>  
  
  ### Learn
  
