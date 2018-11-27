@@ -34,13 +34,18 @@ source ~/.bashrc
 ```
 sudo apt install python
 ```
-### Make directory for ROM source and `cd` to it
+### Make directory for ROM source
 ```
 mkdir -p ~/aex_rom  
-cd ~/aex_rom
 ```
 ### Get the AEX source (9.x)
 ``` 
+cd ~/aex_rom  
 repo init -u git://github.com/AospExtended/manifest.git -b 9.x  
 repo sync -c -f --force-sync --no-clone-bundle --no-tags -j10  
+```
+### Get device sources (osprey)
+```
+cd ~/aex_rom  
+git clone https://github.com/ishubhamsingh/android_kernel_motorola_msm8916 -b 9.x kernel/motorola/msm8916  
 ```
