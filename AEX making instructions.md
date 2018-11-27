@@ -34,9 +34,13 @@ source ~/.bashrc
 ```
 sudo apt install python
 ```
-### Get the AEX source (9.x)
+### Make directory for ROM source and `cd` to it
 ```
 mkdir -p ~/aex_rom  
+cd ~/aex_rom
+```
+### Get the AEX source (9.x)
+``` 
 repo init -u git://github.com/AospExtended/manifest.git -b 9.x  
 repo sync -c -f --force-sync --no-clone-bundle --no-tags -j10  
 ```
