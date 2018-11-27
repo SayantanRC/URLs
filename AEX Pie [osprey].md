@@ -49,4 +49,5 @@ repo sync -c -f --force-sync --no-clone-bundle --no-tags -j10
 cd ~/aex_rom  
 git clone https://github.com/ishubhamsingh/android_kernel_motorola_msm8916 -b 9.x kernel/motorola/msm8916  
 git clone https://github.com/TheMuppets/proprietary_vendor_motorola -b lineage-16.0 vendor/motorola  
+git clone https://github.com/AospExtended-Devices/device_motorola_osprey -b 9.x device/motorola/osprey  
 ```
