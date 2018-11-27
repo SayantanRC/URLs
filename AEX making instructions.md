@@ -23,8 +23,9 @@ chmod a+x ~/bin/repo
 nano ~/.bashrc
 ```
 Add the following to the end of the file:
-> # Android Tools  
+> #Android Tools  
 > export PATH=${PATH}:~/bin  
+
 Save the file. `source` it.
 ```
 source ~/.bashrc
