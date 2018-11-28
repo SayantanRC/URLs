@@ -62,9 +62,17 @@ Move into `~/aex_rom/device/motorola/osprey` using `cd`
   
 Move into `~/aex_rom/device/motorola/msm8916-common` using `cd`. If there is any `.dependencies` file (not present in this case), make sure to clone the dependencies in the file.  
 
+### Further modifications
+1. AEX currently doesn't officially support pie for osprey. So by following the trails of `vendor/aosp/vendorsetup.sh`, the following file `vendor/aosp/tools/get_official_devices.py` had to be edited to allow Oreo devices to be shown on Pie list as well.  
+2. To avoid error: `error: vendor/motorola/msm8916-common: MODULE.TARGET.SHARED_LIBRARIES.libril already defined by hardware/ril/libril.` the `Android.mk` file under `hardware/ril/libril` was renamed to `Android.mk.bak`  
+
 ### Build the ROM
 ```
 cd ~/aex_rom  
 . build/envsetup.sh  
 lunch  
+```
+Select device number from list.  
+```
+make aex -j10
 ```
