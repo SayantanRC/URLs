@@ -61,3 +61,10 @@ Move into `~/aex_rom/device/motorola/osprey` using `cd`
 3. Open the `AndroidProducts.mk` file points to a valid make file.  
   
 Move into `~/aex_rom/device/motorola/msm8916-common` using `cd`. If there is any `.dependencies` file (not present in this case), make sure to clone the dependencies in the file.  
+
+### Build the ROM
+```
+cd ~/aex_rom  
+. build/envsetup.sh  
+lunch  
+```
