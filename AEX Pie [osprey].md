@@ -52,3 +52,9 @@ git clone https://github.com/TheMuppets/proprietary_vendor_motorola -b lineage-1
 git clone https://github.com/AospExtended-Devices/device_motorola_osprey -b 9.x device/motorola/osprey  
 git clone https://github.com/AospExtended-Devices/device_motorola_msm8916-common -b 9.x device/motorola/msm8916-common  
 ```
+### Things to verify
+Move into `~/aex_rom/device/motorola/osprey` using `cd`  
+1. Open `aosp_osprey.mk` or `lineage_osprey.mk` or anything similar named file (`<rom_name>_osprey.mk`) using `nano`.  
+- Check if the path in the line `$(call inherit-product, vendor/aosp/common.mk)` exists. If not, modify as required.
+2. Open `aosp.dependencies` or `lineage.dependencies` or anything similar named file (`<rom_name>.dependencies`) using `nano`.  
+- Check if the dependencies without `remote` tag has been cloned.  
