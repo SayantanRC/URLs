@@ -58,3 +58,4 @@ Move into `~/aex_rom/device/motorola/osprey` using `cd`
 - Check if the path in the line `$(call inherit-product, vendor/aosp/common.mk)` exists. If not, modify as required.
 2. Open `aosp.dependencies` or `lineage.dependencies` or anything similar named file (`<rom_name>.dependencies`) using `nano`.  
 - Check if the dependencies without `remote` tag has been cloned.  
+3. Open the `AndroidProducts.mk` file points to a valid make file.  
