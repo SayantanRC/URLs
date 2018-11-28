@@ -59,3 +59,5 @@ Move into `~/aex_rom/device/motorola/osprey` using `cd`
 2. Open `aosp.dependencies` or `lineage.dependencies` or anything similar named file (`<rom_name>.dependencies`) using `nano`.  
 - Check if the dependencies without `remote` tag has been cloned.  
 3. Open the `AndroidProducts.mk` file points to a valid make file.  
+  
+Move into `~/aex_rom/device/motorola/msm8916-common` using `cd`. If there is any `.dependencies` file (not present in this case), make sure to clone the dependencies in the file.  
