@@ -136,3 +136,4 @@ A few important urls...
    
  - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
  - [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
+ - [Subnetting](https://support.microsoft.com/en-us/help/164015/understanding-tcp-ip-addressing-and-subnetting-basics)  
