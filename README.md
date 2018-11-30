@@ -139,3 +139,5 @@ A few important urls...
  - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
  - [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
  - [Subnetting](https://support.microsoft.com/en-us/help/164015/understanding-tcp-ip-addressing-and-subnetting-basics)  
+ - [Basic SQL video](https://www.youtube.com/watch?v=9Pzj7Aj25lw)  
+   [Different types of joins](https://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join)  
