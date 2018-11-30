@@ -103,6 +103,8 @@ A few important urls...
  
  - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
  - [List of normal and dangerous permissions Android](https://stackoverflow.com/questions/36936914/list-of-android-permissions-normal-permissions-and-dangerous-permissions-in-api)  
+ 
+ - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
    
  ### Online utilities
  
