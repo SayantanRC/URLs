@@ -86,7 +86,8 @@ A few important urls...
  - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)  
    use `ntldr ($root)/bootmgr` (not tested) or `ntldr /bootmgr` (gives an error) after `chainloader +1` in case of errors while booting a Windows installation USB.  
    
- - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>  
+ - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
+ - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
  
  ### Learn
  
@@ -103,9 +104,8 @@ A few important urls...
  
  - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
  - [List of normal and dangerous permissions Android](https://stackoverflow.com/questions/36936914/list-of-android-permissions-normal-permissions-and-dangerous-permissions-in-api)  
- 
- - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
-   
+
+
  ### Online utilities
  
  - [Markdown editor](https://stackedit.io/app#)
@@ -119,7 +119,7 @@ A few important urls...
  [How to check linearity](https://myclassbook.org/linear-non-linear-systems-linearity-property/)
  
  - [Generator poly. for triple error correcting BCH code](https://www.youtube.com/watch?v=vKoo0HLLE50)
- 
+
  - [Aptitude](https://www.youtube.com/playlist?list=PLY3DFj1jjj0URoyHOnxuau6l0EgzOtoHI)
  
  - [Sorting algorithm](https://www.youtube.com/playlist?list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U)  
