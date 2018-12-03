@@ -141,3 +141,8 @@ A few important urls...
  - [Subnetting](https://support.microsoft.com/en-us/help/164015/understanding-tcp-ip-addressing-and-subnetting-basics)  
  - [Basic SQL video](https://www.youtube.com/watch?v=9Pzj7Aj25lw)  
    [Different types of joins](https://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join)  
+   
+ - [UML basic](https://www.youtube.com/watch?v=UI6lqHOVHic)  
+   [UML use case](https://www.youtube.com/watch?v=zid-MVo7M-E)  
+   [UML sequence diagram](https://www.youtube.com/watch?v=pCK6prSq8aw)  
+   
