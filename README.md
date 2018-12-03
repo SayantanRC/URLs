@@ -145,4 +145,4 @@ A few important urls...
  - [UML basic](https://www.youtube.com/watch?v=UI6lqHOVHic)  
    [UML use case](https://www.youtube.com/watch?v=zid-MVo7M-E)  
    [UML sequence diagram](https://www.youtube.com/watch?v=pCK6prSq8aw)  
-   
+   [ER Diagram](https://www.youtube.com/watch?v=QpdhBUYk7Kk)  
