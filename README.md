@@ -147,3 +147,4 @@ A few important urls...
    [UML sequence diagram](https://www.youtube.com/watch?v=pCK6prSq8aw)  
    [ER Diagram](https://www.youtube.com/watch?v=QpdhBUYk7Kk)  
    [ER Diagram 2](https://www.youtube.com/watch?v=-CuY5ADwn24)  
+   [Concept map](https://www.youtube.com/watch?v=8XGQGhli0I0)  
