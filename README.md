@@ -89,6 +89,8 @@ A few important urls...
  - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
  - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
  
+ - [List of treble devices](https://github.com/phhusson/treble_experimentations/wiki)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
