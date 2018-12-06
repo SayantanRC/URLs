@@ -137,6 +137,7 @@ A few important urls...
    [Friss transmission formula](https://www.youtube.com/watch?v=e2bqGmVgk0I)  
    [2G, 2.5G, 3G, 4G](https://www.youtube.com/watch?v=CI9No9Ci9Ro)  
    [Grade of service](https://www.youtube.com/watch?v=lQ1_rIT7Blc)  
+   [GSM frame](https://www.youtube.com/watch?v=KBqRdE44-NA)  
    [Random telecom](https://www.youtube.com/watch?v=tt1-Ohe9QQU)  
    [What is EIRP](https://www.youtube.com/watch?v=tD6jISOispA)  
    
