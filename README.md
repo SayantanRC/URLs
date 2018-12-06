@@ -151,3 +151,7 @@ A few important urls...
    [ER Diagram](https://www.youtube.com/watch?v=QpdhBUYk7Kk)  
    [ER Diagram 2](https://www.youtube.com/watch?v=-CuY5ADwn24)  
    [Concept map](https://www.youtube.com/watch?v=8XGQGhli0I0)  
+   
+ - [Spread spectrum](https://www.youtube.com/watch?v=IU4oAfiYxPY)  
+   [FHSS](https://www.youtube.com/watch?v=CEOpQUDamQM)  
+   [DSSS](https://www.youtube.com/watch?v=rcrBweP_jRE)  
