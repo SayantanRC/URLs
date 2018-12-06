@@ -138,6 +138,7 @@ A few important urls...
    [2G, 2.5G, 3G, 4G](https://www.youtube.com/watch?v=CI9No9Ci9Ro)  
    [Grade of service](https://www.youtube.com/watch?v=lQ1_rIT7Blc)  
    [Random telecom](https://www.youtube.com/watch?v=tt1-Ohe9QQU)  
+   [What is EIRP](https://www.youtube.com/watch?v=tD6jISOispA)  
    
  - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
  - [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
