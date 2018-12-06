@@ -156,3 +156,4 @@ A few important urls...
  - [Spread spectrum](https://www.youtube.com/watch?v=IU4oAfiYxPY)  
    [FHSS](https://www.youtube.com/watch?v=CEOpQUDamQM)  
    [DSSS](https://www.youtube.com/watch?v=rcrBweP_jRE)  
+   [Frequency reuse](https://www.youtube.com/watch?v=j-9wN4tEhWQ)  
