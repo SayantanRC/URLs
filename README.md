@@ -162,4 +162,4 @@ A few important urls...
    [Frequency reuse](https://www.youtube.com/watch?v=j-9wN4tEhWQ)  
    
  - [MOS differential amplifier part 1](https://www.youtube.com/watch?v=AzTk4o3dhsg)  
-   [MOS differential amplifier part 1](https://www.youtube.com/watch?v=tc3rPYXvP-Q)  
+   [MOS differential amplifier part 2](https://www.youtube.com/watch?v=tc3rPYXvP-Q)  
