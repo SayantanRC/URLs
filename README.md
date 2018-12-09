@@ -141,9 +141,11 @@ A few important urls...
    [Random telecom](https://www.youtube.com/watch?v=tt1-Ohe9QQU)  
    [What is EIRP](https://www.youtube.com/watch?v=tD6jISOispA)  
    
- - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
- - [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
  - [Subnetting](https://support.microsoft.com/en-us/help/164015/understanding-tcp-ip-addressing-and-subnetting-basics)  
+   
+ - [VHDL videos](https://www.youtube.com/watch?v=eJHmVlzH_9Q&list=PL7kkolCtIBKLukrBsEDwKRTE64JvaJDhM)  
+   [VHDL rising_edge() vs clk'event](http://vhdlguru.blogspot.com/2010/04/difference-between-risingedgeclk-and.html)  
+   
  - [Basic SQL video](https://www.youtube.com/watch?v=9Pzj7Aj25lw)  
    [Different types of joins](https://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join)  
    
@@ -158,3 +160,6 @@ A few important urls...
    [FHSS](https://www.youtube.com/watch?v=CEOpQUDamQM)  
    [DSSS](https://www.youtube.com/watch?v=rcrBweP_jRE)  
    [Frequency reuse](https://www.youtube.com/watch?v=j-9wN4tEhWQ)  
+   
+ - [MOS differential amplifier part 1](https://www.youtube.com/watch?v=AzTk4o3dhsg)  
+   [MOS differential amplifier part 1](https://www.youtube.com/watch?v=tc3rPYXvP-Q)  
