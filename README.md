@@ -172,3 +172,5 @@ A few important urls...
    [CRC error detection](https://www.youtube.com/watch?v=5Q-Yv6_0Qcw)  
    
  - [CSMA/CD](https://www.youtube.com/watch?v=1Cyl4cYXXxo)  
+   [Control access](https://www.youtube.com/watch?v=6GECNuWi_Y4)  
+   [RSA algorithm](https://www.youtube.com/watch?v=plxMklEvlCU)  
