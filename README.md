@@ -170,3 +170,5 @@ A few important urls...
  - [Hamming code generate](https://www.youtube.com/watch?v=UY0VpqyJ3U4)  
    [Hamming code verify](https://www.youtube.com/watch?v=N8Yy0-4YMS4)  
    [CRC error detection](https://www.youtube.com/watch?v=5Q-Yv6_0Qcw)  
+   
+ - [CSMA/CD](https://www.youtube.com/watch?v=1Cyl4cYXXxo)  
