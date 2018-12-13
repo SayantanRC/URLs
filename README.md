@@ -164,3 +164,5 @@ A few important urls...
    
  - [MOS differential amplifier part 1](https://www.youtube.com/watch?v=AzTk4o3dhsg)  
    [MOS differential amplifier part 2](https://www.youtube.com/watch?v=tc3rPYXvP-Q)  
+   
+ - [Computer networks notes](https://www.cse.iitk.ac.in/users/dheeraj/cs425/)  
