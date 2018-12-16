@@ -109,6 +109,8 @@ A few important urls...
    [Open android notification programmatically](https://stackoverflow.com/questions/45319871/how-to-open-a-statusbarnotification-object-from-notificationlistener-service-n)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
+ 
+ - [Flutter tutorial (hitesh choudhary)](www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
 
 
  ### Online utilities
