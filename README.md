@@ -107,6 +107,8 @@ A few important urls...
  - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
    [List of normal and dangerous permissions Android](https://stackoverflow.com/questions/36936914/list-of-android-permissions-normal-permissions-and-dangerous-permissions-in-api)  
    [Open android notification programmatically](https://stackoverflow.com/questions/45319871/how-to-open-a-statusbarnotification-object-from-notificationlistener-service-n)  
+   
+ - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
 
 
  ### Online utilities
