@@ -1,13 +1,13 @@
-#### Create, use database
+### Create, use database
 ```
 CREATE DATABASE sample;  
 USE sample;  
 ```
-#### See present tables
+### See present tables
 ```
 SHOW TABLES
 ```
-#### Create table
+### Create table
 ```
 CREATE TABLE employee  
 (  
@@ -20,11 +20,11 @@ department VARCHAR(10),
 salary DECIMAL(10.2) --two digits after decimal point  
 );  
 ```
-#### See table description
+### See table description
 ```
 DESC employee;
 ```
-#### Insert into table
+### Insert into table
 ```
 INSERT INTO employee(id, age, name, dob, email, department, salary)  
 VALUES (1121, 22, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'android', 52000.50);  
@@ -41,31 +41,31 @@ VALUES (1123, 22, 'BCD', '1997-06-26 15:50:11', 'bcd@gmail.com', 'design', 50000
 INSERT INTO employee  
 VALUES (1124, 23, 'ArupG', '1989-01-26 10:40:00', 'arupganguli@hotmail.com', 'fabrication', 56500.00);  
 ```
-#### Make a table from another table
+### Make a table from another table
 ```
 CREATE TABLE emp_info AS  
 SELECT id, dob, email  
 FROM employee  
 WHERE department='design';  
 ```
-#### Insert into table from another table
+### Insert into table from another table
 ```
 INSERT INTO emp_info(id, dob, email)  
 SELECT id, dob, email  
 FROM employee  
 WHERE email NOT NULL;
 ```
-#### Select from table
+### Select from table
 ```
 SELECT id, name  
 FROM employee  
 ```
-#### Arithmetic operators
+### Arithmetic operators
 ```
 SELECT 5 + 10;  
 SELECT 11 % 5;  
 ```
-#### Comparison/relational operators
+### Comparison/relational operators
 ```
 SELECT *  
 FROM employee  
@@ -76,7 +76,7 @@ SELECT id
 FROM employee  
 WHERE department<>'design';  --not equal to
 ```
-#### Logical operators (AND, OR, IN, BETWEEN, IS NULL, NOT NULL, ALL, LIKE)
+### Logical operators (AND, OR, IN, BETWEEN, IS NULL, NOT NULL, ALL, LIKE)
 ```
 SELECT *  
 FROM employee  
@@ -102,13 +102,13 @@ SELECT *
 FROM employee  
 WHERE id >= 1122 ALL (SELECT id FROM employee WHERE salary < 56000);  --shows the middle two rows  
 ```
-#### Update table
+### Update table
 ```
 UPDATE employee  
 SET email='bin.sayantan@gmail.com'  
 WHERE name='SayantanRC'  
 ```
-#### Top/limit
+### Top/limit
 ```
 SELECT TOP 3 *  
 FROM employee;
@@ -118,7 +118,7 @@ SELECT *
 FROM employee  
 LIMIT 3;
 ```
-#### Order by
+### Order by
 ```
 SELECT *  
 FROM employee  
@@ -129,7 +129,7 @@ SELECT *
 FROM employee  
 ORDER BY salary DESC;  --descending
 ```
-#### Group by
+### Group by
 ```
 SELECT age, COUNT(*)  --this query returns 2 columns, age and number of people with that age
 FROM employee  
@@ -140,12 +140,12 @@ SELECT age, SUM(salary)  --this query returns 2 columns, age and total salary of
 FROM employee  
 GROUP BY age;  
 ```
-#### Distinct
+### Distinct
 ```
 SELECT DISTINCT age  
 FROM employee  
 ```
-#### Inner join
+### Inner join
 Make a new table first:
 ```
 CREATE TABLE compensation  
@@ -178,7 +178,7 @@ JOIN compensation AS c
 ON e.department=c.department;  
 ```
 <b>compensation</b> table has no row with `department`='fabrication'. So, based on the given ON condition, employee 'ArupG' will not be shown because for him, `e.departent` is never equal to `c.department`.  
-#### Left join
+### Left join
 This will show employee 'ArupG' with a `amount`=null from <b>compensation</b> table.
 ```
 SELECT e.id, e.name, e.salary, c.amount  
@@ -186,7 +186,7 @@ FROM employee AS e
 LEFT JOIN compensation AS c  
 ON e.department=c.department;  
 ```
-#### Right join
+### Right join
 This will show an employee with `e.id`=`e.name`=`e.salary`=null and `amount`=5200.00 (for `department`='paint') from <b>compensation</b> table.
 ```
 SELECT e.id, e.name, e.salary, c.amount  
@@ -194,16 +194,16 @@ FROM employee AS e
 RIGHT JOIN compensation AS c  
 ON e.department=c.department;  
 ```
-#### Delete from table
+### Delete from table
 ```
 DELETE FROM employee  
 WHERE id=1123  
 ```
-#### Drop table
+### Drop table
 ```
 DROP TABLE emp_info;
 ```
-#### Drop database
+### Drop database
 ```
 DROP DATABASE sample;  
 ```
