@@ -63,7 +63,7 @@ WHERE salary>53000;
 
 SELECT id  
 FROM employee  
-WHERE department<>'design';  
+WHERE department<>'design';  --not equal to
 ```
 #### Drop table
 ```
