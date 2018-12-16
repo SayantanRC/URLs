@@ -140,6 +140,36 @@ SELECT age, SUM(salary)  --this query returns 2 columns, age and total salary of
 FROM employee  
 GROUP BY age;  
 ```
+#### Distinct
+```
+SELECT DISTINCT age  
+FROM employee  
+```
+#### Joins
+Make a new table first:
+```
+CREATE TABLE compensation  
+(  
+department VARCHAR(10) PRIMARY KEY,  
+amount DECIMAL(5.2)  
+);
+```
+Insert into table:
+```
+INSERT INTO compensation  
+VALUES ('android', 5000);  
+INSERT INTO compensation  
+VALUES ('design', 4500.50);  
+INSERT INTO compensation  
+VALUES ('fabrication', 5200.00);  
+```
+Make a JOIN statement to join the two tables.
+```
+SELECT e.id, e.name, e.salary, c.amount  
+FROM employee AS e  
+JOIN compensation AS c  
+ON e.department=c.department;  
+```
 #### Delete from table
 ```
 DELETE FROM employee  
