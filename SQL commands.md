@@ -12,6 +12,7 @@ SHOW TABLES
 CREATE TABLE employee  
 (  
 id INT PRIMARY KEY,  
+age INT,
 name VARCHAR(30),  
 dob DATETIME,  
 email VARCHAR(50),  
@@ -25,20 +26,20 @@ DESC employee;
 ```
 #### Insert into table
 ```
-INSERT INTO employee(id, name, dob, email, department, salary)  
-VALUES (1121, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'android', 52000.50);  
+INSERT INTO employee(id, age, name, dob, email, department, salary)  
+VALUES (1121, 22, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'android', 52000.50);  
 ```
 ```
 INSERT INTO employee  
-VALUES (1122, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00);  
+VALUES (1122, 23, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00);  
 ```
 ```
 INSERT INTO employee  
-VALUES (1123, 'BCD', '1997-06-26 15:50:11', 'bcd@gmail.com', 'design', 50000.00);  
+VALUES (1123, 22, 'BCD', '1997-06-26 15:50:11', 'bcd@gmail.com', 'design', 50000.00);  
 ```
 ```
 INSERT INTO employee  
-VALUES (1124, 'ArupG', '1989-01-26 10:40:00', 'arupganguli@hotmail.com', 'fabrication', 56500.00);  
+VALUES (1124, 23, 'ArupG', '1989-01-26 10:40:00', 'arupganguli@hotmail.com', 'fabrication', 56500.00);  
 ```
 #### Make a table from another table
 ```
@@ -99,7 +100,50 @@ WHERE salary BETWEEN 50000 AND 55000;  --both limits are included
 ```
 SELECT *  
 FROM employee  
-WHERE id >= 1122 ALL (SELECT id FROM employee WHERE salary < 56000)  --shows the middle two rows  
+WHERE id >= 1122 ALL (SELECT id FROM employee WHERE salary < 56000);  --shows the middle two rows  
+```
+#### Update table
+```
+UPDATE employee  
+SET email='bin.sayantan@gmail.com'  
+WHERE name='SayantanRC'  
+```
+#### Top/limit
+```
+SELECT TOP 3 *  
+FROM employee;
+```
+```
+SELECT *  
+FROM employee  
+LIMIT 3;
+```
+#### Order by
+```
+SELECT *  
+FROM employee  
+ORDER BY name;  --ascending
+```
+```
+SELECT *  
+FROM employee  
+ORDER BY salary DESC;  --descending
+```
+#### Group by
+```
+SELECT age, COUNT(*)  --this query returns 2 columns, age and number of people with that age
+FROM employee  
+GROUP BY age;  
+```
+```
+SELECT age, SUM(salary)  --this query returns 2 columns, age and total salary of that age group
+FROM employee  
+GROUP BY age;  
+```
+#### Delete from table
+```
+DELETE FROM employee  
+WHERE id=1123  
 ```
 #### Drop table
 ```
