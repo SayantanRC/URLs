@@ -177,7 +177,23 @@ FROM employee AS e
 JOIN compensation AS c  
 ON e.department=c.department;  
 ```
-'compensation' table has no row with department='fabrication'. So, based on the given ON condition, employee 'ArupG' will not be shown because for him, `e.departent` is never equal to `c.department`.  
+<b>compensation</b> table has no row with `department`='fabrication'. So, based on the given ON condition, employee 'ArupG' will not be shown because for him, `e.departent` is never equal to `c.department`.  
+#### Left join
+This will show employee 'ArupG' with a `amount`=null from <b>compensation</b> table.
+```
+SELECT e.id, e.name, e.salary, c.amount  
+FROM employee AS e  
+LEFT JOIN compensation AS c  
+ON e.department=c.department;  
+```
+#### Right join
+This will show an employee with `e.id`=`e.name`=`e.salary`=null and `amount`=5200.00 (for `department`='paint') from <b>compensation</b> table.
+```
+SELECT e.id, e.name, e.salary, c.amount  
+FROM employee AS e  
+RIGHT JOIN compensation AS c  
+ON e.department=c.department;  
+```
 #### Delete from table
 ```
 DELETE FROM employee  
