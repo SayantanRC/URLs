@@ -145,7 +145,7 @@ GROUP BY age;
 SELECT DISTINCT age  
 FROM employee  
 ```
-#### Joins
+#### Inner join
 Make a new table first:
 ```
 CREATE TABLE compensation  
@@ -161,9 +161,16 @@ VALUES ('android', 5000);
 INSERT INTO compensation  
 VALUES ('design', 4500.50);  
 INSERT INTO compensation  
-VALUES ('fabrication', 5200.00);  
+VALUES ('paint', 5200.00);  
 ```
 Make a JOIN statement to join the two tables.
+```
+SELECT e.id, e.name, e.salary, c.amount  
+FROM employee AS e  
+JOIN compensation AS c  
+ON e.department=c.department;  
+```
+Or
 ```
 SELECT e.id, e.name, e.salary, c.amount  
 FROM employee AS e  
