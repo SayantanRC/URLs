@@ -96,6 +96,11 @@ SELECT *
 FROM employee  
 WHERE salary BETWEEN 50000 AND 55000;  --both limits are included
 ```
+```
+SELECT *  
+FROM employee  
+WHERE id >= 1122 ALL (SELECT id FROM employee WHERE salary < 56000)  --shows the middle two rows  
+```
 #### Drop table
 ```
 DROP TABLE emp_info;
