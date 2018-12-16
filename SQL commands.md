@@ -27,7 +27,8 @@ DESC employee;
 ```
 INSERT INTO employee(id, name, dob, email, department, salary)  
 VALUES (1121, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'android', 52000.50);  
-
+```
+```
 INSERT INTO employee  
 VALUES (1122, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00);  
 ```
