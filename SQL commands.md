@@ -36,6 +36,10 @@ VALUES (1122, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00)
 INSERT INTO employee  
 VALUES (1123, 'BCD', '1997-06-26 15:50:11', 'bcd@gmail.com', 'design', 50000.00);  
 ```
+```
+INSERT INTO employee  
+VALUES (1124, 'ArupG', '1989-01-26 10:40:00', 'arupganguli@hotmail.com', 'fabrication', 56500.00);  
+```
 #### Make a table from another table
 ```
 CREATE TABLE emp_info AS  
@@ -81,6 +85,16 @@ WHERE salary>53000 AND department='design';
 SELECT *  
 FROM employee  
 WHERE name LIKE 'S%' OR name LIKE '_B_';  --% means one, zero or more chars, _ means one char  
+```
+```
+SELECT *  
+FROM employee  
+WHERE dapartment IN ('design', 'fabrication', 'paint');  --Skips the non existent 'paint' department.
+```
+```
+SELECT *  
+FROM employee  
+WHERE salary BETWEEN 50000 AND 55000;  --both limits are included
 ```
 #### Drop table
 ```
