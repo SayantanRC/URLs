@@ -17,7 +17,7 @@ name VARCHAR(30),
 dob DATETIME,  
 email VARCHAR(50),  
 department VARCHAR(10),  
-salary DECIMAL(10.2)  
+salary DECIMAL(10.2) --two digits after decimal point  
 );  
 ```
 #### See table description
@@ -28,6 +28,7 @@ DESC employee;
 ```
 INSERT INTO employee(id, name, dob, email, department, salary)  
 VALUES (1121, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'android', 52000.50);  
+  
 INSERT INTO employee  
 VALUES (1122, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00);  
 ```
@@ -58,4 +59,14 @@ DROP TABLE emp_info;
 ```
 SELECT 5 + 10;  
 SELECT 11 % 5;  
+```
+#### Comparison operators
+```
+SELECT *  
+FROM employee  
+WHERE salary>53000;  
+
+SELECT id  
+FROM employee  
+WHERE department<>'design';  
 ```
