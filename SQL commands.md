@@ -177,6 +177,7 @@ FROM employee AS e
 JOIN compensation AS c  
 ON e.department=c.department;  
 ```
+'compensation' table has no row with department='fabrication'. So, based on the given ON condition, employee 'ArupG' will not be shown because for him, `e.departent` is never equal to `c.department`.  
 #### Delete from table
 ```
 DELETE FROM employee  
