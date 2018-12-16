@@ -30,7 +30,8 @@ VALUES (1121, 'SayantanRC', '1996-06-25 17:33:21', 'sayantan.kgp@gmail.com', 'an
 
 INSERT INTO employee  
 VALUES (1122, 'ABC', '1996-06-26 15:53:51', 'abc@gmail.com', 'design', 55000.00);  
-
+```
+```
 INSERT INTO employee  
 VALUES (1123, 'BCD', '1997-06-26 15:50:11', 'bcd@gmail.com', 'design', 50000.00);  
 ```
@@ -63,7 +64,8 @@ SELECT 11 % 5;
 SELECT *  
 FROM employee  
 WHERE salary>53000;  
-
+```
+```
 SELECT id  
 FROM employee  
 WHERE department<>'design';  --not equal to
@@ -73,7 +75,8 @@ WHERE department<>'design';  --not equal to
 SELECT *  
 FROM employee  
 WHERE salary>53000 AND department='design';  
-
+```
+```
 SELECT *  
 FROM employee  
 WHERE name LIKE 'S%' OR name LIKE '_B_';  --% means one, zero or more chars, _ means one char  
