@@ -76,8 +76,7 @@ WHERE salary>53000 AND department='design';
 
 SELECT *  
 FROM employee  
-WHERE name LIKE 'S%' OR name LIKE '_B_';  
---% means one, zero or more chars, _ means one char  
+WHERE name LIKE 'S%' OR name LIKE '_B_';  --% means one, zero or more chars, _ means one char  
 ```
 #### Drop table
 ```
