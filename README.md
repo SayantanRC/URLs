@@ -91,6 +91,8 @@ A few important urls...
  
  - [List of treble devices](https://github.com/phhusson/treble_experimentations/wiki)  
  
+ - [TWRP asking for password](https://www.reddit.com/r/Nexus5/comments/2mskzu/twrp_is_asking_for_a_password/)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
