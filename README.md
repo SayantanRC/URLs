@@ -114,6 +114,9 @@ A few important urls...
  
  - [Flutter tutorial (hitesh choudhary)](www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
 
+ ### Support
+ 
+ - [Google Play support](https://support.google.com/googleplay/android-developer/answer/7218994?hl=en)  
 
  ### Online utilities
  
