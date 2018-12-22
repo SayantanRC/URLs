@@ -112,7 +112,7 @@ A few important urls...
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
  
- - [Flutter tutorial (hitesh choudhary)](www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
+ - [Flutter tutorial (hitesh choudhary)](https://www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
 
  ### Support
  
