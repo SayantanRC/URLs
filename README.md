@@ -93,6 +93,8 @@ A few important urls...
  
  - [TWRP asking for password](https://www.reddit.com/r/Nexus5/comments/2mskzu/twrp_is_asking_for_a_password/)  
  
+ - [adb secure settings](https://joaoapps.com/AutoApps/Help/Info/com.joaomgcd.autotools/com.joaomgcd.autotools.activity.ActivityConfigsettings.html)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
