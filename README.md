@@ -108,6 +108,7 @@ A few important urls...
  
  - [Git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)  
    [Tagging in Android studio](https://stackoverflow.com/questions/19862682/android-studio-push-tags-to-remote)  
+   [More in tags](https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags)  
  
  - [updater-script all commands](https://forum.xda-developers.com/showthread.php?t=1931585)  
  
