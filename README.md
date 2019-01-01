@@ -94,6 +94,7 @@ A few important urls...
  - [TWRP asking for password](https://www.reddit.com/r/Nexus5/comments/2mskzu/twrp_is_asking_for_a_password/)  
  
  - [adb secure settings](https://joaoapps.com/AutoApps/Help/Info/com.joaomgcd.autotools/com.joaomgcd.autotools.activity.ActivityConfigsettings.html)  
+ - [pm set-installer](https://stackoverflow.com/questions/9146820/set-installer-package-value-as-returned-in-getinstallerpackagename)  
  
  ### Learn
  
