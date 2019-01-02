@@ -127,12 +127,12 @@ A few important urls...
 
  ### Online utilities
  
- - [Markdown editor](https://stackedit.io/app#)
- - [JSON parser](http://json.parser.online.fr/)
- - [VLSI online IDE](https://www.edaplayground.com/)
+ - [Markdown editor](https://stackedit.io/app#)  
+   [JSON parser](http://json.parser.online.fr/)  
+   [VLSI online IDE](https://www.edaplayground.com/)  
+  
  - [Free eBooks](https://goalkicker.com)  
- 
- - [PDF converter](https://www.pdf2go.com)  
+   [PDF converter](https://www.pdf2go.com)  
  
  ### Study
 
