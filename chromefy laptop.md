@@ -16,6 +16,7 @@ STATE : /dev/sda7
 Use a fast enough USB drive and burn ArnoldTheBat's chromium image in it using Etcher or any other software.
 ### 3. Copy files
 Mount the ROOT-A and STATE partitions on hard disk and also from the USB drive. Copy all files from ROOT-A of USB drive to ROOT-A of hard disk. Similarly for STATE.
+### Remove the USB drive...
 ### 4. Download Chrome OS files
 From the link to XDA thread, download `chromefy.sh` script, `eve` and `caroline` images. Unpack the zips in the same directory (say ~/Downloads).
 ### 5. Make a boot entry and copy the respective part.
