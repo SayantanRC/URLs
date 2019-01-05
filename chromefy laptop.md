@@ -4,13 +4,13 @@
 
 ### 1. Create partitions using Gparted:
 ```
-<b>ROOT-A</b> : 5 GB : ext2  
-<b>STATE</b> : about 30 GB or more : ext4
+ROOT-A : 5 GB : ext2  
+STATE : about 30 GB or more : ext4
 ```
 Note down the partition numbers. Example:  
 ```
-ROOT-A : <b>/dev/sda10<b/>  
-STATE : <b>/dev/sda7</b>
+ROOT-A : /dev/sda10  
+STATE : /dev/sda7
 ```
 ### 2. Burn USB drive
 Use a fast enough USB drive and burn ArnoldTheBat's chromium image in it using Etcher or any other software.
