@@ -9,7 +9,7 @@
 ```
 Note down the partition numbers. Example:  
 ```
-ROOT-A : <b>/dev/sda10</b>  
+ROOT-A : <b>/dev/sda10<b/>  
 STATE : <b>/dev/sda7</b>
 ```
 ### 2. Burn USB drive
