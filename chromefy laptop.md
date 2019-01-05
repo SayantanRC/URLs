@@ -21,7 +21,6 @@ Mount the ROOT-A and STATE partitions on hard disk and also from the USB drive. 
 From the link to XDA thread, download `chromefy.sh` script, `eve` and `caroline` images. Unpack the zips in the same directory (say ~/Downloads).
 ### 5. Make a boot entry and copy the respective part.
 ```
-sudo os-prober  
 sudo update-grub
 ```
 Note the name of the boot entry of Chrome OS (usually `unknown Linux distribution`)  
