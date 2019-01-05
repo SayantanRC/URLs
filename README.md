@@ -88,6 +88,7 @@ A few important urls...
    
  - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
  - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
+   [My guide](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
  
  - [List of treble devices](https://github.com/phhusson/treble_experimentations/wiki)  
  
