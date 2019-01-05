@@ -1,5 +1,7 @@
 [XDA thread](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
 
+## This guide specifically highlights dual booting Chrome OS with Linux.
+
 ### 1. Create partitions using Gparted:
 ```
 <b>ROOT-A</b> : 5 GB : ext2  
