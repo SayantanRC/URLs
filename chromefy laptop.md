@@ -44,7 +44,7 @@ cd /media/<username>/<name_of_ROOT-A_partition_in_hdd>/usr/sbin
 sudo cp write_gpt.sh write_gpt.sh.bak  
 sudo gedit write_gpt.sh
 ```
-Search for `base_vars` and 'partition_vars`. Edit the partition numbers of ROOT-A and STATE from step-1 and remove all other partition information. The size of ROOT-A and STATE need not be altered.  
+Search for `base_vars` and `partition_vars`. Edit the partition numbers of ROOT-A and STATE from step-1 and remove all other partition information. The size of ROOT-A and STATE need not be altered.  
 Save the file and maintain a copy of it.
 ```
 sudo cp /media/<username>/<name_of_ROOT-A_partition_in_hdd>/usr/sbin/write_gpt.sh /home/<username>/
