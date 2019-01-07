@@ -5,6 +5,8 @@ A few important urls...
 
  - [Chromium OS dual boot on hard drive](https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/)  
    [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)  
+ - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
+   [My guide](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
    [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
@@ -87,8 +89,6 @@ A few important urls...
    use `ntldr ($root)/bootmgr` (not tested) or `ntldr /bootmgr` (gives an error) after `chainloader +1` in case of errors while booting a Windows installation USB.  
    
  - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
- - [Chromium OS to Chrome OS](https://forum.xda-developers.com/hardware-hacking/chromebooks/guide-installing-official-chrome-os-pc-t3865697)  
-   [My guide](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
  
  - [List of treble devices](https://github.com/phhusson/treble_experimentations/wiki)  
  
