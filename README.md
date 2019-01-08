@@ -98,6 +98,8 @@ A few important urls...
  
  - [pm set-installer](https://stackoverflow.com/questions/9146820/set-installer-package-value-as-returned-in-getinstallerpackagename)  
  
+ - [mounting bin/img file](https://unix.stackexchange.com/questions/82314/how-to-find-the-type-of-an-img-file-and-mount-it)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
