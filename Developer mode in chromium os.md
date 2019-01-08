@@ -50,11 +50,11 @@ sudo gedit usr/bin/crosh
   There is a variable called `CROS_DEVMODE`. It must be set to ¨1¨ in the first line:  
   Initially it would not have any value.  
   > CROS_DEVMODE=  
-  Change it to:  
+ Change it to:  
   > CROS_DEVMODE=¨1¨  
   
 #### The password is now `password` for both `chronos` and `root`
 Boot into chromium os, press Alt+Ctrl+T to open crosh  
 Type `shell` to login as `chronos`. No password is needed.  
-To login as `root`, first type `shell`, then type `sudo su` with password: `password`  
+To login as `root`, first login as `chronos` as in the previous line, then type `sudo su` with password: `password`  
 Enter <i>logout</i> to close a `chronos` session, <i>exit</i> to close a `root` session.  
