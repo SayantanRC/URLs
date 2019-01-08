@@ -47,11 +47,11 @@ sudo cp usr/bin/crosh usr/bin/crosh.bak
 ```
 sudo gedit usr/bin/crosh
 ```
-  There is a variable called `CROS_DEVMODE`. It must be set to ¨1¨ in the first line:  
-  Initially it would not have any value.  
-  > CROS_DEVMODE=  
- Change it to:  
-  > CROS_DEVMODE=¨1¨  
+There is a variable called `CROS_DEVMODE`. It must be set to ¨1¨ in the first line:  
+Initially it would not have any value.  
+> CROS_DEVMODE=  
+Change it to:  
+> CROS_DEVMODE=¨1¨  
   
 #### The password is now `password` for both `chronos` and `root`
 Boot into chromium os, press Alt+Ctrl+T to open crosh  
