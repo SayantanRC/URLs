@@ -14,7 +14,7 @@
 3. Mount <b>ROOT-A</b> partition
 4. Open terminal (Ctrl+Alt+T)
 
-#### 1. This will allow opening tty
+#### PROCESS 1. This will allow opening tty
 #### (Alt+Ctrl+F2 from anywhere in chromium os)
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
   (mount point can be checked from GParted)  
@@ -37,8 +37,10 @@ OR, login as `root` with password: `password`
 Enter <i>logout</i> to close a chronos/root session.  
 Press Ctrl+Alt+F1 to get out of tty.  
 
-#### 2. This will allow opening ¨shell¨ from crosh (tested only on ArnoldTheBatś image)
+#### PROCESS 2. This will allow opening ¨shell¨ from crosh (tested only on ArnoldTheBatś image)
 #### (Alt+Ctrl+T from anywhere in chromium os)
+<b>WARNING: As of now, in chromefy-ed images, this process makes the android app launches laggy.</b>  
+
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
   (mount point can be checked from GParted)
 2. Copy /usr/bin/crosh file (just in case you need to revert)
