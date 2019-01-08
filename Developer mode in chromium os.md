@@ -57,4 +57,4 @@ sudo gedit usr/bin/crosh
 Boot into chromium os, press Alt+Ctrl+T to open crosh  
 Type `shell` to login as `chronos`. No password is needed.  
 To login as `root`, first type `shell`, then type `sudo su` with password: `password`  
-Enter ¨logout¨ to close a `chronos` session, ¨exit¨ to close a `root` session.  
+Enter <i>logout</i> to close a `chronos` session, <i>exit</i> to close a `root` session.  
