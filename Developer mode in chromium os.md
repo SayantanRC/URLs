@@ -1,3 +1,5 @@
+# Force developer mode in Chromium (or Chrome) OS
+
 ### Requirements
 - Chromium os already installed
 - A USB drive, bootable with Ubuntu (or any other linux distro)  
