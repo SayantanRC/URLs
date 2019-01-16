@@ -121,6 +121,7 @@ A few important urls...
    [List of normal and dangerous permissions Android](https://stackoverflow.com/questions/36936914/list-of-android-permissions-normal-permissions-and-dangerous-permissions-in-api)  
    [Open android notification programmatically](https://stackoverflow.com/questions/45319871/how-to-open-a-statusbarnotification-object-from-notificationlistener-service-n)  
    [Scrollbar variations](https://android.jlelse.eu/scrolling-behavior-for-appbars-in-android-41aff9c5c468)  
+   [TextInputLayout tutorial](https://www.journaldev.com/14748/android-textinputlayout-example)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
    [Shell script basic operation](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)  
