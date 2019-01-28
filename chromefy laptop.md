@@ -19,16 +19,7 @@ Mount the ROOT-A and STATE partitions on hard disk and also from the USB drive. 
 ### Remove the USB drive...
 ### 4. Download Chrome OS files
 From the link to XDA thread, download `chromefy.sh` script, `eve` and `caroline` images. Unpack the zips in the same directory (say ~/Downloads).
-### 5. Make a boot entry and copy the respective part.
-```
-sudo update-grub
-```
-Note the name of the boot entry of Chrome OS (usually `unknown Linux distribution`)  
-```
-gedit /boot/grub/grub.cfg
-```
-Copy the respective menuentry and keep it in a file, in case it is needed later.
-### 6. Patch the Chromium OS build
+### 5. Patch the Chromium OS build
 From step-1 see the ROOT-A partition number. For me it was `/dev/sda10`. Substitute it in the following commands as needed.
 ```
 ROOT_PARTITION="/dev/sda10"  
@@ -37,7 +28,7 @@ sudo bash ./chromefy.sh $ROOT_PARTITION <chromeos_eve_image.bin> <chromeos_carol
 ```
 <b>Important</b>  
 If you are told that the partition was previously mounted and if you would like to continue, hit `n`.
-### 7. Edit the partition layout
+### 6. Edit the partition layout
 Go to nautilus (or any other file manager) and mount the ROOT-A partition
 ```
 cd /media/<username>/<name_of_ROOT-A_partition_in_hdd>/usr/sbin  
@@ -49,17 +40,8 @@ Save the file and maintain a copy of it.
 ```
 sudo cp /media/<username>/<name_of_ROOT-A_partition_in_hdd>/usr/sbin/write_gpt.sh /home/<username>/
 ```
-### 8. Boot to Chrome OS
-Reboot and just boot to `unknown Linux distribution`. Don't sign in. Press "Shutdown" and boot back to Linux.
-### 9. Update grub.
-```
-sudo os-prober
-```
-If `Chrome` is detected, great. If not edit the file under `/etc/grub.d/40_custom` and paste the backup of the menuentry taken in step-5 at the end of the file.  
-Feel free to rename "unknown Linux disribution" to say "Chrome OS".  
-Finally update-grub.
+### 7. Make a boot entry
 ```
 sudo update-grub
 ```
-
-### 10. Reboot to Chrome OS and enjoy!
+### 8. Reboot to Chrome OS and enjoy!
