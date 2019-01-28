@@ -51,6 +51,6 @@ Navigate to `/boot/grub` and edit the `grub.cfg` file.
 sudo gedit /boot/grub/grub.cfg
 ```
 Search for "Chrome" and add `cros_debug` in the end of the following line as shown:  
-  > linux /boot/vmlinuz-4.14.67 root=/dev/sda10 cros_debug  
+  > linux /boot/vmlinuz-4.14.67 root=/dev/sda10 cros_debug
 This should preferably be in the main menuentry.
 ### 9. Reboot to Chrome OS and enjoy!
