@@ -44,4 +44,13 @@ sudo cp /media/<username>/<name_of_ROOT-A_partition_in_hdd>/usr/sbin/write_gpt.s
 ```
 sudo update-grub
 ```
-### 8. Reboot to Chrome OS and enjoy!
+An entry "Chrome (on /dev/sdaX)" should be now present in GRUB entry.  
+### 8. Force enable developer mode
+Navigate to `/boot/grub` and edit the `grub.cfg` file.  
+```
+sudo gedit /boot/grub/grub.cfg
+```
+Search for "Chrome" and add `cros_debug` in the end of the following line as shown:  
+> 	linux /boot/vmlinuz-4.14.67 root=/dev/sda10 cros_debug  
+This should preferably be in the main menuentry.
+### 9. Reboot to Chrome OS and enjoy!
