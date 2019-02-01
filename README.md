@@ -100,7 +100,8 @@ A few important urls...
  
  - [mounting bin/img file](https://unix.stackexchange.com/questions/82314/how-to-find-the-type-of-an-img-file-and-mount-it)  
  
- - [Beep from speaker (linux)](https://unix.stackexchange.com/questions/1974/how-do-i-make-my-pc-speaker-beep)  
+ - [Mute / unmute using pactl](https://askubuntu.com/questions/26068/how-do-you-mute-from-the-command-line)  
+   [Beep from speaker (linux)](https://unix.stackexchange.com/questions/1974/how-do-i-make-my-pc-speaker-beep)  
  
  ### Learn
  
