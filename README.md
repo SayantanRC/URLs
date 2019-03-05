@@ -87,6 +87,8 @@ A few important urls...
  - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)  
    use `ntldr ($root)/bootmgr` (not tested) or `ntldr /bootmgr` (gives an error) after `chainloader +1` in case of errors while booting a Windows installation USB.  
    
+ - [Remove Grub and ubuntu](https://www.youtube.com/watch?v=5Rq4zovHiWk)  
+   
  - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
  
  - [List of treble devices](https://github.com/phhusson/treble_experimentations/wiki)  
