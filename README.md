@@ -128,6 +128,8 @@ A few important urls...
    [Scrollbar variations](https://android.jlelse.eu/scrolling-behavior-for-appbars-in-android-41aff9c5c468)  
    [TextInputLayout tutorial](https://www.journaldev.com/14748/android-textinputlayout-example)  
    [Ripple + Elevation](https://trickyandroid.com/simple-ripple-reveal-elevation-tutorial/)  
+   [Collapsing toolbar with circular image](https://stackoverflow.com/questions/40493837/coordinatorlayout-custom-behavior-with-appbarlayout)  
+   [Night theme/dark theme](https://blog.iamsuleiman.com/daynight-theme-android-tutorial-example/)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
    [Shell script basic operation](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)  
