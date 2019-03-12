@@ -14,4 +14,4 @@ It should be: <b>org.chromium.arc.ime/.ArcInputMethodService</b>
 See available input methods:  
 `ime list -a -s`  
 ### Set Gboard
-`settings get secure enabled_input_methods org.chromium.arc.ime/.ArcInputMethodService:com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME`  
+`settings put secure enabled_input_methods org.chromium.arc.ime/.ArcInputMethodService:com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME`  
