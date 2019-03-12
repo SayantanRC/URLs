@@ -9,8 +9,8 @@ STATE : about 30 GB or more : ext4
 ```
 Note down the partition numbers. Example:  
 ```
-ROOT-A : /dev/sda10  
-STATE : /dev/sda7
+ROOT-A : /dev/sda7  
+STATE : /dev/sda8
 ```
 ### 2. Burn USB drive
 Use a fast enough USB drive and burn ArnoldTheBat's chromium image in it using Etcher or any other software.
@@ -22,7 +22,7 @@ From the link to XDA thread, download `chromefy.sh` script, `eve` and `caroline`
 ### 5. Patch the Chromium OS build
 From step-1 see the ROOT-A partition number. For me it was `/dev/sda10`. Substitute it in the following commands as needed.
 ```
-ROOT_PARTITION="/dev/sda10"  
+ROOT_PARTITION="/dev/sda7"  
 cd </path/to/chromefy+chromeos_images>  
 sudo bash ./chromefy.sh $ROOT_PARTITION <chromeos_eve_image.bin> <chromeos_caroline_recovery_image.bin>  
 ```
