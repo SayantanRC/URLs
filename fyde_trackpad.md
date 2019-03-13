@@ -1,4 +1,4 @@
-# Get Fyde OS trackpad/touchpad drivers on Chrome os
+# Get Fyde OS trackpad/touchpad drivers on Chrome OS
 ## Requirements
 1. Preferably a separate linux installation (you can use live cd).  
 2. Fyde OS img file.  
