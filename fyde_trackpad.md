@@ -13,4 +13,5 @@
 ## Set the touchpad
 Boot into Chrome OS. Open shell and login as `root`. Issue the following command:
 `set-touchpad <option>`  
-where option = "imps" or "bare" or "exps" or "auto". You can see the available options in the `set-touchpad.sh` file itself.
+where option = "imps" or "bare" or "exps" or "auto". You can see the available options in the `set-touchpad.sh` file itself.  
+Finally reboot.
