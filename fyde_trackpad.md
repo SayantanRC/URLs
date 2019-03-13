@@ -6,10 +6,10 @@
 ## How to
 1. Burn the Fyde OS image onto USB drive.  
 2. Boot linux and mount ROOT-A partitions from Fyde OS USB and actual Chrome OS.  
-3. Inside Chrome OS ROOT-A partition rename the `psmouse.ko` file to `psmouse_bak.ko` under `/lib/modules/4.18...` directory  
+3. Inside Chrome OS ROOT-A partition rename the `psmouse.ko` file to `psmouse_bak.ko` under `/lib/modules/4.18.../kernel/drivers/input/mouse` directory  
 4. Copy the following files from Fyde OS ROOT-A to Chrome OS ROOT-A:  
 `/usr/bin/set-touchpad.sh`  
-`/lib/modules/4.18.../psmouse.ko`  
+`/lib/modules/4.18.../kernel/drivers/input/mouse/psmouse.ko`  
 ## Set the touchpad
 Boot into Chrome OS. Open shell and login as `root`. Issue the following command:
 `set-touchpad <option>`  
