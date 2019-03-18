@@ -38,29 +38,12 @@ Enter <i>logout</i> to close a chronos/root session.
 Press Ctrl+Alt+F1 to get out of tty.  
 
 ### PROCESS 2. This will allow all developer options
-
-
-
-
 1. Edit the GRUB file in Ubuntu
 ```
 sudo gedit /boot/grub/grub.cfg
 ```
-7. Edit and save the original shadow file:
-```
-sudo gedit usr/bin/crosh
-```
-Search for the variable called `CROSH_DEVMODE`. It must be set to ¨1¨ in the first line:  
-Initially it would not have any value.  
+Search for "Chrome" and add `cros_debug` in the end of the following line as shown:  
+  > linux /boot/vmlinuz-4.14.67 root=/dev/sda7 <b>cros_debug</b>  
 
-  > CROSH_DEVMODE=  
-  
-Change it to:  
-
-  > CROSH_DEVMODE=¨1¨  
-  
-#### The password is now `password` for both `chronos` and `root`
-Boot into chromium os, press Alt+Ctrl+T to open crosh  
-Type `shell` to login as `chronos`. No password is needed.  
-To login as `root`, first login as `chronos` as in the previous line, then type `sudo su` with password: `password`  
-Enter <i>logout</i> to close a `chronos` session, <i>exit</i> to close a `root` session.  
+This should preferably be in the main menuentry.
+### Reboot to Chrome OS and enjoy!
