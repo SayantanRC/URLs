@@ -14,8 +14,8 @@
 3. Mount <b>ROOT-A</b> partition
 4. Open terminal (Ctrl+Alt+T)
 
-### PROCESS 1. This will allow opening tty
-<b>(Alt+Ctrl+F2 from anywhere in chromium os)</b>  
+### PROCESS 1. This will set a password for `chronos` and `root`
+
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
   (mount point can be checked from GParted)  
 2. Copy etc/shadow file (just in case you need to revert)
@@ -37,15 +37,14 @@ OR, login as `root` with password: `password`
 Enter <i>logout</i> to close a chronos/root session.  
 Press Ctrl+Alt+F1 to get out of tty.  
 
-### PROCESS 2. This will allow opening ¨shell¨ from crosh (tested only on ArnoldTheBatś image)
-<b>(Alt+Ctrl+T from anywhere in chromium os)</b>  
-<b>WARNING: As of now, in chromefy-ed images, this process makes the android app launches laggy.</b>  
+### PROCESS 2. This will allow all developer options
 
-1. <i>cd</i> into <b>ROOT-A</b> mount point.  
-  (mount point can be checked from GParted)
-2. Copy /usr/bin/crosh file (just in case you need to revert)
+
+
+
+1. Edit the GRUB file in Ubuntu
 ```
-sudo cp usr/bin/crosh usr/bin/crosh.bak
+sudo gedit /boot/grub/grub.cfg
 ```
 7. Edit and save the original shadow file:
 ```
