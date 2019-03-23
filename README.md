@@ -105,6 +105,8 @@ A few important urls...
  
  - [Mute / unmute using pactl](https://askubuntu.com/questions/26068/how-do-you-mute-from-the-command-line)  
    [Beep from speaker (linux)](https://unix.stackexchange.com/questions/1974/how-do-i-make-my-pc-speaker-beep)  
+   
+ - [Convert from MBR to GPT for Ubuntu](https://askubuntu.com/questions/84501/how-can-i-change-convert-a-ubuntu-mbr-drive-to-a-gpt-and-make-ubuntu-boot-from)  
  
  ### Learn
  
