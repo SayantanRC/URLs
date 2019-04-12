@@ -111,6 +111,7 @@ A few important urls...
  ### Android for noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
  - [ADB executables](https://www.xda-developers.com/install-adb-windows-macos-linux/)  
+ - [Camera 2 for ASUS](https://forum.xda-developers.com/max-pro-m2/how-to/google-camera-asus-zenfone-max-pro-m2-t3880722)  
  
  ### Learn
  
