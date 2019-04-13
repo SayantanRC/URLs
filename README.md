@@ -109,6 +109,7 @@ A few important urls...
  - [Convert from MBR to GPT for Ubuntu](https://askubuntu.com/questions/84501/how-can-i-change-convert-a-ubuntu-mbr-drive-to-a-gpt-and-make-ubuntu-boot-from)  
  
  - [Snap commands](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)  
+   [Make desktop entry for snap packages](https://forum.snapcraft.io/t/automatically-copy-desktop-file-to-local-share-applications/4427)  
  
  ### Android for noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
