@@ -108,6 +108,8 @@ A few important urls...
    
  - [Convert from MBR to GPT for Ubuntu](https://askubuntu.com/questions/84501/how-can-i-change-convert-a-ubuntu-mbr-drive-to-a-gpt-and-make-ubuntu-boot-from)  
  
+ - [Snap commands](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)  
+ 
  ### Android for noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
  - [ADB executables](https://www.xda-developers.com/install-adb-windows-macos-linux/)  
