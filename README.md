@@ -154,7 +154,7 @@ A few important urls...
  
  - [Google Play support](https://support.google.com/googleplay/android-developer/answer/7218994?hl=en)  
 
- ### Online utilities
+ ### Online utilities/resources
  
  - [Markdown editor](https://stackedit.io/app#)  
    [JSON parser](http://json.parser.online.fr/)  
@@ -162,6 +162,8 @@ A few important urls...
   
  - [Free eBooks](https://goalkicker.com)  
    [PDF converter](https://www.pdf2go.com)  
+   
+ - [Yify movies](https://yifyddl.movie)  
  
  ### Study
 
