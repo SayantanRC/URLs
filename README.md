@@ -163,7 +163,8 @@ A few important urls...
  - [Free eBooks](https://goalkicker.com)  
    [PDF converter](https://www.pdf2go.com)  
    
- - [Yify movies](https://yifyddl.movie)  
+ - [Yify movies 1](https://yifyddl.movie)  
+   [Yify movies 2](https://www1.yify.is)  
  
  ### Study
 
