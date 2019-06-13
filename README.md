@@ -119,6 +119,8 @@ A few important urls...
  
  - [Android device certification](https://www.google.com/android/uncertified/)  
  
+ - [Pair watch without factory reset](https://www.xda-developers.com/pair-android-wear-without-factory-reset/)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
