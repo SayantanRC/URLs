@@ -151,6 +151,8 @@ A few important urls...
    [Shell script basic operation](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)  
  
  - [Flutter tutorial (hitesh choudhary)](https://www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
+ 
+ - [Generics in Kotlin](https://proandroiddev.com/understanding-generics-and-variance-in-kotlin-714c14564c47)  
 
  ### Support
  
