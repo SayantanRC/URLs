@@ -110,8 +110,10 @@ A few important urls...
  
  - [Snap commands](https://itsfoss.com/use-snap-packages-ubuntu-16-04/)  
    [Make desktop entry for snap packages](https://forum.snapcraft.io/t/automatically-copy-desktop-file-to-local-share-applications/4427)  
- 
- ### Android for noobs
+   
+ - [Pair watch without factory reset](https://www.xda-developers.com/pair-android-wear-without-factory-reset/)  
+
+ ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
    [ADB executables](https://www.xda-developers.com/install-adb-windows-macos-linux/)  
  
@@ -119,7 +121,7 @@ A few important urls...
  
  - [Android device certification](https://www.google.com/android/uncertified/)  
  
- - [Pair watch without factory reset](https://www.xda-developers.com/pair-android-wear-without-factory-reset/)  
+ - [Safe mode in Windows 10](https://beebom.com/start-windows-10-in-safe-mode/)
  
  ### Learn
  
