@@ -155,6 +155,8 @@ A few important urls...
  - [Flutter tutorial (hitesh choudhary)](https://www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
  
  - [Generics in Kotlin](https://proandroiddev.com/understanding-generics-and-variance-in-kotlin-714c14564c47)  
+ 
+ - [PL SQL, PL/SQL, PLSQL handbook](https://github.com/SayantanRC/URLs/blob/master/PL%20SQL%20handbook.md)  
 
  ### Support
  
