@@ -174,3 +174,37 @@ The "<<>>" need to be written.
 - Cannot transfer control from an outer block into a sub-block.
 - Cannot transfer control out of a subprogram.
 - Cannot transfer control into an exception handler.
+
+## Procedure
+
+- IN parameters: The IN parameter can be referenced by the procedure or function. The value of the parameter cannot be overwritten by the procedure or the function.
+- OUT parameters: The OUT parameter cannot be referenced by the procedure or function, but the value of the parameter can be overwritten by the procedure or function.
+- INOUT parameters: The INOUT parameter can be referenced by the procedure or function and the value of the parameter can be overwritten by the procedure or function.
+
+```
+CREATE [OR REPLACE] PROCEDURE procedure_name  
+    [ (parameter [,parameter]) ]  
+IS  
+    [declaration_section]  
+BEGIN  
+    executable_section  
+[EXCEPTION  
+    exception_section]  
+END [procedure_name]; 
+```
+```
+create or replace procedure "INSERTUSER"    
+(id IN NUMBER,    
+name IN VARCHAR2)    
+is    
+begin    
+   insert into user values(id,name);    
+end;
+```
+<b>Calling:</b>
+```
+BEGIN    
+   insertuser(101,'Rahul');  
+   dbms_output.put_line('record inserted successfully');    
+END;
+```
