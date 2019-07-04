@@ -156,6 +156,8 @@ A few important urls...
  
  - [Generics in Kotlin](https://proandroiddev.com/understanding-generics-and-variance-in-kotlin-714c14564c47)  
  
+ - [Python tricks](https://github.com/SayantanRC/URLs/blob/master/python%20tricks.md)  
+ 
  - [PL SQL, PL/SQL, PLSQL handbook](https://github.com/SayantanRC/URLs/blob/master/PL%20SQL%20handbook.md)  
 
  ### Support
