@@ -208,3 +208,7 @@ BEGIN
    dbms_output.put_line('record inserted successfully');    
 END;
 ```
+<b>Dropping:</b>
+```
+DROP PROCEDURE insertuser;
+```
