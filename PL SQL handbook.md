@@ -212,3 +212,5 @@ END;
 ```
 DROP PROCEDURE insertuser;
 ```
+
+## Functions
