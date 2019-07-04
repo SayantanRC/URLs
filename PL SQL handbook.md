@@ -1,4 +1,6 @@
-### Sample
+# The code samples have been shamelessly copied from javatpoint.com. All credits to them.
+
+## Sample
 ```
 DECLARE  
    -- constant declaration  
@@ -27,7 +29,7 @@ Result:
 > Circumference: 59.69  
 > Area: 283.53
 
-### If else
+## If else
 ```
 IF condition1   
 THEN  
@@ -54,7 +56,7 @@ BEGIN
 END;
 ```
 
-### Switch case
+## Switch case
 ```
 DECLARE  
    grade char(1) := 'A';  
@@ -67,5 +69,35 @@ BEGIN
       when 'F' then dbms_output.put_line('Passed with Grace');  
       else dbms_output.put_line('Failed');  
    END CASE;  
+END;
+```
+
+## Loop
+### Basic loops
+```
+DECLARE  
+   i NUMBER := 1;  
+BEGIN  
+   LOOP  
+      EXIT WHEN i>10;  
+      DBMS_OUTPUT.PUT_LINE(i);  
+      i := i+1;  
+   END LOOP;  
+END;
+```
+```
+DECLARE   
+   VAR1 NUMBER;  
+   VAR2 NUMBER;  
+BEGIN   
+   VAR1:=100;  
+   VAR2:=1;  
+   LOOP  
+      DBMS_OUTPUT.PUT_LINE (VAR1*VAR2);  
+      IF (VAR2=10) THEN  
+         EXIT;  
+      END IF;  
+      VAR2:=VAR2+1;  
+   END LOOP;  
 END;
 ```
