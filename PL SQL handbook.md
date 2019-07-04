@@ -159,3 +159,18 @@ Result:
 > Inside loop:  x = 4  
 > Inside loop, after CONTINUE:  x = 5  
 > After loop:  x = 5  
+
+## GOTO
+```
+GOTO label_name;  
+ ..  
+..  
+<<label_name>>
+```
+The "<<>>" need to be written.  
+#### Restrictions:
+- Cannot transfer control into an IF statement, CASE statement, LOOP statement or sub-block.
+- Cannot transfer control from one IF statement clause to another or from one CASE statement WHEN clause to another.
+- Cannot transfer control from an outer block into a sub-block.
+- Cannot transfer control out of a subprogram.
+- Cannot transfer control into an exception handler.
