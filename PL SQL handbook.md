@@ -214,3 +214,37 @@ DROP PROCEDURE insertuser;
 ```
 
 ## Functions
+### A function must return a value
+```
+CREATE [OR REPLACE] FUNCTION function_name [parameters]  
+[(parameter_name [IN | OUT | IN OUT] type [, ...])]  
+RETURN return_datatype  
+{IS | AS}  
+BEGIN  
+   < function_body >  
+END [function_name];
+```
+```
+DECLARE  
+   num number;  
+   factorial number;  
+  
+FUNCTION fact(x number)  
+RETURN number   
+IS  
+   f number;  
+BEGIN  
+   IF x=0 THEN  
+      f := 1;  
+   ELSE  
+      f := x * fact(x-1);  
+   END IF;  
+RETURN f;  
+END;  
+  
+BEGIN  
+   num:= 6;  
+   factorial := fact(num);  
+   dbms_output.put_line(' Factorial '|| num || ' is ' || factorial);  
+END;
+```
