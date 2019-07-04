@@ -73,7 +73,7 @@ END;
 ```
 
 ## Loop
-### Basic loops
+### Basic exit loops
 ```
 DECLARE  
    i NUMBER := 1;  
@@ -101,3 +101,32 @@ BEGIN
    END LOOP;  
 END;
 ```
+### While loops
+```
+DECLARE  
+   i INTEGER := 1;  
+BEGIN  
+   WHILE i <= 10 LOOP  
+      DBMS_OUTPUT.PUT_LINE(i);  
+      i := i+1;  
+   END LOOP;  
+END;
+```
+### For loop
+Loop variable need not be declared
+```
+DECLARE   
+   VAR1 NUMBER;  
+BEGIN   
+   VAR1:=10;  
+   FOR VAR2 IN 1..5 LOOP  
+      DBMS_OUTPUT.PUT_LINE (VAR1*VAR2);  
+   END LOOP;  
+END;
+```
+Result:
+> 10
+> 20
+> 30
+> 40
+> 50
