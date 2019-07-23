@@ -173,7 +173,8 @@ A few important urls...
    [VLSI online IDE](https://www.edaplayground.com/)  
   
  - [Free eBooks](https://goalkicker.com)  
-   [PDF converter](https://www.pdf2go.com)  
+   [PDF converter 1](https://www.pdf2go.com)  
+   [PDF converter 2](https://smallpdf.com)  
    
  - [Yify movies 1](https://yifyddl.movie)  
    [Yify movies 2](https://www1.yify.is)  
