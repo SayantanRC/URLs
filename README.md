@@ -125,6 +125,8 @@ A few important urls...
  
  - [Safe mode in Windows 10](https://beebom.com/start-windows-10-in-safe-mode/)
  
+ - [Remove lockscreen - TWRP recovery](https://forum.xda-developers.com/android/software-hacking/remove-lockscreen-recovery-t3530008)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
