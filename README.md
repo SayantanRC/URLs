@@ -127,6 +127,8 @@ A few important urls...
  
  - [Remove lockscreen - TWRP recovery](https://forum.xda-developers.com/android/software-hacking/remove-lockscreen-recovery-t3530008)  
  
+ - [Fastboot in Ticwatch E](https://support.google.com/wearos/thread/12070579?hl=en)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
