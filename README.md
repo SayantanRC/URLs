@@ -112,6 +112,8 @@ A few important urls...
    [Make desktop entry for snap packages](https://forum.snapcraft.io/t/automatically-copy-desktop-file-to-local-share-applications/4427)  
    
  - [Pair watch without factory reset](https://www.xda-developers.com/pair-android-wear-without-factory-reset/)  
+ 
+ - [Fastboot in Ticwatch E](https://support.google.com/wearos/thread/12070579?hl=en)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
@@ -126,8 +128,6 @@ A few important urls...
  - [Safe mode in Windows 10](https://beebom.com/start-windows-10-in-safe-mode/)
  
  - [Remove lockscreen - TWRP recovery](https://forum.xda-developers.com/android/software-hacking/remove-lockscreen-recovery-t3530008)  
- 
- - [Fastboot in Ticwatch E](https://support.google.com/wearos/thread/12070579?hl=en)  
  
  ### Learn
  
