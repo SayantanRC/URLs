@@ -116,6 +116,8 @@ A few important urls...
  - [Fastboot in Ticwatch E](https://support.google.com/wearos/thread/12070579?hl=en)  
    [TWRP for Ticwatch E](https://www.reddit.com/r/WearOS/comments/adflek/tutorial_how_to_change_the_background_color_of/?utm_source=amp&utm_medium=&utm_content=post_body)  
    [XDA source](https://forum.xda-developers.com/smartwatch/other-smartwatches/twrp-ticwatch-e-likely-s-t3744752)  
+   
+ - [Windows 10 profile corrupted](https://windowsreport.com/corrupt-user-profile-windows-10/)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
