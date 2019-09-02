@@ -171,7 +171,8 @@ A few important urls...
  - [PL SQL, PL/SQL, PLSQL handbook](https://github.com/SayantanRC/URLs/blob/master/PL%20SQL%20handbook.md)  
  
  #### Lists
- - [Dagger tutorial list](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
+ [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
+ [Shell](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
 
  ### Support
  
