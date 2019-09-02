@@ -160,7 +160,6 @@ A few important urls...
    [Night theme/dark theme](https://blog.iamsuleiman.com/daynight-theme-android-tutorial-example/)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
-   [Shell script basic operation](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)  
  
  - [Flutter tutorial (hitesh choudhary)](https://www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
  
