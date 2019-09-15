@@ -78,3 +78,17 @@ Some services which can be masked/disabled are:
 sudo find /tmp/{*,.??*} -exec rm -rf {} \; 
 ```
 [Info](https://askubuntu.com/questions/1167070/systemd-tmpfiles-setup-service-takes-too-long-1hr-on-boot)  
+
+## Disable file system check at every boot
+Edit the default grub file:  
+```
+sudo nano /etc/default/grub
+```
+Add "fastboot" to the `GRUB_CMDLINE_LINUX_DEFAULT` line. It should look like this:
+```
+GRUB_CMDLINE_LINUX_DEFAULT="fastboot"
+```
+Save the file. Update grub.
+```
+sudo update-grub
+```
