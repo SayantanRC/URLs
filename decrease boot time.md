@@ -18,9 +18,10 @@ sudo rm -r *
 
 ### Or disable it altogether
 ```
-sudo systemctl mask systemd-journal-flush.service  
-sudo systemctl mask systemd-journald.service  
+sudo systemctl mask systemd-journal-flush.service    
 ```
+!!! Do not mask `systemd-journald.service` !!!  
+
 See in "Mask unnecessary services" at bottom of this page.
 
 [Information on masking systemd-journal-flush](https://unix.stackexchange.com/questions/414793/can-i-mask-the-systemd-journal-flush-service-and-run-journalctl-flush-later-ma)  
