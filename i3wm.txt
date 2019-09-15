@@ -250,7 +250,7 @@ exec dbus-launch --exit-with-session i3
 sudo apt install xorg
 
 #add this to ~/.bashrc (~/.zshrc of zsh is used)
-[[ ! $DISPLAY && $XDG_VTNR -eq 1 && $(id --group) -ne 0 ]] && exec startx || :
+[[ ! $DISPLAY && $XDG_VTNR -eq 1 && $(id --group) -ne 0 ]] && exec startx > /dev/null 2>&1 || :
 
 #make tty1 conf file (autocomplete won't work)
 sudo systemctl edit getty@tty1
