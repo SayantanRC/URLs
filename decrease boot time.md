@@ -85,9 +85,7 @@ Edit the default grub file:
 sudo nano /etc/default/grub
 ```
 Add "fastboot" to the `GRUB_CMDLINE_LINUX_DEFAULT` line. It should look like this:
-```
-GRUB_CMDLINE_LINUX_DEFAULT="fastboot"
-```
+> GRUB_CMDLINE_LINUX_DEFAULT="fastboot"
 Save the file. Update grub.
 ```
 sudo update-grub
