@@ -72,3 +72,9 @@ Some services which can be masked/disabled are:
 [important step](https://askubuntu.com/questions/260858/help-setting-up-e4rat-no-startup-log-after-e4rat-collect)  
 [video](https://www.youtube.com/watch?v=kzuckoHxk_k)  
 [wiki](https://wiki.archlinux.org/index.php/e4rat)  
+
+## Delete tmp files:
+```
+sudo find /tmp/{*,.??*} -exec rm -rf {} \; 
+```
+[Info](https://askubuntu.com/questions/1167070/systemd-tmpfiles-setup-service-takes-too-long-1hr-on-boot)  
