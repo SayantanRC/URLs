@@ -171,7 +171,7 @@ A few important urls...
  
  #### Lists
  [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
- [Shell](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
+ [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
 
  ### Support
  
