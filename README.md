@@ -182,6 +182,7 @@ A few important urls...
  - [Markdown editor](https://stackedit.io/app#)  
    [JSON parser](http://json.parser.online.fr/)  
    [VLSI online IDE](https://www.edaplayground.com/)  
+   [Bash script check](https://www.shellcheck.net/)  
   
  - [Free eBooks](https://goalkicker.com)  
    [PDF converter 1](https://www.pdf2go.com)  
