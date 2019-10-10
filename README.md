@@ -118,6 +118,8 @@ A few important urls...
    [XDA source](https://forum.xda-developers.com/smartwatch/other-smartwatches/twrp-ticwatch-e-likely-s-t3744752)  
    
  - [Windows 10 profile corrupted](https://windowsreport.com/corrupt-user-profile-windows-10/)  
+ 
+ - [Bluetooth headphone ubuntu](https://github.com/blueman-project/blueman/issues/547) <b>sudo apt install pulseaudio-module-bluetooth</b>  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
