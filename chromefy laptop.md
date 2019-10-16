@@ -20,7 +20,7 @@ Mount the ROOT-A and STATE partitions on hard disk and also from the USB drive. 
 ### 4. Download Chrome OS files
 From the link to XDA thread, download `chromefy.sh` script, `eve` and `caroline` images. Unpack the zips in the same directory (say ~/Downloads).
 ### 5. Patch the Chromium OS build
-From step-1 see the ROOT-A partition number. For me it was `/dev/sda10`. Substitute it in the following commands as needed.
+From step-1 see the ROOT-A partition number. For me it was `/dev/sda7`. Substitute it in the following commands as needed.
 ```
 ROOT_PARTITION="/dev/sda7"  
 cd </path/to/chromefy+chromeos_images>  
