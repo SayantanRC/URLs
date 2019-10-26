@@ -1,11 +1,16 @@
 #!/bin/bash
 
-free=$(free -mt | grep Total | awk '{print $4}')
-echo "$free"
-if [[ "$free" -le 100 ]]; then
+free=$(free -mt | grep Mem | awk '{print $7}')
+echo "RAM: $free"
+if [[ "$free" -le 70 ]]; then
     # if not enough free, start beeping
     /home/sayantan/scripts/beeper.sh
-elif [[ "$free" -le 150 ]]; then
+fi
+if [[ "$free" -le 85 ]]; then
+    # try killing chrome
+    killall chrome
+fi
+if [[ "$free" -le 100 ]]; then
     # try killing gradle first
     pkill -f '.*GradleDaemon'
 fi
