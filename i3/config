@@ -256,6 +256,9 @@ exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 # start memory check
 exec watch -n 1 /home/sayantan/scripts/checkRam.sh
 
+# start battery check
+exec watch -n 1 /home/sayantan/scripts/checkBattery.sh
+
 # rotate screen
 
 bindsym $mod+Ctrt+Left exec "xrandr -o left"
