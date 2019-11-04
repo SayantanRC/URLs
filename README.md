@@ -160,6 +160,7 @@ A few important urls...
    [Ripple + Elevation](https://trickyandroid.com/simple-ripple-reveal-elevation-tutorial/)  
    [Collapsing toolbar with circular image](https://stackoverflow.com/questions/40493837/coordinatorlayout-custom-behavior-with-appbarlayout)  
    [Night theme/dark theme](https://blog.iamsuleiman.com/daynight-theme-android-tutorial-example/)  
+   [Activity launchMode](https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
  
