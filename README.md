@@ -135,6 +135,8 @@ A few important urls...
  
  - [Remove lockscreen - TWRP recovery](https://forum.xda-developers.com/android/software-hacking/remove-lockscreen-recovery-t3530008)  
  
+ - [Hide navigation bar (85 is ok)](https://forum.xda-developers.com/nexus-6p/general/guide-remove-navigation-bar-using-adb-t3775768)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
