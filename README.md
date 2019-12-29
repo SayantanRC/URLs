@@ -137,6 +137,12 @@ A few important urls...
  
  - [Hide navigation bar (85 is ok)](https://forum.xda-developers.com/nexus-6p/general/guide-remove-navigation-bar-using-adb-t3775768)  
  
+ - [Remove apt key](https://askubuntu.com/questions/604988/how-to-remove-a-apt-key-which-i-have-added)  
+   [Remove apt repository](https://askubuntu.com/questions/307/how-can-ppas-be-removed)  
+   [Remove apt repository 2](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)  
+   
+ - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
+ 
  ### Learn
  
  - [Node JS basic tuto](https://www.youtube.com/watch?v=TlB_eWDSMt4)  
