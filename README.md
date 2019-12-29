@@ -120,6 +120,12 @@ A few important urls...
  - [Windows 10 profile corrupted](https://windowsreport.com/corrupt-user-profile-windows-10/)  
  
  - [Bluetooth headphone ubuntu](https://github.com/blueman-project/blueman/issues/547) <b>sudo apt install pulseaudio-module-bluetooth</b>  
+ 
+ - [Remove apt key](https://askubuntu.com/questions/604988/how-to-remove-a-apt-key-which-i-have-added)  
+   [Remove apt repository](https://askubuntu.com/questions/307/how-can-ppas-be-removed)  
+   [Remove apt repository 2](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)  
+   
+ - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
@@ -136,12 +142,6 @@ A few important urls...
  - [Remove lockscreen - TWRP recovery](https://forum.xda-developers.com/android/software-hacking/remove-lockscreen-recovery-t3530008)  
  
  - [Hide navigation bar (85 is ok)](https://forum.xda-developers.com/nexus-6p/general/guide-remove-navigation-bar-using-adb-t3775768)  
- 
- - [Remove apt key](https://askubuntu.com/questions/604988/how-to-remove-a-apt-key-which-i-have-added)  
-   [Remove apt repository](https://askubuntu.com/questions/307/how-can-ppas-be-removed)  
-   [Remove apt repository 2](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)  
-   
- - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
  
  ### Learn
  
