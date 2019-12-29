@@ -126,6 +126,7 @@ A few important urls...
    [Remove apt repository 2](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)  
    
  - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
+ - [Fix docker docker.sock permission error(2nd answer)](https://stackoverflow.com/questions/47854463/got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-at-uni)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
