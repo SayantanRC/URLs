@@ -17,7 +17,8 @@ A few important urls...
 
  - [Install Oracle Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/)  
 
- - [Firefox Addon - Drag To Scroll](https://addons.mozilla.org/en-US/firefox/addon/drag_scroll/)  
+ - [Firefox touch support](https://askubuntu.com/questions/853910/ubuntu-16-and-touchscreen-scrolling-in-firefox)  
+   [Firefox Addon - Drag To Scroll](https://addons.mozilla.org/en-US/firefox/addon/drag_scroll/)  
    [Firefox Addon - Speed Dial 2](https://addons.mozilla.org/en-GB/firefox/addon/new-tab-speed-dial/)  (Use this as home page - moz-extension://0370b7ea-06ff-4397-ae0b-dd7481995980/newtab.html)  
    [Firefox Addon - Dark mode](https://addons.mozilla.org/en-GB/firefox/addon/dark-mode-webextension/)  
  
