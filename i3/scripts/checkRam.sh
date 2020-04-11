@@ -7,8 +7,9 @@ if [[ "$free" -le 70 ]]; then
     /home/sayantan/scripts/beeper.sh
 fi
 if [[ "$free" -le 85 ]]; then
-    # try killing chrome
+    # try killing chrome/firefox
     killall chrome
+    killall firefox
 fi
 if [[ "$free" -le 100 ]]; then
     # try killing gradle first
