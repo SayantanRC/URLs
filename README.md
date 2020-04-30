@@ -22,10 +22,6 @@ A few important urls...
    [Firefox Addon - Speed Dial 2](https://addons.mozilla.org/en-GB/firefox/addon/new-tab-speed-dial/)  (Use this as home page - moz-extension://0370b7ea-06ff-4397-ae0b-dd7481995980/newtab.html)  
    [Firefox Addon - Dark mode](https://addons.mozilla.org/en-GB/firefox/addon/dark-mode-webextension/)  
  
- - [Customize grub defaults(/etc/default/grub)](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)  
- 
- - [Fix grub timeout issues](https://gist.github.com/LeahCim/9332432)  
- 
  - [Network speed monitor 32 bit Windows](http://www.mediafire.com/file/127c25zz9866kzf/netspeedmonitor_2_5_4_0_x86_setup.msi)  
    [Network speed monitor 64 bit Windows](http://www.mediafire.com/file/28e2wtf2df3ibs6/netspeedmonitor_2_5_4_0_x64_setup.msi)  
    [Network speed monitor Ubuntu](http://tipsonubuntu.com/2015/08/19/network-speed-on-panel/)  
@@ -187,6 +183,7 @@ A few important urls...
  #### Lists
  [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
  [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
+ [Grub](https://github.com/SayantanRC/URLs/blob/master/grub/grub_info.md)  
 
  ### Support
  
