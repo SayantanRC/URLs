@@ -248,6 +248,7 @@ exec dbus-launch --exit-with-session i3
 
 #install xorg
 sudo apt install xorg
+sudo apt install dbus-x11
 
 #add this to ~/.bashrc (~/.zshrc of zsh is used)
 [[ ! $DISPLAY && $XDG_VTNR -eq 1 && $(id --group) -ne 0 ]] && exec startx > /dev/null 2>&1 || :
