@@ -81,11 +81,6 @@ A few important urls...
  - [Print markdown file from github](https://github.com/SayantanRC/URLs/blob/master/print%20readme%20file%20from%20github.md)  
  
  - [Set date and time on ubuntu via command line](https://askubuntu.com/questions/679988/how-to-change-ubuntus-server-date-and-time-via-command-line)
- 
- - [Boot from USB using GRUB](https://superuser.com/questions/349633/boot-from-usb-using-grub)  
-   use `ntldr ($root)/bootmgr` (not tested) or `ntldr /bootmgr` (gives an error) after `chainloader +1` in case of errors while booting a Windows installation USB.  
-   
- - [Remove Grub and ubuntu](https://www.youtube.com/watch?v=5Rq4zovHiWk)  
    
  - Run facebook videos in opera - <b>sudo apt install chromium-codecs-ffmpeg-extra</b>   
  
@@ -180,10 +175,10 @@ A few important urls...
  
  - [Managing screen sessions](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server)  
  
- #### Lists
+ ### Lists
  [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
  [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
- [Grub](https://github.com/SayantanRC/URLs/blob/master/grub/grub_info.md)  
+ [GRUB all](https://github.com/SayantanRC/URLs/blob/master/lists/grub_list.md)  
 
  ### Support
  
