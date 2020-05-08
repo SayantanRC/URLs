@@ -54,3 +54,9 @@ sudo dhclient -r # Release  the  current lease and stop the running DHCP client
 sudo dhclient INTERFACE
 ```
 ## DONE! Test the connection using `ping`
+
+
+References:  
+https://askubuntu.com/questions/138472/how-do-i-connect-to-a-wpa-wifi-network-using-the-command-line  
+https://wiki.archlinux.org/index.php/Network_configuration#Network_managers  
+https://bbs.archlinux.org/viewtopic.php?id=213013  
