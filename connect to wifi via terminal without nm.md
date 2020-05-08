@@ -19,7 +19,7 @@ ip link show
 Interfaces can be like: <b>wlan0</b>, <b>wlo1</b>...  
 Turn on the interface using:
 ```
-sudo ifconfig up
+sudo ifconfig INTERFACE up
 ```
 If successful, the interface will appear in:
 ```
