@@ -50,7 +50,7 @@ If errors like this show up:
 Try killing the `wpa_supplicant` processes as mentioned in step 0.
 ## Step 4 - Start `dhclient`
 ```
-sudo dhclient -r
+sudo dhclient -r # Release  the  current lease and stop the running DHCP client
 sudo dhclient INTERFACE
 ```
 ## DONE! Test the connection using `ping`
