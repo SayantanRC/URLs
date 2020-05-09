@@ -30,6 +30,6 @@ Enable the service:
 sudo systemctl enable key_login.service  
 sudo systemctl start key_login.service  
 ```
-References:
+References:  
 https://bbs.archlinux.org/viewtopic.php?id=86815  
 https://askubuntu.com/questions/147128/change-default-tty-shortcut  
