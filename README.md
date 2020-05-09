@@ -7,6 +7,8 @@ A few important urls...
    [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)  
    [Chromium OS to Chrome OS(My guide)](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
    [Get Fyde OS touchpad/trackpad drivers](https://github.com/SayantanRC/URLs/blob/master/fyde_trackpad.md)  
+   
+ - [My Arch install](https://github.com/SayantanRC/URLs/blob/master/my%20arch.md)  
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
    [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
