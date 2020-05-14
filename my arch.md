@@ -34,9 +34,16 @@ References:
 https://bbs.archlinux.org/viewtopic.php?id=86815  
 https://askubuntu.com/questions/147128/change-default-tty-shortcut  
 
-## Sound
+## Sound (not needed)
 File: `/etc/modprobe.d/default.conf`  
 Add the following:
 ```
 options snd_hda_intel index=1
+```
+
+## Firefox (only first line for touchscreen)
+File: `/etc/security/pam_env.conf`
+```
+MOZ_USE_XINPUT2 DEFAULT=1
+#GTK_THEME=Adapta-Nokto
 ```
