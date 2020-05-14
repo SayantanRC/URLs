@@ -33,3 +33,10 @@ sudo systemctl start key_login.service
 References:  
 https://bbs.archlinux.org/viewtopic.php?id=86815  
 https://askubuntu.com/questions/147128/change-default-tty-shortcut  
+
+## Sound
+File: `/etc/modprobe.d/default.conf`  
+Add the following:
+```
+options snd_hda_intel index=1
+```
