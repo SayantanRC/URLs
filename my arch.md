@@ -47,3 +47,9 @@ File: `/etc/security/pam_env.conf`
 MOZ_USE_XINPUT2 DEFAULT=1
 #GTK_THEME=Adapta-Nokto
 ```
+
+## AppImage
+```
+sudo pacman -S fuse
+sudo modprobe fuse
+```
