@@ -12,6 +12,16 @@ GRUB_DISABLE_OS_PROBER=false
 ```
 Then run `sudo update-grub`
 
+#### Unknown file system, grub rescue
+https://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue  
+```
+set root=(hdX,Y)  
+set prefix=(hdX,Y)/boot/grub  
+insmod normal  
+normal  
+```
+Then use `sudo update-grub`  
+
 ### Resources
 [1. Fix timeout issues](https://gist.github.com/LeahCim/9332432)  
 [2. GRUB options customization](https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html)  
