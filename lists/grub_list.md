@@ -31,3 +31,4 @@ use ntldr ($root)/bootmgr (not tested) or ntldr /bootmgr (gives an error) after 
 [5. Boot from minimal grub](https://unix.stackexchange.com/questions/418401/grub-error-you-need-to-load-kernel-first)  
 
 [grub-mkimage](https://unix.stackexchange.com/questions/253657/actual-usage-of-grub-mkimage-config)  
+[My chrome EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
