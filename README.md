@@ -7,6 +7,7 @@ A few important urls...
    [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md)  
    [Chromium OS to Chrome OS(My guide)](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
    [Get Fyde OS touchpad/trackpad drivers](https://github.com/SayantanRC/URLs/blob/master/fyde_trackpad.md)  
+   [Standalone EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
 
