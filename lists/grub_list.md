@@ -29,3 +29,5 @@ Then use `sudo update-grub`
 use ntldr ($root)/bootmgr (not tested) or ntldr /bootmgr (gives an error) after chainloader +1 in case of errors while booting a Windows installation USB.  
 [4. Remove GRUB and ubuntu](https://www.youtube.com/watch?v=5Rq4zovHiWk)  
 [5. Boot from minimal grub](https://unix.stackexchange.com/questions/418401/grub-error-you-need-to-load-kernel-first)  
+
+[grub-mkimage](https://unix.stackexchange.com/questions/253657/actual-usage-of-grub-mkimage-config)  
