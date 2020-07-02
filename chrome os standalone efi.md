@@ -19,6 +19,8 @@ boot
 ```
 
 ## Create efi file
+Mount the EFI partition as `/efi`
 ```
+sudo mkdir -p /efi/EFI/Chrome/
 sudo grub-mkimage -O x86_64-efi -o /efi/EFI/Chrome/grubx64.efi -c /run/media/sayantan-rc/chrome_os/grub.cfg '--prefix=(hd0,gpt1)/EFI/Chrome' linux part_gpt ext2 ntfs loopback search all_video normal
 ```
