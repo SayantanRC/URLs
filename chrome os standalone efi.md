@@ -7,6 +7,10 @@ insmod ext2
 insmod search
 insmod all_video
 insmod loopback
+insmod cryptodisk
+insmod loadenv
+
+load_env
 
 img_part=/dev/sda6
 img_path=/chromeos.img
@@ -16,6 +20,7 @@ linux (loop,gpt7)/kernel boot=local noresume noswap loglevel=7 disablevmx=off cr
 initrd (loop,gpt7)/initramfs.img
 
 boot
+
 ```
 
 ## Create efi file
