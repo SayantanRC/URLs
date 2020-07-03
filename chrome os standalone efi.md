@@ -18,7 +18,6 @@ menuentry "ChromeOS (boot from disk image)" {
                 cros_secure cros_debug loop.max_part=16 img_part=$img_part img_path=$img_path
         initrd (loop,gpt7)/initramfs.img
 }
-
 ```
 Comparing with the above output, make the following `grub.cfg` file in the partition containing chromeos image, i.e at `/run/media/$USER/chrome_os/grub.cfg`  
 ```
