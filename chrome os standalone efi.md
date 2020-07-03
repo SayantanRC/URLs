@@ -21,8 +21,13 @@ boot
 ## Create efi file
 Mount the EFI partition as `/efi`
 ```
-sudo mkdir -p /efi/EFI/Chrome/
-sudo grub-mkimage -O x86_64-efi -o /efi/EFI/Chrome/grubx64.efi -c /run/media/sayantan-rc/chrome_os/grub.cfg '--prefix=(hd0,gpt1)/EFI/Chrome' linux part_gpt ext2 ntfs loopback search all_video normal
+chrome_part=/run/media/$USER/chrome_os
+chrome_efi_rel=EFI/Chrome
+
+sudo mkdir -p /efi/$chrome_efi_rel
+sudo grub-mkimage -O x86_64-efi -o /efi/$chrome_efi_rel/grubx64.efi -c $chrome_part/grub.cfg '--prefix=(hd0,gpt1)/$chrome_efi_rel' linux part_gpt ext2 ntfs f2fs fat exfat loopback search all_video echo ls cat disk cryptodisk help loadenv
 ```
 
-Reference: https://unix.stackexchange.com/questions/253657/actual-usage-of-grub-mkimage-config
+References: 
+[Making GRUB image](https://unix.stackexchange.com/questions/253657/actual-usage-of-grub-mkimage-config)  
+[Grub modules](https://www.linux.org/threads/understanding-the-various-grub-modules.11142/)  
