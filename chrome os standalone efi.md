@@ -48,7 +48,7 @@ chrome_part=/run/media/$USER/chrome_os
 chrome_efi_rel=EFI/Chrome
 
 sudo mkdir -p /efi/$chrome_efi_rel
-sudo grub-mkimage -O x86_64-efi -o /efi/$chrome_efi_rel/grubx64.efi -c $chrome_part/grub.cfg '--prefix=(hd0,gpt1)/$chrome_efi_rel' linux part_gpt ext2 ntfs f2fs fat exfat loopback search all_video echo ls cat disk cryptodisk help loadenv
+sudo grub-mkimage -O x86_64-efi -o /efi/$chrome_efi_rel/grubx64.efi -c $chrome_part/grub.cfg '--prefix=(hd0,gpt1)/$chrome_efi_rel' linux part_gpt ext2 ntfs f2fs fat exfat loopback search all_video echo ls cat disk cryptodisk help
 ```
 
 Now you can select the Chrome entry from BIOS screen to boot into Chrome OS.
