@@ -10,6 +10,7 @@ A few important urls...
    [Standalone EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
+   [Prevent power button from shutdown](https://unix.stackexchange.com/questions/50748/how-can-i-set-power-button-on-computer-case-to-power-off-system-with-systemd)  
 
  - [MATLAB 2018a (Ubuntu) torrent](https://drive.google.com/file/d/1bLyD4zSPi1F_1hb3C6boBBfllofeNylC/view)  
    [Video Instruction](https://www.youtube.com/watch?v=Qh1qATHblHk)  
