@@ -125,6 +125,8 @@ A few important urls...
    
  - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
  - [Fix docker docker.sock permission error(2nd answer)](https://stackoverflow.com/questions/47854463/got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-at-uni)  
+ 
+ - [yay gpg key error](https://bbs.archlinux.org/viewtopic.php?id=257441)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
