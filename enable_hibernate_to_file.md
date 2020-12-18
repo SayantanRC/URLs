@@ -30,7 +30,7 @@ mkinitcpio -P
 ### Find swap partition and swap offset
  - swap partition: `findmnt -T /var/swapfile | tail -1 | awk '{print $2}'`  
  - swap offset: `filefrag -v /var/swapfile | awk '{ if($1=="0:"){print $4} }'`  
-(source)[https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate]  
+[source](https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate)  
 
 ## Add kenrel parameter in GRUB
 Edit the file `/etc/default/grub` with the swap partition and swap offset.  
