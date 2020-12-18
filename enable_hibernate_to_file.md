@@ -48,3 +48,10 @@ sudo update-grub
 ```
 systemctl hibernate
 ```
+
+
+Sources:  
+https://www.youtube.com/watch?v=Xek3TGKzLWw&t  
+https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate  
+https://wiki.archlinux.org/index.php/Mkinitcpio#Image_creation_and_activation  
+https://www.computernetworkingnotes.com/linux-tutorials/shutdown-reboot-suspend-and-hibernate-a-linux-system.html  
