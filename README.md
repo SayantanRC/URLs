@@ -129,6 +129,8 @@ A few important urls...
  - [yay gpg key error](https://bbs.archlinux.org/viewtopic.php?id=257441)  
 
  - [BIOS password reset codes](https://bios-pw.org)  
+ 
+ - [Enable hibernation to file](https://github.com/SayantanRC/URLs/blob/master/enable_hibernate_to_file.md)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
