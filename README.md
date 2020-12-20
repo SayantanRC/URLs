@@ -8,6 +8,7 @@ A few important urls...
    [Chromium OS to Chrome OS(My guide)](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
    [Get Fyde OS touchpad/trackpad drivers](https://github.com/SayantanRC/URLs/blob/master/fyde_trackpad.md)  
    [Standalone EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
+   [Restart Android / arc on Chrome os](https://github.com/SayantanRC/URLs/blob/master/restart%20android%20on%20chrome%20os.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
    [Prevent power button from shutdown](https://unix.stackexchange.com/questions/50748/how-can-i-set-power-button-on-computer-case-to-power-off-system-with-systemd)  
