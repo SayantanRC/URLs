@@ -5,7 +5,7 @@
 3. In the green prompt, enter `sudo su`  
 4. In the red type the following two commands:  
 ```
-ids=$(ps -ef | grep "^android\|^arc" | awk '{print $2}')
+ids=$(ps -ef | awk '$1 ~ /android+/ || $1 ~ /^arc.+$/' | awk '{print $2}')
 kill -9 $ids
 ```
 
