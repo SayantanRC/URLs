@@ -6,7 +6,7 @@ Here we create a 3 GB swap file.
 cd /var
 touch swapfile                                                            
 chmod 600 swapfile
-dd if=/dev/zero of=/var/swapfile bs=1024k count=3000
+dd if=/dev/zero of=/var/swapfile bs=1024k count=3000 status=progress
 mkswap /var/swapfile
 ```
 
