@@ -1,10 +1,12 @@
 # Linux hibernate to file
 
 ### Create a swapfile
+Here we create a 3 GB swap file.
 ```
 cd /var
 touch swapfile                                                            
 chmod 600 swapfile
+dd if=/dev/zero of=/var/swapfile bs=1024k count=3000
 mkswap /var/swapfile
 ```
 
@@ -55,3 +57,4 @@ https://www.youtube.com/watch?v=Xek3TGKzLWw&t
 https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate  
 https://wiki.archlinux.org/index.php/Mkinitcpio#Image_creation_and_activation  
 https://www.computernetworkingnotes.com/linux-tutorials/shutdown-reboot-suspend-and-hibernate-a-linux-system.html  
+https://www.howtogeek.com/455981/how-to-create-a-swap-file-on-linux/  
