@@ -1,12 +1,12 @@
 # Linux hibernate to file
 
 ### Create a swapfile
-Here we create a 10 GB swap file.
+Here we create a 9 GB swap file.
 ```
 cd /var
 touch swapfile                                                            
 chmod 600 swapfile
-dd if=/dev/zero of=/var/swapfile bs=1024k count=10000 status=progress
+dd if=/dev/zero of=/var/swapfile bs=1024k count=9000 status=progress
 mkswap /var/swapfile
 ```
 
