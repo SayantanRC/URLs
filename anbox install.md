@@ -30,4 +30,9 @@ sudo modprobe binder_linux
 sudo modprobe ashmem_linux
 ```
 
-## 5. Start anbox session
+## 5. Start anbox service
+```
+systemctl start anbox-container-manager.service
+```
+
+## 6. Start anbox session
