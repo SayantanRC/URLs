@@ -32,6 +32,7 @@ sudo modprobe ashmem_linux
 
 ## 5. Start anbox service
 ```
+systemctl enable anbox-container-manager.service
 systemctl start anbox-container-manager.service
 ```
 
