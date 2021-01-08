@@ -17,12 +17,12 @@ sudo pacman -S linux-headers
 ```
 Choose the respective version as per your kernel version.  
 At the end you will get output like this:
-> (1/3) Arming ConditionNeedsUpdate...
-> (2/3) Updating module dependencies...
-> (3/3) Install DKMS modules
-> ==> dkms install --no-depmod -m anbox-binder -v 1 -k 5.4.85-1-MANJARO
-> ==> dkms install --no-depmod -m anbox-ashmem -v 1 -k 5.4.85-1-MANJARO
-> ==> depmod 5.4.85-1-MANJARO
+> (1/3) Arming ConditionNeedsUpdate...  
+> (2/3) Updating module dependencies...  
+> (3/3) Install DKMS modules  
+> ==> dkms install --no-depmod -m anbox-binder -v 1 -k 5.4.85-1-MANJARO  
+> ==> dkms install --no-depmod -m anbox-ashmem -v 1 -k 5.4.85-1-MANJARO  
+> ==> depmod 5.4.85-1-MANJARO  
 
 ## 4. Insert modules.
 ```
