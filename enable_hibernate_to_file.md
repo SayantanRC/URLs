@@ -52,13 +52,17 @@ systemctl hibernate
 ```
 
 ### Troubleshoot
-You may need to add major:minor in `/sys/power/resume`. Example:
+1. You may need to add major:minor in `/sys/power/resume`. Example:
 ```
 ~ >>> cat /sys/power/resume
 8:2
 ```
 This can be obtained from `lsblk`. Regenerate initramfs by `mkinitcpio -P`. Then reboot.
-
+2. To hibernate to a partition, edit the kernel parameter as below example:
+```
+GRUB_CMDLINE_LINUX="resume=\"PARTLABEL=manjaro_swap\""
+```
+Update grub by `update-grub` and reboot.
 
 Sources:  
 https://www.youtube.com/watch?v=Xek3TGKzLWw&t  
