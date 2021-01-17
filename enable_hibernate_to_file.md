@@ -54,7 +54,7 @@ systemctl hibernate
 ### Troubleshoot
 You may need to add major:minor in `/sys/power/resume`. Example:
 ```
-~ >>> cat /sys/power/resume                                                                                                                                          
+~ >>> cat /sys/power/resume
 8:2
 ```
 This can be obtained from `lsblk`. Regenerate initramfs by `mkinitcpio -P`. Then reboot.
