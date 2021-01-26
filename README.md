@@ -133,7 +133,7 @@ A few important urls...
  
  - [Enable hibernation to file](https://github.com/SayantanRC/URLs/blob/master/enable_hibernate_to_file.md)  
  
- - [Get Windows key from motherboard in linux](https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/  )
+ - [Get Windows key from motherboard in linux](https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
