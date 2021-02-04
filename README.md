@@ -134,6 +134,9 @@ A few important urls...
  - [Enable hibernation to file](https://github.com/SayantanRC/URLs/blob/master/enable_hibernate_to_file.md)  
  
  - [Get Windows key from motherboard in linux](https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/)  
+ 
+ - [Change default file explorer in linux / change default applications](https://unix.stackexchange.com/questions/42316/how-to-change-the-default-filemanager-of-the-cinnamon-desktop)  
+   <b>/usr/share/applications/mimeinfo.cache</b>
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
