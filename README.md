@@ -141,6 +141,7 @@ A few important urls...
  ### Hardware on Linux
  
  - [Find ACPI path](https://stackoverflow.com/questions/62964254/how-to-translate-from-udev-path-to-acpi-device)  
+   <b>cat /sys/bus/pci/devices/<i>{you device, example: 0000:00:1f.4}</i>/firmware_node/path</b>
  
  - [Find CPU architecture](https://unix.stackexchange.com/questions/230634/how-to-find-out-intel-architecture-family-from-command-line)  
    <b>cat /sys/devices/cpu/caps/pmu_name</b>
