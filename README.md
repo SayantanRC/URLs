@@ -137,6 +137,8 @@ A few important urls...
  
  - [Change default file explorer in linux / change default applications](https://unix.stackexchange.com/questions/42316/how-to-change-the-default-filemanager-of-the-cinnamon-desktop)  
    <b>/usr/share/applications/mimeinfo.cache</b>
+   
+ - [Find ACPI path](https://stackoverflow.com/questions/62964254/how-to-translate-from-udev-path-to-acpi-device)  
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
