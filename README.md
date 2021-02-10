@@ -144,6 +144,9 @@ A few important urls...
  
  - [Find CPU architecture](https://unix.stackexchange.com/questions/230634/how-to-find-out-intel-architecture-family-from-command-line)  
    <b>cat /sys/devices/cpu/caps/pmu_name</b>
+   
+ - [Find motherboard series / name](https://askubuntu.com/questions/179958/how-do-i-find-out-my-motherboard-model)  
+   <b>cat /sys/devices/virtual/dmi/id/board_name</b>
 
  ### Noobs
  - [Google USB drivers](https://developer.android.com/studio/run/win-usb)  
