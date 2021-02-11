@@ -1,5 +1,9 @@
 # Start OpenCore bootloader from GRUB
 
+Last working os:  
+Open core vesion: 0.6.6
+Mac OS version: Big Sur
+
 ## Arrange the files as below:  
 ![file_structure](/assets/opencore_grub.png)  
 1. Make a directory under `OC`. Here I named "for_grub"  
