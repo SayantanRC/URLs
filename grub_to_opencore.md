@@ -2,7 +2,7 @@
 
 Last working on:  
 Open core vesion: 0.6.6  
-Mac OS version: Big Sur  
+Mac OS version: Big Sur (11.2.1)  
 
 ## Arrange the files as below:  
 ![file_structure](/assets/opencore_grub.png)  
