@@ -3,6 +3,11 @@
 Last working on:  
 Open core vesion: 0.6.6  
 Mac OS version: Big Sur (11.2.1)  
+Grub version:  
+```
+~ >>> grub-install --version                                                    
+grub-install (GRUB) 2.04~manjaro  
+```
 
 ## Arrange the files as below:  
 ![file_structure](/assets/opencore_grub.png)  
