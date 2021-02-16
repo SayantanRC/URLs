@@ -142,6 +142,8 @@ A few important urls...
    
  - [FileManager-actions legends](https://askubuntu.com/questions/783292/what-do-the-various-percent-parameters-in-context-menu-actions-or-desktop-f)  
  
+ - [Conky config guide](https://www.brettwitty.net/dashboards-with-conky.html)  
+ 
  ### Hardware on Linux
  
  - [Find ACPI path](https://stackoverflow.com/questions/62964254/how-to-translate-from-udev-path-to-acpi-device)  
