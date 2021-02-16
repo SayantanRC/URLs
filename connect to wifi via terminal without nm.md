@@ -57,6 +57,7 @@ sudo dhclient INTERFACE
 
 
 References:  
+https://www.linuxbabe.com/command-line/ubuntu-server-16-04-wifi-wpa-supplicant  
 https://askubuntu.com/questions/138472/how-do-i-connect-to-a-wpa-wifi-network-using-the-command-line  
 https://wiki.archlinux.org/index.php/Network_configuration#Network_managers  
 https://bbs.archlinux.org/viewtopic.php?id=213013  
