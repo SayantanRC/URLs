@@ -9,6 +9,7 @@ A few important urls...
    [Get Fyde OS touchpad/trackpad drivers](https://github.com/SayantanRC/URLs/blob/master/fyde_trackpad.md)  
    [Standalone EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
    [Restart Android / arc on Chrome os](https://github.com/SayantanRC/URLs/blob/master/restart%20android%20on%20chrome%20os.md)  
+   [Crostini error 20](https://github.com/SayantanRC/URLs/blob/master/crostini_error_20.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
    [Prevent power button from shutdown](https://unix.stackexchange.com/questions/50748/how-can-i-set-power-button-on-computer-case-to-power-off-system-with-systemd)  
