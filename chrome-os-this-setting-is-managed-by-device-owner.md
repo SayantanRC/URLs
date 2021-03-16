@@ -1,4 +1,4 @@
-# "This setting is managed by device owner"
+Chrome OS - # "This setting is managed by device owner"
 
 ### This may permanently damage your Chrome OS installation, or cause problems in future. Proceed with caution and take a backup.
 Sometime after updating Chrome OS, some options in settings may get locked out with the label "This setting is managed by the device owner". If you have root access, continue with the guide. If not and you are dual booting, check out [Force developer mode on chromium os](https://github.com/SayantanRC/URLs/blob/master/Developer%20mode%20in%20chromium%20os.md) to see how to edit the `shadow` file to get root access.  
