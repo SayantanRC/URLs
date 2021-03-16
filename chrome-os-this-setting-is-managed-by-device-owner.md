@@ -13,7 +13,7 @@ Sometime after updating Chrome OS, some options in settings may get locked out w
    ```
    cd /mnt/stateful_partition/encrypted/var/lib/whitelist/
    ```
-4. Doing an `ls` command lists all the files, including some policy related files. We do not need any of them. Move all of them to some directory. Here we are already logged in as `root` (in red prompt). Hence enter the command:
+4. Doing an `ls` command lists all the files, including some policy related files. We do not need any of them. Move all of them to some directory. Here we are already logged in as `root` (in red prompt) and we will move them in the root users home. Hence enter the command:
    ```
    mv * ~/
    ```
