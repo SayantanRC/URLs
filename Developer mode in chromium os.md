@@ -17,12 +17,12 @@
 ### PROCESS 1. This will set a password for `chronos` and `root`
 
 #### For brunch images
-  1. Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
-  2. Create a directory named `ROOT-A` using the command:
+  - Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
+  - Create a directory named `ROOT-A` using the command:
      ```
      mkdir ROOT-A
      ```
-  3. Check the partitions with `fdisk`
+  - Check the partitions with `fdisk`
      ```
      fdisk -l chromeos.img
      ```
