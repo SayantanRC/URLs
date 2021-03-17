@@ -58,10 +58,20 @@
     sudo mount -o rw,loop,sync,offset=<b>$((512*10866696))</b> chromeos.img ROOT-A
     </pre>
     The `offset` is found by the `Unit` size and the `Start` column value of the `ChromeOS root fs` partition. It is shown in bold.
+  - Check if the correct partition is mounted:  
+    By default brunch uses linux kernel 5.4.x. Use the command
+    ```
+    ls ROOT-A/lib/modules
+    ```
+    If the output begins with 5.4 as below
+    > 5.4.88-brunch-sebanc
+    then it is correct.  
+    If you are manually choosing to use 4.x kernel, or the output is not 5.4.x then you need to use the other `ChromeOS root fs` partition. Use the commands `sudo umount ROOT-A` and `sudo mount -o rw,loop,sync,offset=$((512*2478088)) chromeos.img ROOT-A`. In case that fails, you can open nautilus (the Files app) in root (`sudo nautilus`) and on double clicking the image, it should be able to mount all the partitions directly.
+  - Follow the below section [Edit the shadow file](#edit-the-shadow-file)  
 
 ### Edit the `shadow` file
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
-  (mount point can be checked from GParted)  
+  (mount point can be checked from GParted or from `lsblk` command)  
 2. Copy etc/shadow file (just in case you need to revert)
 ```
 sudo cp etc/shadow etc/shadow.bak
