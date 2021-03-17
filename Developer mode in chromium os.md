@@ -35,7 +35,7 @@
    > Disklabel type: gpt  
    > Disk identifier: D4DC4457-9899-0546-803F-AE325571D176  
    >  
-   > Device            Start      End  Sectors  Size Type  
+   > Device             Start     End   Sectors Size  Type  
    > chromeos.img1  19255304 41942991 22687688 10.8G Linux filesystem  
    > chromeos.img2   2117638  2183173    65536   32M ChromeOS kernel  
    > chromeos.img3  10866696 19255303  8388608    4G ChromeOS root fs  
