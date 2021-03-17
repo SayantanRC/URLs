@@ -16,7 +16,8 @@
 
 ### PROCESS 1. This will set a password for `chronos` and `root`
 
-  #### For brunch images
+#### For brunch images, follow the below steps to mount the correct ROOT-A partition. If you are on actual Chrome OS or on project [Croissant](https://github.com/imperador/chromefy), jump to [Edit the shadow file](#edit-the-shadow-file)  
+  
   - Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
   - Create a directory named `ROOT-A` using the command:
      ```
@@ -55,7 +56,7 @@
      
      We are interested in one of the two `4G ChromeOS root fs`
 
-
+#### Edit the `shadow` file
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
   (mount point can be checked from GParted)  
 2. Copy etc/shadow file (just in case you need to revert)
