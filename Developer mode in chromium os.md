@@ -16,7 +16,7 @@
 
 ### PROCESS 1. This will set a password for `chronos` and `root`
 
-#### For brunch images
+  > For brunch images
   - Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
   - Create a directory named `ROOT-A` using the command:
      ```
