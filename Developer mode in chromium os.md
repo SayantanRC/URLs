@@ -6,17 +6,15 @@
   OR, a standalone Ubuntu installation
 - Some basic idea about mounting and working in terminal
 
-## Processes
-
-### Common steps
+## Common steps
 1. Boot into Ubuntu
 2. Open nautilus or any other file explorer
 3. Mount <b>ROOT-A</b> partition
 4. Open terminal (Ctrl+Alt+T)
 
-### PROCESS 1. This will set a password for `chronos` and `root`
+## PROCESS 1. This will set a password for `chronos` and `root`
 
-#### For brunch images, follow the below steps to mount the correct ROOT-A partition. If you are on actual Chrome OS or on project [Croissant](https://github.com/imperador/chromefy), jump to [Edit the shadow file](#edit-the-shadow-file)  
+### For brunch images, follow the below steps to mount the correct ROOT-A partition. If you are on actual Chrome OS or on project [Croissant](https://github.com/imperador/chromefy), jump to [Edit the shadow file](#edit-the-shadow-file)  
   
   - Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
   - Create a directory named `ROOT-A` using the command:
@@ -56,7 +54,7 @@
      
      We are interested in one of the two `4G ChromeOS root fs`
 
-#### Edit the `shadow` file
+### Edit the `shadow` file
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
   (mount point can be checked from GParted)  
 2. Copy etc/shadow file (just in case you need to revert)
@@ -78,7 +76,7 @@ OR, login as `root` with password: `password`
 Enter <i>logout</i> to close a chronos/root session.  
 Press Ctrl+Alt+F1 to get out of tty.  
 
-### PROCESS 2. This will allow all developer options
+## PROCESS 2. This will allow all developer options
 1. Edit the GRUB file in Ubuntu
 ```
 sudo gedit /boot/grub/grub.cfg
