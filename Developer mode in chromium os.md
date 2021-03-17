@@ -64,7 +64,8 @@
     ls ROOT-A/lib/modules
     ```
     If the output begins with 5.4 as below
-    > 5.4.88-brunch-sebanc
+    > 5.4.88-brunch-sebanc  
+    
     then it is correct.  
     If you are manually choosing to use 4.x kernel, or the output is not 5.4.x then you need to use the other `ChromeOS root fs` partition. Use the commands `sudo umount ROOT-A` and `sudo mount -o rw,loop,sync,offset=$((512*2478088)) chromeos.img ROOT-A`. In case that fails, you can open nautilus (the Files app) in root (`sudo nautilus`) and on double clicking the image, it should be able to mount all the partitions directly.
   - Follow the below section [Edit the shadow file](#edit-the-shadow-file)  
