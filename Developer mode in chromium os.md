@@ -38,9 +38,9 @@
     Device            Start      End  Sectors  Size       Type  
     chromeos.img1  19255304 41942991 22687688 10.8G Linux filesystem  
     chromeos.img2   2117638  2183173    65536   32M ChromeOS kernel  
-    chromeos.img3  10866696 19255303  8388608    4G <b>ChromeOS root fs</b>  
+    chromeos.img3  <b>10866696</b> 19255303  8388608    4G <b>ChromeOS root fs</b>  
     chromeos.img4   2183174  2248709    65536   32M ChromeOS kernel  
-    chromeos.img5   2478088 10866695  8388608    4G <b>ChromeOS root fs</b>  
+    chromeos.img5   <b>2478088</b> 10866695  8388608    4G <b>ChromeOS root fs</b>  
     chromeos.img6     16448    16448        1  512B ChromeOS kernel  
     chromeos.img7     16456  2113607  2097152    1G ChromeOS root fs  
     chromeos.img8   2248712  2281479    32768   16M Linux filesystem  
@@ -54,9 +54,10 @@
     
     We are interested in one of the two `4G ChromeOS root fs`
   - Mount the first partition
-    ```
-    
-    ```
+    <pre>
+    sudo mount -o rw,loop,sync,offset=<b>$((512*10866696))</b> chromeos.img ROOT-A
+    </pre>
+    The `offset` is found by the `Unit` size and the `Start` column value of the `ChromeOS root fs` partition. It is shown in bold.
 
 ### Edit the `shadow` file
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
