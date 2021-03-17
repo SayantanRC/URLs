@@ -18,41 +18,45 @@
   
   - Navigate to the directory of the image. Here we assume name of image is `chromeos.img`  
   - Create a directory named `ROOT-A` using the command:
-     ```
-     mkdir ROOT-A
-     ```
+    ```
+    mkdir ROOT-A
+    ```
   - Check the partitions with `fdisk`
-     ```
-     fdisk -l chromeos.img
-     ```
-     It should output something like:
+    ```
+    fdisk -l chromeos.img
+    ```
+    It should output something like:
      
-     <pre>
-     Disk chromeos.img: 20 GiB, 21474836480 bytes, 41943040 sectors  
-     Units: sectors of 1 * 512 = 512 bytes  
-     Sector size (logical/physical): 512 bytes / 512 bytes  
-     I/O size (minimum/optimal): 512 bytes / 512 bytes  
-     Disklabel type: gpt  
-     Disk identifier: D4DC4457-9899-0546-803F-AE325571D176  
-       
-     Device            Start      End  Sectors  Size       Type  
-     chromeos.img1  19255304 41942991 22687688 10.8G Linux filesystem  
-     chromeos.img2   2117638  2183173    65536   32M ChromeOS kernel  
-     chromeos.img3  10866696 19255303  8388608    4G <b>ChromeOS root fs</b>  
-     chromeos.img4   2183174  2248709    65536   32M ChromeOS kernel  
-     chromeos.img5   2478088 10866695  8388608    4G <b>ChromeOS root fs</b>  
-     chromeos.img6     16448    16448        1  512B ChromeOS kernel  
-     chromeos.img7     16456  2113607  2097152    1G ChromeOS root fs  
-     chromeos.img8   2248712  2281479    32768   16M Linux filesystem  
-     chromeos.img9   2113608  2113608        1  512B ChromeOS reserved  
-     chromeos.img10  2113609  2113609        1  512B ChromeOS reserved  
-     chromeos.img11       64    16447    16384    8M unknown  
-     chromeos.img12  2412552  2478087    65536   32M EFI System  
-     
-     Partition table entries are not in disk order.  
-     </pre>
-     
-     We are interested in one of the two `4G ChromeOS root fs`
+    <pre>
+    Disk chromeos.img: 20 GiB, 21474836480 bytes, 41943040 sectors  
+    Units: sectors of 1 * 512 = <b>512</b> bytes  
+    Sector size (logical/physical): 512 bytes / 512 bytes  
+    I/O size (minimum/optimal): 512 bytes / 512 bytes  
+    Disklabel type: gpt  
+    Disk identifier: D4DC4457-9899-0546-803F-AE325571D176  
+      
+    Device            Start      End  Sectors  Size       Type  
+    chromeos.img1  19255304 41942991 22687688 10.8G Linux filesystem  
+    chromeos.img2   2117638  2183173    65536   32M ChromeOS kernel  
+    chromeos.img3  10866696 19255303  8388608    4G <b>ChromeOS root fs</b>  
+    chromeos.img4   2183174  2248709    65536   32M ChromeOS kernel  
+    chromeos.img5   2478088 10866695  8388608    4G <b>ChromeOS root fs</b>  
+    chromeos.img6     16448    16448        1  512B ChromeOS kernel  
+    chromeos.img7     16456  2113607  2097152    1G ChromeOS root fs  
+    chromeos.img8   2248712  2281479    32768   16M Linux filesystem  
+    chromeos.img9   2113608  2113608        1  512B ChromeOS reserved  
+    chromeos.img10  2113609  2113609        1  512B ChromeOS reserved  
+    chromeos.img11       64    16447    16384    8M unknown  
+    chromeos.img12  2412552  2478087    65536   32M EFI System  
+    
+    Partition table entries are not in disk order.  
+    </pre>
+    
+    We are interested in one of the two `4G ChromeOS root fs`
+  - Mount the first partition
+    ```
+    
+    ```
 
 ### Edit the `shadow` file
 1. <i>cd</i> into <b>ROOT-A</b> mount point.  
