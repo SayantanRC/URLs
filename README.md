@@ -145,6 +145,8 @@ A few important urls...
  - [FileManager-actions legends](https://askubuntu.com/questions/783292/what-do-the-various-percent-parameters-in-context-menu-actions-or-desktop-f)  
  
  - [Conky config guide](https://www.brettwitty.net/dashboards-with-conky.html)  
+
+ - [Change android emulator phone number](https://proandroiddev.com/android-emulator-change-your-sim-card-number-8c7a72bc185a)  
  
  ### Hardware on Linux
  
