@@ -213,6 +213,8 @@ A few important urls...
  - [PL SQL, PL/SQL, PLSQL handbook](https://github.com/SayantanRC/URLs/blob/master/PL%20SQL%20handbook.md)  
  
  - [Managing screen sessions](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server)  
+
+ - [Git commit history clean by rebase](https://about.gitlab.com/blog/2018/06/07/keeping-git-commit-history-clean/)  
  
  ### Lists
  [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
