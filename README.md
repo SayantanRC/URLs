@@ -186,10 +186,6 @@ A few important urls...
    
  - [Network tutorial playlist](https://github.com/SayantanRC/URLs/blob/master/networking%20tutorials.md)
  
- - [Git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)  
-   [Tagging in Android studio](https://stackoverflow.com/questions/19862682/android-studio-push-tags-to-remote)  
-   [More in tags](https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags)  
- 
  - [updater-script all commands](https://forum.xda-developers.com/showthread.php?t=1931585)  
  
  - [Make android splash screen](https://medium.com/viithiisys/android-perfect-way-to-create-splash-screen-ca3c5bee137f)  
@@ -220,6 +216,7 @@ A few important urls...
  [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
  [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
  [GRUB all](https://github.com/SayantanRC/URLs/blob/master/lists/grub_list.md)  
+ [Git](https://github.com/SayantanRC/URLs/blob/master/lists/git.md)  
 
  ### Support
  
