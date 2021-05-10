@@ -6,3 +6,5 @@
 
 [Branches](https://www.nobledesktop.com/learn/git/git-branches)  
 [Sync a GitHub Repo: How To Ensure Your GitHub Fork Is Up To Date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
+[Add upstream to local repo](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)  
+[Get a new branch from upstream into forked repo](https://stackoverflow.com/questions/4410091/github-import-upstream-branch-into-fork)  
