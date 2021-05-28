@@ -197,6 +197,7 @@ A few important urls...
    [Collapsing toolbar with circular image](https://stackoverflow.com/questions/40493837/coordinatorlayout-custom-behavior-with-appbarlayout)  
    [Night theme/dark theme](https://blog.iamsuleiman.com/daynight-theme-android-tutorial-example/)  
    [Activity launchMode](https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe)  
+   [Emojis in strings.xml](https://stackoverflow.com/questions/52068120/emoji-in-strings-xml-file)  
    
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
  
