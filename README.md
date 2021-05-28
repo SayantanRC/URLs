@@ -235,6 +235,8 @@ A few important urls...
    
  - [Yify movies 1](https://yifyddl.movie)  
    [Yify movies 2](https://www1.yify.is)  
+   
+ - [Unicode / emoji to HTML](https://www.fileformat.info/info/unicode/char/search.htm)  
  
  ### Study
 
