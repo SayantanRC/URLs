@@ -1,7 +1,7 @@
 # Repair / Install GRUB from live USB
 
 ## Requirements
-1. Already installed linux partition for which Grub needs to installed repaired.  
+1. Already installed linux partition for which Grub needs to installed or repaired.  
 2. Patience and some terminal knowledge is helpful.  
 
 ## Procedure
@@ -47,4 +47,8 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
 
 
-Reboot and enjoy.
+Reboot and enjoy.  
+
+Sources:  
+https://unix.stackexchange.com/questions/96977/grub-probe-error-failed-to-get-canonical-path-of-cow  
+https://superuser.com/questions/165116/mount-dev-proc-sys-in-a-chroot-environment  
