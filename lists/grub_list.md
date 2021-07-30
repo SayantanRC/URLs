@@ -33,3 +33,4 @@ use ntldr ($root)/bootmgr (not tested) or ntldr /bootmgr (gives an error) after 
 [grub-mkimage](https://unix.stackexchange.com/questions/253657/actual-usage-of-grub-mkimage-config)  
 [My chrome EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
 [Grub modules](https://www.linux.org/threads/understanding-the-various-grub-modules.11142/)  
+[Install / Repair Grub from live USB](https://github.com/SayantanRC/URLs/blob/master/repair-grub-live-usb.md)  
