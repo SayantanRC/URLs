@@ -40,6 +40,8 @@ A few important urls...
  
  - [Convert folder to iso](http://www.trustfm.net/software/utilities/Folder2Iso.php?page=Download)
  
+ - [Delete boot entries in Windows boot manager](https://www.tenforums.com/tutorials/148748-how-delete-boot-loader-entry-boot-menu-startup-windows.html)  
+
  - [Fix tap to click on i3wm](https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/)
  
  - [Node js installation](https://github.com/nodejs/help/wiki/Installation)  
