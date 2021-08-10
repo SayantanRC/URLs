@@ -4,6 +4,8 @@
 A few important urls...
 
  - [Chromium / Chrome OS related](https://github.com/SayantanRC/URLs/blob/master/lists/chrome_os.md)  
+
+ - [Firefox related](https://github.com/SayantanRC/URLs/blob/master/lists/firefox.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
    [Prevent power button from shutdown](https://unix.stackexchange.com/questions/50748/how-can-i-set-power-button-on-computer-case-to-power-off-system-with-systemd)  
