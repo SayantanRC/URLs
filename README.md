@@ -3,14 +3,7 @@
 # URLs
 A few important urls...
 
- - [Chromium OS dual boot on hard drive](https://blog.championswimmer.in/2016/01/multibooting-chrome-os-on-your-laptop/)  
-   [Force developer mode on chromium os](https://gist.github.com/SayantanRC/c758fd67c91e2552eb1312dde84161e6)  
-   [Chromium OS to Chrome OS(My guide)](https://github.com/SayantanRC/URLs/blob/master/chromefy%20laptop.md)  
-   [Get Fyde OS touchpad/trackpad drivers](https://github.com/SayantanRC/URLs/blob/master/fyde_trackpad.md)  
-   [Standalone EFI](https://github.com/SayantanRC/URLs/blob/master/chrome%20os%20standalone%20efi.md)  
-   [Restart Android / arc on Chrome os](https://github.com/SayantanRC/URLs/blob/master/restart%20android%20on%20chrome%20os.md)  
-   [Crostini error 20](https://gist.github.com/SayantanRC/482656735f24354f0c2de2ba4ba2d0e3)  
-   [Chrome OS - "This setting is managed by device owner"](https://gist.github.com/SayantanRC/2638d959947e61884203f221cb90fda2)  
+ - [Chromium / Chrome OS related](https://github.com/SayantanRC/URLs/blob/master/lists/chrome_os.md)  
    
  - [My Arch install](https://github.com/SayantanRC/my-arch)  
    [Prevent power button from shutdown](https://unix.stackexchange.com/questions/50748/how-can-i-set-power-button-on-computer-case-to-power-off-system-with-systemd)  
