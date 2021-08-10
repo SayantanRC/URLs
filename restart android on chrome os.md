@@ -1,4 +1,4 @@
-### Following code should kill all android processes and allow to restart android apps
+### [WIP] Following code should kill all android processes and allow to restart android apps
 
 1. Open crosh by `Alt` + `Ctrl` + `T`  
 2. Enter `shell`  
