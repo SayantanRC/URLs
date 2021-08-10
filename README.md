@@ -20,12 +20,6 @@ A few important urls...
    [Video instruction](https://www.youtube.com/watch?v=BnoFstVeIi8)  
 
  - [Install Oracle Java on Ubuntu](https://thishosting.rocks/install-java-ubuntu/)  
-
- - [Firefox touch support](https://askubuntu.com/questions/853910/ubuntu-16-and-touchscreen-scrolling-in-firefox)  
-   [Firefox Addon - Drag To Scroll](https://addons.mozilla.org/en-US/firefox/addon/drag_scroll/)  
-   [Firefox Addon - Speed Dial 2](https://addons.mozilla.org/en-GB/firefox/addon/new-tab-speed-dial/)  (Use this as home page - moz-extension://0370b7ea-06ff-4397-ae0b-dd7481995980/newtab.html)  
-   [Firefox Addon - Dark mode](https://addons.mozilla.org/en-GB/firefox/addon/dark-mode-webextension/)  
-   [Firefox disable Alt key](https://www.reddit.com/r/firefox/comments/6451y1/can_i_disable_the_altkey_menu_bar_showing_behavior/) Toggle <b>ui.key.menuAccessKeyFocuses</b> in about:config  
  
  - [Network speed monitor 32 bit Windows](http://www.mediafire.com/file/127c25zz9866kzf/netspeedmonitor_2_5_4_0_x86_setup.msi)  
    [Network speed monitor 64 bit Windows](http://www.mediafire.com/file/28e2wtf2df3ibs6/netspeedmonitor_2_5_4_0_x64_setup.msi)  
