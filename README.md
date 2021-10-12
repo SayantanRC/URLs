@@ -138,6 +138,8 @@ A few important urls...
  - [Conky config guide](https://www.brettwitty.net/dashboards-with-conky.html)  
 
  - [Change android emulator phone number](https://proandroiddev.com/android-emulator-change-your-sim-card-number-8c7a72bc185a)  
+
+ - [Kai auth - TOTP / authenticator for Kai OS](https://github.com/zjyl1994/KaiAuth)  
  
  ### Hardware on Linux
  
