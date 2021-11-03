@@ -4,6 +4,7 @@
   [Tagging in Android studio](https://stackoverflow.com/questions/19862682/android-studio-push-tags-to-remote)  
   [More in tags](https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags)  
 
+[Undo last commit - soft reset](https://gist.github.com/wilsonsilva/c6f870e6423a1c0076224d1f1e468dbb)  
 [Git amend](https://www.git-tower.com/learn/git/faq/edit-fix-commit-message/)  
 [Git rebase](https://about.gitlab.com/blog/2018/06/07/keeping-git-commit-history-clean/)  
 [Branches](https://www.nobledesktop.com/learn/git/git-branches)  
