@@ -14,7 +14,7 @@ grub-install (GRUB) 2.04~manjaro
 1. Make a directory under `OC`. Here I named "for_grub"  
 2. Copy the `OpenCore.efi` file into this directory.  
 
-### Why not delete the original `OpenCore.efi` file? (marked at position 1 in the image)
+### Why not delete the original `OpenCore.efi` file? (marked at position 2 in the image)
 If you want to boot OpenCore from the BIOS OS boot manager (say, using an EFI file, such option is available in HP laptops) then you would need to select this original file, rather than the copied file.
 
 ## Make a custom Grub entry
