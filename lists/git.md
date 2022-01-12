@@ -17,6 +17,14 @@ Undo last commit without removing the changes
 ```
 git reset --soft HEAD~1
 ```
+Push a branch to remote
+```
+git push <remote> -u <local-branch-name>     # git push origin/test -u test
+```
+List all remotes
+```
+git remote -v
+```
 List all branches
 ```
 git branch -a
