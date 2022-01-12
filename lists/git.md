@@ -19,7 +19,7 @@ git reset --soft HEAD~1
 ```
 Push a branch to remote
 ```
-git push <remote> -u <local-branch-name>     # git push origin/test -u test
+git push <full-remote-branch-name> -u <local-branch-name>     # git push origin/test -u test
 ```
 List all remotes
 ```
@@ -28,6 +28,11 @@ git remote -v
 List all branches
 ```
 git branch -a
+```
+Deletea branch
+```
+git branch -d <local-branch-name>  # local delete
+git push <remote> --delete <branch-name>  # remote delete. example: git push origin --delete remoteBranchName
 ```
 Check out a remote branch (creates a local branch if not already present)  
 https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch
