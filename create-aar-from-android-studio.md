@@ -49,3 +49,20 @@ Create this file in the same location as `build.gradle`. Contents of the file:
 android.useAndroidX=true
 ```
 Samples: [baltitoolbox](https://github.com/SayantanRC/baltitoolbox/blob/main/gradle.properties), [FileX](https://github.com/SayantanRC/FileX/blob/main/gradle.properties)  
+
+### Step 1.3: Perform a gradle sync
+And now the library should be independently compilable. Congratulations!!
+
+## Step 2: Compile to AAR file.
+
+### Step 2.1: Enable gradle tasks.
+- Open `File` -> `Settings` -> `Experimental`.  
+- Uncheck `Do not build Gradle task list during Gradle sync`.  
+- Click Apply and OK.
+
+### Step 2.2: Compile
+- Perform a gradle sync (again).  
+- Open Gradle window (`View` -> `Tool Windows` -> `Gradle`).  
+- Open `Tasks` -> `build` -> double click `build`
+
+Thats it. Wait for sometime, AAR files (debug and release) will be created under `build/outputs/aar`.
