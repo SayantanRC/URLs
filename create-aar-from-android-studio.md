@@ -55,6 +55,8 @@ And now the library should be independently compilable. Congratulations!!
 
 ## Step 2: Compile to AAR file.
 
+[Reference](https://medium.com/swlh/generate-an-android-archive-aar-using-android-studio-and-add-to-an-android-project-b09ad9670ab7)  
+
 ### Step 2.1: Enable gradle tasks.
 - Open `File` -> `Settings` -> `Experimental`.  
 - Uncheck `Do not build Gradle task list during Gradle sync`.  
@@ -65,4 +67,12 @@ And now the library should be independently compilable. Congratulations!!
 - Open Gradle window (`View` -> `Tool Windows` -> `Gradle`).  
 - Open `Tasks` -> `build` -> double click `build`
 
-Thats it. Wait for sometime, AAR files (debug and release) will be created under `build/outputs/aar`.
+Thats it. Wait for sometime, AAR files (debug and release variants) will be created under `build/outputs/aar`.
+
+### Alternative way via terminal
+```
+cd ~/Library_B          # your library directory path
+export JAVA_HOME="$HOME/android-studio/jre/"
+./gradlew assembleRelease -xtest -xlint
+```
+AAR file (release variant) will be created under `build/outputs/aar`.
