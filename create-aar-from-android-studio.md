@@ -43,9 +43,9 @@ allprojects {
 ```
 Samples: [baltitoolbox](https://github.com/SayantanRC/baltitoolbox/blob/main/build.gradle), [FileX](https://github.com/SayantanRC/FileX/blob/main/build.gradle)  
 
-### Step 1.2: Create a `gradle-wrapper.properties` file.
+### Step 1.2: Create a `gradle.properties` file.
 Create this file in the same location as `build.gradle`. Contents of the file:
 ```
 android.useAndroidX=true
 ```
-Samples: [baltitoolbox](https://github.com/SayantanRC/baltitoolbox/blob/main/gradle-wrapper.properties), [FileX](https://github.com/SayantanRC/FileX/blob/main/gradle-wrapper.properties)  
+Samples: [baltitoolbox](https://github.com/SayantanRC/baltitoolbox/blob/main/gradle.properties), [FileX](https://github.com/SayantanRC/FileX/blob/main/gradle.properties)  
