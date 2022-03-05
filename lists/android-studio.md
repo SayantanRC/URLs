@@ -1,6 +1,8 @@
 ## Links
 
 [Accept licenses](../sdkmanager-license-accept.md)  
+[Create an AAR library](https://medium.com/swlh/generate-an-android-archive-aar-using-android-studio-and-add-to-an-android-project-b09ad9670ab7)  
+[Use an AAR library](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency)  
 
 
 ## Other tweaks.
