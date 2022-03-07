@@ -61,3 +61,13 @@ Cherry-pick a comment to current branch
 ```
 git cherry-pick <commit-hash>
 ```
+Undo merge for a single file  
+https://stackoverflow.com/a/14409744  
+```
+git checkout -m <file_path>
+```
+Undo a git merge  
+https://stackoverflow.com/a/14586751  
+```
+git reset --merge ORIG_HEAD
+```
