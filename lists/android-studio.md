@@ -10,6 +10,9 @@
 <b>1. Change `Alt+Enter` - context menu mapping.</b>  
 `File -> Settings`, search for `Show context actions`  
 
-<b>2. Change Font size</b>  
+<b>2. Use `Ctrl+W` to close tab</b>  
+`File -> Settings`, search for `Close Active Editor`  
+
+<b>3. Change Font size</b>  
 Change studio font size: `File -> Settings -> Appearance & Behavior -> Appearance -> Use custom font -> Size`  
 Change editor font size: `File -> Settings -> Editor -> Font -> Size`  
