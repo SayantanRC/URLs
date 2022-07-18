@@ -8,7 +8,7 @@
 ## Other tweaks.
 
 <b>1. Change `Alt+Enter` - context menu mapping.</b>  
-`File -> Settings`, search for `Show context menu actions`  
+`File -> Settings`, search for `Show context actions`  
 
 <b>2. Change Font size</b>  
 Change studio font size: `File -> Settings -> Appearance & Behavior -> Appearance -> Use custom font -> Size`  
