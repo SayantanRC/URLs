@@ -13,6 +13,10 @@
 <b>2. Use `Ctrl+W` to close tab</b>  
 `File -> Settings`, search for `Close Active Editor`  
 
-<b>3. Change Font size</b>  
+<b>3. Change back / forward navigation shortcut</b>
+`File -> Settings -> Keymap -> Main menu -> Navigate -> Back`  
+`File -> Settings -> Keymap -> Main menu -> Navigate -> Forward`  
+
+<b>4. Change Font size</b>  
 Change studio font size: `File -> Settings -> Appearance & Behavior -> Appearance -> Use custom font -> Size`  
 Change editor font size: `File -> Settings -> Editor -> Font -> Size`  
