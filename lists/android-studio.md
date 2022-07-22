@@ -23,3 +23,6 @@ Change editor font size: `File -> Settings -> Editor -> Font -> Size`
 
 <b>5. Change JDK to 11</b>  
 `File -> Settings -> Build, Execution, Deployment -> Gradle -> Gradle JDK (dropdown) -> 11`  
+
+<b>6. Fix `jlink` not found error</b>  
+Install the package `openjdk-11-jdk-headless`  
