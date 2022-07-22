@@ -21,5 +21,5 @@
 Change studio font size: `File -> Settings -> Appearance & Behavior -> Appearance -> Use custom font -> Size`  
 Change editor font size: `File -> Settings -> Editor -> Font -> Size`  
 
-<b>5. Change JDK to 11</b>
+<b>5. Change JDK to 11</b>  
 `File -> Settings -> Build, Execution, Deployment -> Gradle -> Gradle JDK (dropdown) -> 11`  
