@@ -55,7 +55,7 @@ OR for ubuntu systems:
 sudo update-initramfs -c -k all
 ```
 
-## Add kenrel parameter in GRUB
+## Add kernel parameter in GRUB
 Edit the file `/etc/default/grub` with the swap partition and swap offset.  
 Example:
 ```
@@ -65,6 +65,20 @@ GRUB_CMDLINE_LINUX="resume=/dev/sda5 resume_offset=286720"
 ### Update grub
 ```
 sudo update-grub
+```
+
+## Edit polkit to allow calling without root
+Edit/create the file `/etc/polkit-1/localauthority/50-local.d/com.ubuntu.desktop.pkla`. Add the following:
+```
+[Enable hibernate in upower]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes
+
+[Enable hibernate in logind]
+Identity=unix-user:*
+Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-key;org.freedesktop.login1;org.freedesktop.login1.hibernate-multiple-sessions;org.freedesktop.login1.hibernate-ignore-inhibit
+ResultActive=yes
 ```
 
 ## Finally put to hibernation
