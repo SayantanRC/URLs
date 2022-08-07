@@ -59,7 +59,7 @@ sudo update-initramfs -c -k all
 Edit the file `/etc/default/grub` with the swap partition and swap offset.  
 Example:
 ```
-GRUB_CMDLINE_LINUX="resume=/dev/sda5 resume_offset=286720.."
+GRUB_CMDLINE_LINUX="resume=/dev/sda5 resume_offset=286720"
 ```
 
 ### Update grub
