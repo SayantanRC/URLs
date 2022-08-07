@@ -1,5 +1,13 @@
 # Linux hibernate to file
 
+### Remove an old swapfile
+Assuming an old swapfile of 1.5 GB is present under `/swapfile`
+```
+sudo swapoff /swapfile
+sudo rm /swapfile
+```
+**Update `/etc/fstab` to comment out old swapfile.**
+
 ### Create a swapfile
 Here we create a 9 GB swap file.
 ```
