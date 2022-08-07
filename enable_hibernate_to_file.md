@@ -27,20 +27,29 @@ Add the below line to `/etc/fstab`
 /var/swapfile    none    swap    sw    0   0
 ```
 
+### Find swap partition and swap offset
+ - swap partition: `findmnt -T /var/swapfile | tail -1 | awk '{print $2}'`  
+ - swap offset: `filefrag -v /var/swapfile | awk '{ if($1=="0:"){print $4} }'`. **Do not consider ending ".." in the swap offset.**  
+[source](https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate)  
+ - swap file UUID: `findmnt -no UUID -T /var/swapfile`  
+
 ### Regenerate initramfs
-Edit the file `/etc/mkinitcpio.conf`. Add `resume` to HOOKS line if not present.
+If the file `/etc/mkinitcpio.conf` exists, add `resume` to HOOKS line if not present.
 ```
 HOOKS=(base udev autodetect modconf block filesystems resume keyboard)
 ```
+
+If the above file does not exist (for ubuntu systems), create / edit the file `/etc/initramfs-tools/conf.d/resume`.  
+Add the below line:  
+```
+RESUME=UUID=swap_file_UUID resume_offset=swap_offset
+```
+Example: `RESUME=UUID=f5a04583-faa6-420f-add1-d4044f35938b resume_offset=3471360`
+
 Regenerate initramfs
 ```
 mkinitcpio -P
 ```
-
-### Find swap partition and swap offset
- - swap partition: `findmnt -T /var/swapfile | tail -1 | awk '{print $2}'`  
- - swap offset: `filefrag -v /var/swapfile | awk '{ if($1=="0:"){print $4} }'`  
-[source](https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate)  
 
 ## Add kenrel parameter in GRUB
 Edit the file `/etc/default/grub` with the swap partition and swap offset.  
