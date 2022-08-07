@@ -46,9 +46,13 @@ RESUME=UUID=swap_file_UUID resume_offset=swap_offset
 ```
 Example: `RESUME=UUID=f5a04583-faa6-420f-add1-d4044f35938b resume_offset=3471360`
 
-Regenerate initramfs
+**Regenerate initramfs**
 ```
 mkinitcpio -P
+```
+OR for ubuntu systems:
+```
+sudo update-initramfs -c -k all
 ```
 
 ## Add kenrel parameter in GRUB
@@ -74,7 +78,7 @@ systemctl hibernate
 ~ >>> cat /sys/power/resume
 8:2
 ```
-This can be obtained from `lsblk`. Regenerate initramfs by `mkinitcpio -P`. Then reboot.  
+This can be obtained from `lsblk`. Regenerate initramfs by `mkinitcpio -P` (or `update-initramfs -c -k all`). Then reboot.  
 2. To hibernate to a partition, edit the kernel parameter as below example:
 ```
 GRUB_CMDLINE_LINUX="resume=\"PARTLABEL=manjaro_swap\""
