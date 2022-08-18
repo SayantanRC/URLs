@@ -4,6 +4,8 @@
 [Create an AAR library](../create-aar-from-android-studio.md)  
 [Use an AAR library](https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency)  
 
+[Git Rebase](https://gyulajuhasz.com/blog/rebasing-in-android-studio/)  
+
 
 ## Other tweaks.
 
