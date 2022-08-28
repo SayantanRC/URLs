@@ -12,6 +12,8 @@
 [Add upstream to local repo](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)  
 [Get a new branch from upstream into forked repo](https://stackoverflow.com/questions/4410091/github-import-upstream-branch-into-fork)  
 
+[GitLab Guide: Clean Git history](https://about.gitlab.com/blog/2018/06/07/keeping-git-commit-history-clean/)  
+
 ## Git commands
 Undo last commit without removing the changes
 ```
