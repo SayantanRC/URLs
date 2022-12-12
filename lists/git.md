@@ -73,3 +73,8 @@ https://stackoverflow.com/a/14586751
 ```
 git reset --merge ORIG_HEAD
 ```
+Check commits on a branch not present on another branch  
+https://stackoverflow.com/a/4207176/10967630
+```
+git log --no-merges --oneline main ^dev   # shows commits present on main but not yet present on dev branch
+```
