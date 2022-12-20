@@ -78,7 +78,8 @@ https://stackoverflow.com/a/4207176/10967630
 ```
 git log --no-merges --oneline main ^dev   # shows commits present on main but not yet present on dev branch
 ```
-Delete tags
+Delete tags  
+https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/
 ```
 git tag -d <tag_name>    # delete local tag
 git push --delete origin <tag_name>  # delete remote tag, remote name is origin
