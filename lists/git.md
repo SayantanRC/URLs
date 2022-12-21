@@ -31,7 +31,7 @@ List all branches
 ```
 git branch -a
 ```
-Deletea branch
+Delete a branch
 ```
 git branch -d <local-branch-name>  # local delete
 git push <remote> --delete <branch-name>  # remote delete. example: git push origin --delete remoteBranchName
@@ -44,10 +44,20 @@ git switch <remote-branch-name without remote-name>    # git switch test
 # alternately we could also use: git switch -c test origin/test
 # alternately: git checkout -b test origin/test
 ```
+Checkout a branch from a previous commit  
+https://stackoverflow.com/a/2816728/10967630
+```
+git checkout -b branch_name <commit-hash or HEAD~3>
+```
 Get commits on a branch  
 https://stackoverflow.com/questions/1710894/using-git-show-all-commits-that-are-in-one-branch-but-not-the-others
 ```
-git log <branch-name>
+git log <branch-name>    # --oneline for short
+```
+Get full hashes  
+https://stackoverflow.com/a/71905303/10967630
+```
+git log --oneline --no-abbrev-commit
 ```
 Get unpushed commits  
 https://stackoverflow.com/questions/2016901/viewing-unpushed-git-commits
