@@ -192,6 +192,8 @@ A few important urls...
    [Activity launchMode](https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe)  
    [Emojis in strings.xml](https://stackoverflow.com/questions/52068120/emoji-in-strings-xml-file)  
    
+ - [Creating android library](https://medium.com/@anujguptawork/how-to-create-your-own-android-library-and-publish-it-750e0f7481bf)  
+   
  - [Shell scripting playlist](https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790)  
  
  - [Flutter tutorial (hitesh choudhary)](https://www.youtube.com/playlist?list=PLRAV69dS1uWT-ooTYHCqgxMTGA233JMrP)  
