@@ -118,6 +118,7 @@ A few important urls...
  - [Remove apt key](https://askubuntu.com/questions/604988/how-to-remove-a-apt-key-which-i-have-added)  
    [Remove apt repository](https://askubuntu.com/questions/307/how-can-ppas-be-removed)  
    [Remove apt repository 2](https://unix.stackexchange.com/questions/219341/how-to-apt-delete-repository)  
+   [Downgrade package using apt](https://itsfoss.com/downgrade-apt-package/)  
    
  - [Uninstall docker](https://askubuntu.com/questions/935569/how-to-completely-uninstall-docker)  
  - [Fix docker docker.sock permission error(2nd answer)](https://stackoverflow.com/questions/47854463/got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-at-uni)  
