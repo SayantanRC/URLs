@@ -11,13 +11,13 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
 1. Boot from the USB drive. Open a terminal with "Alt+Ctrl+T".  
 2. Mount the partition.
    ```
-   sudo mount /dev/sda3 /mnt
+   sudo mount /dev/sda3 /cdrom
    ```
 3. Bind mount some necessary partitions from live USB environment.
    ```
-   mount -t proc /proc /mnt/proc/
-   mount --rbind /sys /mnt/sys/
-   mount --rbind /dev /mnt/dev/
+   sudo mount -t proc /proc /cdrom/proc/
+   sudo mount --rbind /sys /cdrom/sys/
+   sudo mount --rbind /dev /cdrom/dev/
    ```
 4. Chroot into the mount point.  
    ```
