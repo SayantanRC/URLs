@@ -21,7 +21,7 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
 4. Chroot into the mount point.  
    ```
-   sudo chroot /mnt
+   sudo chroot /cdrom
    ```
 5. Now we are in the environment of the actual linux installation. Usually Grub is installed in `/dev/sda1`. Hence we need to mount it.  
    ```
