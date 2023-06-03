@@ -40,10 +40,10 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    In live USB:  
    ```
-   sudo umount /mnt/proc
-   sudo umount /mnt/sys
-   sudo umount /mnt/dev
-   sudo umount /mnt
+   sudo umount /cdrom/proc
+   sudo umount /cdrom/sys
+   sudo umount /cdrom/dev
+   sudo umount /cdrom
    ```
 
 
