@@ -218,6 +218,7 @@ A few important urls...
  [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
  [GRUB all](https://github.com/SayantanRC/URLs/blob/master/lists/grub_list.md)  
  [Git](https://github.com/SayantanRC/URLs/blob/master/lists/git.md)  
+ [NixOS](https://github.com/SayantanRC/URLs/blob/master/lists/nixos.md)  
 
  ### Support
  
