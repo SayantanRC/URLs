@@ -41,7 +41,11 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    sudo nixos-rebuild boot --option sandbox false
    ```
-8. Finally, unmount partitions. In chroot environment:  
+8. Reinstall bootloader
+   ```
+   sudo NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-to-configuration boot
+   ```
+10. Finally, unmount partitions. In chroot environment (not all may be successful):  
    ```
    sudo umount /boot
    exit
@@ -61,3 +65,4 @@ Reboot and enjoy.
 Sources:  
 https://github.com/NixOS/nix/issues/5076#issuecomment-1688038015  
 https://nixos.wiki/wiki/Change_root  
+https://www.reddit.com/r/NixOS/comments/ouxjzh/how_to_reinstall_bootloader  
