@@ -45,7 +45,7 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    sudo NIXOS_INSTALL_BOOTLOADER=1 /nix/var/nix/profiles/system/bin/switch-to-configuration boot
    ```
-10. Finally, unmount partitions. In chroot environment (not all may be successful):  
+9. Finally, unmount partitions. In chroot environment (not all may be successful):  
    ```
    sudo umount /boot
    exit
