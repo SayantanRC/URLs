@@ -12,7 +12,12 @@ GRUB_DISABLE_OS_PROBER=false
 ```
 Then run `sudo update-grub`
 
-#### Unknown file system, grub rescue
+#### `update-grub` not available
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+#### Unknown file system / minimal grub, grub rescue
 https://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue  
 ```
 set root=(hdX,Y)  
@@ -21,6 +26,19 @@ insmod normal
 normal  
 ```
 Then use `sudo update-grub`  
+
+2nd option from [arch linux forum](https://bbs.archlinux.org/viewtopic.php?pid=1915490#p1915490)
+```
+set root=(hdX,Y)
+linux /boot/vmlinuz-linux root=/dev/Y
+initrd  /boot/initramfs-linux.img
+boot
+```
+
+1. `Y` can be `sdaY` or something like `nvme0n1pY`.  
+2. The `vmlinuz` part and `initramfs` should be Tab-autocompleted.  
+3. The `root` will not be autocompleted.  
+4. Note the <b>double space</b> after `initrd`.
 
 ### Resources
 [1. Fix timeout issues](https://gist.github.com/LeahCim/9332432)  
