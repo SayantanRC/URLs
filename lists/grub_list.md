@@ -4,20 +4,24 @@ Final configuration in `grub.cfg` : /boot/grub/grub.cfg
 Custom GRUB entry in `40_custom` : /etc/grub.d/40_custom  
 GRUB options file : /etc/default/grub  
 
-### Troubleshooot
-#### GRUB not detecting other linux distributions.  
+### GRUB not detecting other linux distributions.  
 Set this value in GRUB options file.
 ```
 GRUB_DISABLE_OS_PROBER=false
 ```
 Then run `sudo update-grub`
 
-#### `update-grub` not available
+### `update-grub` not available
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+Fedora (https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootloader):  
+```
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo dnf reinstall grub2-common # optional
+```
 
-#### Unknown file system / minimal grub, grub rescue
+### Unknown file system / minimal grub, grub rescue
 https://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue  
 ```
 set root=(hdX,Y)  
@@ -39,6 +43,16 @@ boot
 2. The `vmlinuz` part and `initramfs` should be Tab-autocompleted.  
 3. The `root` will not be autocompleted.  
 4. Note the <b>double space</b> after `initrd`.
+
+### Change GRUB resolution
+```
+sudo vim /etc/default/grub
+```
+```
+GRUB_TERMINAL_OUTPUT="gfxterm"
+GRUB_GFXMODE=1920x1200
+GRUB_GFXPAYLOAD_LINUX=keep
+```
 
 ### Resources
 [1. Fix timeout issues](https://gist.github.com/LeahCim/9332432)  
