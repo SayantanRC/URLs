@@ -11,7 +11,7 @@ GRUB_DISABLE_OS_PROBER=false
 ```
 Then run `sudo update-grub`
 
-### `update-grub` not available
+### Regenerate / update grub - `update-grub` not available
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
@@ -53,6 +53,17 @@ GRUB_TERMINAL_OUTPUT="gfxterm"
 GRUB_GFXMODE=1920x1200
 GRUB_GFXPAYLOAD_LINUX=keep
 ```
+Regenerate grub as defined above.
+
+### Remember last saved option
+```
+sudo vim /etc/default/grub
+```
+```
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+Regenerate grub as defined above.
 
 ### Resources
 [1. Fix timeout issues](https://gist.github.com/LeahCim/9332432)  
