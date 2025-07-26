@@ -17,6 +17,7 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
 2. Mount the partition.
    ```
    sudo mount "$OS" "$MOUNT"
+   echo "$EFI" > "$MOUNT/tmp/part_efi"
    ```
 3. Bind mount some necessary partitions from live USB environment.
    ```
@@ -28,9 +29,10 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    sudo chroot "$MOUNT"
    ```
-5. Now we are in the environment of the actual linux installation. Usually Grub is installed in `/dev/sda1`. Hence we need to mount it.  
+5. Now we are in the environment of the actual linux installation. Mount the EFI partition.  
    ```
-   sudo mount /dev/sda1 /mnt
+   EFI="$(cat /tmp/part_efi)"
+   sudo mount "$EFI" /mnt
    ```
    This `/mnt` is different than the one in the previous steps. This one belongs to the actual linux install.  
 6. Update grub and install.
