@@ -10,14 +10,16 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
 
 1. Boot from the USB drive. Open a terminal with "Alt+Ctrl+T".  
    ```
-   OS="/dev/sda3"
-   EFI="/dev/sda1"
+   EFI="/dev/nvme0n1p14"
+   BOOT="/dev/nvme0n1p15" # optional
+   OS="/dev/nvme0n1p16"
    MOUNT="/cdrom"
    ```
 2. Mount the partition.
    ```
    sudo mount "$OS" "$MOUNT"
    echo "$EFI" > "$MOUNT/tmp/part_efi"
+   echo "$BOOT" > "$MOUNT/tmp/part_boot"  # optional
    ```
 3. Bind mount some necessary partitions from live USB environment.
    ```
@@ -33,13 +35,15 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    EFI="$(cat /tmp/part_efi)"
    sudo mount "$EFI" /mnt
+   BOOT="$(cat /tmp/part_boot)"   # optional
+   sudo mount "$BOOT" /boot       # optional
    ```
    This `/mnt` is different than the one in the previous steps. This one belongs to the actual linux install.  
 6. Update grub and install.
    ```
-   sudo grub-install --efi-directory=/mnt  /dev/sda
+   sudo grub-install --target=x86_64-efi --efi-directory=/mnt/ --bootloader-id=<some name>
    # alternative
-   # sudo grub-install --target=x86_64-efi --efi-directory=/mnt/ --bootloader-id=<some name>
+   # sudo grub-install --efi-directory=/mnt  /dev/sda
    ```
 7. Finally, unmount partitions. In chroot environment:  
    ```
@@ -48,10 +52,7 @@ Assuming linux is installed in `/dev/sda3`. This will be different for your syst
    ```
    In live USB:  
    ```
-   sudo umount "${MOUNT}/proc"
-   sudo umount "${MOUNT}/sys"
-   sudo umount "${MOUNT}/dev"
-   sudo umount "$MOUNT"
+   sudo umount -R "$MOUNT"
    ```
 
 
