@@ -1,0 +1,82 @@
+(defcfg
+  input  (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd")
+  output (uinput-sink "KMonad output")
+  fallthrough true
+  allow-cmd false
+)
+
+;; made by gemini
+
+(defsrc
+  ralt [ ] lmet lsft f23
+  a b c d e f g h i j k l m n o p q r s t u v w x y z
+  1 2 3 4 5 6 7 8 9 0 - =
+  ins del home end pgup pgdn up down left rght ent spc
+  f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12
+)
+
+(defalias
+  ;; Core Toggles
+  nav (layer-toggle navigation)
+  cpt (layer-toggle copilot_step1)
+  altctrl (layer-toggle copilot_alt_step1)
+
+  ;; RAlt Bridges (Alphabet)
+  ra_a (around ralt a) ra_b (around ralt b) ra_c (around ralt c) ra_d (around ralt d)
+  ra_e (around ralt e) ra_f (around ralt f) ra_g (around ralt g) ra_h (around ralt h)
+  ra_i (around ralt i) ra_j (around ralt j) ra_k (around ralt k) ra_l (around ralt l)
+  ra_m (around ralt m) ra_n (around ralt n) ra_o (around ralt o) ra_p (around ralt p)
+  ra_q (around ralt q) ra_r (around ralt r) ra_s (around ralt s) ra_t (around ralt t)
+  ra_u (around ralt u) ra_v (around ralt v) ra_w (around ralt w) ra_x (around ralt x)
+  ra_y (around ralt y) ra_z (around ralt z)
+
+  ;; RAlt Bridges (Others)
+  ra_1 (around ralt 1) ra_2 (around ralt 2) ra_3 (around ralt 3) ra_4 (around ralt 4)
+  ra_5 (around ralt 5) ra_6 (around ralt 6) ra_7 (around ralt 7) ra_8 (around ralt 8)
+  ra_9 (around ralt 9) ra_0 (around ralt 0) ra_min (around ralt -) ra_eq (around ralt =)
+  ra_ins (around ralt ins) ra_del (around ralt del) ra_home (around ralt home) 
+  ra_end (around ralt end) ra_pgu (around ralt pgup) ra_pgd (around ralt pgdn)
+  ra_up (around ralt up) ra_dn (around ralt down) ra_lft (around ralt left) 
+  ra_rgt (around ralt rght) ra_ent (around ralt ent) ra_spc (around ralt spc)
+
+  ;; RAlt Bridges (FN Keys)
+  ra_f1 (around ralt f1) ra_f2 (around ralt f2) ra_f3 (around ralt f3) 
+  ra_f4 (around ralt f4) ra_f5 (around ralt f5) ra_f6 (around ralt f6)
+  ra_f7 (around ralt f7) ra_f8 (around ralt f8) ra_f9 (around ralt f9) 
+  ra_f10 (around ralt f10) ra_f11 (around ralt f11) ra_f12 (around ralt f12)
+)
+
+(deflayer base
+  @nav [ ] @cpt lsft _
+  a b c d e f g h i j k l m n o p q r s t u v w x y z
+  1 2 3 4 5 6 7 8 9 0 - =
+  ins del home end pgup pgdn up down left rght ent spc
+  f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12
+)
+
+(deflayer navigation
+  _ home end @altctrl _ _
+  @ra_a @ra_b @ra_c @ra_d @ra_e @ra_f @ra_g @ra_h @ra_i @ra_j @ra_k @ra_l @ra_m 
+  @ra_n @ra_o @ra_p @ra_q @ra_r @ra_s @ra_t @ra_u @ra_v @ra_w @ra_x @ra_y @ra_z
+  @ra_1 @ra_2 @ra_3 @ra_4 @ra_5 @ra_6 @ra_7 @ra_8 @ra_9 @ra_0 @ra_min @ra_eq
+  @ra_ins @ra_del @ra_home @ra_end @ra_pgu @ra_pgd @ra_up @ra_dn @ra_lft @ra_rgt @ra_ent @ra_spc
+  @ra_f1 @ra_f2 @ra_f3 @ra_f4 @ra_f5 @ra_f6 @ra_f7 @ra_f8 @ra_f9 @ra_f10 @ra_f11 @ra_f12
+)
+
+;; COPILOT REMAP LAYERS (Padded to match defsrc length)
+(deflayer copilot_step1
+  _ _ _ _ (layer-toggle copilot_step2) _
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+)
+(deflayer copilot_step2
+  (around ralt lctl) _ _ _ _ lctl
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+)
+(deflayer copilot_alt_step1
+  _ _ _ _ (layer-toggle copilot_alt_step2) _
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+)
+(deflayer copilot_alt_step2
+  _ _ _ _ _ (around ralt lctl)
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+)
