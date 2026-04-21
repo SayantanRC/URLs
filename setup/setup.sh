@@ -42,7 +42,7 @@ if [[ -z "$(which kmonad 2>/dev/null)" ]]; then
   echo
 
   tmp="/tmp/kmonad"
-  wget "$download_url" -O "$tmp"
+  wget -q "$download_url" -O "$tmp"
   chmod +x "$tmp"
   mv "$tmp" /usr/local/bin/kmonad
 
