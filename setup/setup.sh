@@ -1,3 +1,8 @@
+#########
+# Usage:
+# curl -fsSL https://raw.githubusercontent.com/SayantanRC/URLs/refs/heads/master/setup/setup.sh | sudo bash
+##########
+
 #!/usr/bin/env bash
 
 set -euo pipefail
@@ -120,4 +125,7 @@ systemctl enable kmonad.service
 systemctl restart kmonad.service
 
 echo
-echo "KMonad setup complete. Please reboot for all changes to take effect."
+echo "========================================"
+echo "KMonad setup complete, reboot for effect"
+echo "========================================"
+echo
