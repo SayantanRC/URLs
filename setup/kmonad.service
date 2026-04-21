@@ -1,0 +1,10 @@
+[Unit]
+Description=KMonad Keyboard Manager
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/kmonad /etc/kmonad/kmonad_config.kbd
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
