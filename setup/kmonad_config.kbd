@@ -9,6 +9,7 @@
 
 (defsrc
   ralt [ ] lmet lsft f23 grv
+  tab
   a b c d e f g h i j k l m n o p q r s t u v w x y z
   1 2 3 4 5 6 7 8 9 0 - =
   ins del home end pgup pgdn up down left rght ent spc
@@ -46,6 +47,8 @@
   ra_f7 (around ralt f7) ra_f8 (around ralt f8) ra_f9 (around ralt f9)
   ra_f10 (around ralt f10) ra_f11 (around ralt f11) ra_f12 (around ralt f12)
 
+  ra_tab  (around ralt tab)
+
   ;; --- META BRIDGES ---
   met_grv (around lmet grv)
   met_a (around lmet a) met_b (around lmet b) met_c (around lmet c) met_d (around lmet d)
@@ -60,16 +63,19 @@
   met_9 (around lmet 9) met_0 (around lmet 0) met_min (around lmet -) met_eq (around lmet =)
   met_ins (around lmet ins) met_del (around lmet del) met_home (around lmet home)
   met_end (around lmet end) met_pgu (around lmet pgup) met_pgd (around lmet pgdn)
-  met_up (around lmet up) met_dn (around lmet down) met_lft (around lmet left)
-  met_rgt (around lmet rght) met_ent (around lmet ent) met_spc (around lmet spc)
+  met_up (around lctl up) met_dn (around lctl down) met_lft (around lctl left) met_rgt (around lctl rght)
+  met_ent (around lmet ent) met_spc (around lmet spc)
   met_f1 (around lmet f1) met_f2 (around lmet f2) met_f3 (around lmet f3)
   met_f4 (around lmet f4) met_f5 (around lmet f5) met_f6 (around lmet f6)
   met_f7 (around lmet f7) met_f8 (around lmet f8) met_f9 (around lmet f9)
   met_f10 (around lmet f10) met_f11 (around lmet f11) met_f12 (around lmet f12)
+
+  met_tab (around lmet tab)
 )
 
 (deflayer base
   @nav [ ] @cpt lsft _ _
+  tab
   a b c d e f g h i j k l m n o p q r s t u v w x y z
   1 2 3 4 5 6 7 8 9 0 - =
   ins del home end pgup pgdn up down left rght ent spc
@@ -78,6 +84,7 @@
 
 (deflayer navigation
   _ home end @altctrl _ _ _
+  @ra_tab
   @ra_a @ra_b @ra_c @ra_d @ra_e @ra_f @ra_g @ra_h @ra_i @ra_j @ra_k @ra_l @ra_m
   @ra_n @ra_o @ra_p @ra_q @ra_r @ra_s @ra_t @ra_u @ra_v @ra_w @ra_x @ra_y @ra_z
   @ra_1 @ra_2 @ra_3 @ra_4 @ra_5 @ra_6 @ra_7 @ra_8 @ra_9 @ra_0 @ra_min @ra_eq
@@ -88,6 +95,7 @@
 ;; COPILOT REMAP LAYERS (Padded to match defsrc length)
 (deflayer copilot_step1
   _ _ _ _ (layer-toggle copilot_step2) _ @met_grv
+  @met_tab
   @met_a @met_b @met_c @met_d @met_e @met_f @met_g @met_h @met_i @met_j @met_k @met_l @met_m
   @met_n @met_o @met_p @met_q @met_r @met_s @met_t @met_u @met_v @met_w @met_x @met_y @met_z
   @met_1 @met_2 @met_3 @met_4 @met_5 @met_6 @met_7 @met_8 @met_9 @met_0 @met_min @met_eq
@@ -96,13 +104,16 @@
 )
 (deflayer copilot_step2
   (around ralt lctl) _ _ _ _ rctl _
+  _
   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 )
 (deflayer copilot_alt_step1
   _ _ _ _ (layer-toggle copilot_alt_step2) _ _
+  _
   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 )
 (deflayer copilot_alt_step2
   _ _ _ _ _ (around ralt rctl) _
+  _
   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 )
