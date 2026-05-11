@@ -5,3 +5,7 @@ Installs [keyd](https://github.com/rvaiya/keyd) from source with a custom patch 
 ```
 curl -fsSL https://raw.githubusercontent.com/SayantanRC/URLs/refs/heads/master/setup/keyd/setup.sh | sudo bash
 ```
+### To remove
+```
+curl -fsSL https://raw.githubusercontent.com/SayantanRC/URLs/refs/heads/master/setup/keyd/remove.sh | sudo bash
+```
