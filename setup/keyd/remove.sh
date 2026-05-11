@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+#########
+# Usage:
+# curl -fsSL https://raw.githubusercontent.com/SayantanRC/URLs/refs/heads/master/setup/keyd/remove.sh | sudo bash
+##########
+
 set -euo pipefail
 
 # Require root
