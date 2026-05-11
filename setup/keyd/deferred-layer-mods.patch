@@ -1,0 +1,84 @@
+From 95f8eb4b9d2584a0788a382c0d76f8eedc7b8d62 Mon Sep 17 00:00:00 2001
+From: Sayantan RC <bin.sayantan@gmail.com>
+Date: Tue, 12 May 2026 02:01:47 +0530
+Subject: [PATCH 1/2] fix: defer layer modifier emission in overload to prevent
+ spurious ctrl
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+When a layer with a modifier type (e.g. [layer:A]) was activated via
+overload(), the modifier (LEFTALT) was emitted immediately on key press.
+If the pressed key had a mapping in that layer, update_mods() would
+exclude the layer and clear LEFTALT — triggering the modifier guard,
+which wraps isolated alt/meta/rightalt releases with a ctrl sequence.
+
+Fix: pass the newly activated layer index (idx) as the excluded layer
+to update_mods() on overload press, deferring its modifier until an
+unmapped key is actually pressed. Mapped keys never emit the modifier;
+unmapped keys emit it naturally via the update_mods() call in
+OP_KEYSEQUENCE when the layer is no longer excluded.
+
+This fix was diagnosed and implemented by Claude (claude.ai).
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+---
+ src/keyboard.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/keyboard.c b/src/keyboard.c
+index 97797c3..14f802a 100644
+--- a/src/keyboard.c
++++ b/src/keyboard.c
+@@ -657,7 +657,7 @@ static long process_descriptor(struct keyboard *kbd, uint8_t code,
+ 		if (pressed) {
+ 			kbd->overload_start_time = time;
+ 			activate_layer(kbd, code, idx);
+-			update_mods(kbd, -1, 0);
++			update_mods(kbd, idx, 0);
+ 		} else {
+ 			deactivate_layer(kbd, idx);
+ 			update_mods(kbd, -1, 0);
+-- 
+2.43.0
+
+
+From 48fdd0c711dc87e2cc189ae263a053d87bb5870b Mon Sep 17 00:00:00 2001
+From: Sayantan RC <bin.sayantan@gmail.com>
+Date: Tue, 12 May 2026 02:14:15 +0530
+Subject: [PATCH 2/2] fix: exclude descriptor layer from update_mods on
+ OP_KEYSEQUENCE release
+
+On key release, update_mods was called with no excluded layer (-1),
+which caused any active layer's mods to be re-applied even when a key
+was explicitly mapped in that layer. In practice: if rightalt is
+overloaded to a layer with type :A (MOD_ALT), releasing a mapped key
+(e.g. ] -> end) would emit LEFTALT until rightalt was released.
+
+The press side already excludes dl from update_mods; apply the same
+exclusion on release so the modifier state stays consistent across the
+full key press lifecycle.
+
+This fix was diagnosed and implemented by Claude (claude.ai).
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+---
+ src/keyboard.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/keyboard.c b/src/keyboard.c
+index 14f802a..8d3f187 100644
+--- a/src/keyboard.c
++++ b/src/keyboard.c
+@@ -541,7 +541,7 @@ static long process_descriptor(struct keyboard *kbd, uint8_t code,
+ 			clear_oneshot(kbd);
+ 		} else {
+ 			send_key(kbd, new_code, 0);
+-			update_mods(kbd, -1, 0);
++			update_mods(kbd, dl, 0);
+ 		}
+ 
+ 		if (!mods || mods == MOD_SHIFT)
+-- 
+2.43.0
+
