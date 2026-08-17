@@ -214,11 +214,12 @@ A few important urls...
  - [Git commit history clean by rebase](https://about.gitlab.com/blog/2018/06/07/keeping-git-commit-history-clean/)  
  
  ### Lists
- [Dagger](https://github.com/SayantanRC/URLs/blob/master/lists/dagger.md)  
- [Bash shell script](https://github.com/SayantanRC/URLs/blob/master/lists/shell.md)  
- [GRUB all](https://github.com/SayantanRC/URLs/blob/master/lists/grub_list.md)  
- [Git](https://github.com/SayantanRC/URLs/blob/master/lists/git.md)  
- [NixOS](https://github.com/SayantanRC/URLs/blob/master/lists/nixos.md)  
+ [Dagger](lists/dagger.md)  
+ [Bash shell script](lists/shell.md)  
+ [GRUB all](lists/grub_list.md)  
+ [Git](lists/git.md)  
+ [NixOS](lists/nixos.md)  
+ [Websites](lists/websites.md)  
 
  ### Support
  
